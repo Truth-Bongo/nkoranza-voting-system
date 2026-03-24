@@ -1,0 +1,3765 @@
+[24-Feb-2026 23:34:47 Europe/Berlin] === New Request at 2026-02-24 23:34:47 ===
+[24-Feb-2026 23:34:47 Europe/Berlin] Method: POST
+[24-Feb-2026 23:34:47 Europe/Berlin] POST data: Array
+(
+    [user_id] => GSC240072
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => My focus will be on beautifying the school compound with gardens and proper waste management systems
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [id] => 6
+)
+
+[24-Feb-2026 23:34:47 Europe/Berlin] FILES data: Array
+(
+)
+
+[24-Feb-2026 23:34:47 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[24-Feb-2026 23:34:47 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[24-Feb-2026 23:34:47 Europe/Berlin] ✓ Found: /../../config/constants.php
+[24-Feb-2026 23:34:47 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[24-Feb-2026 23:34:47 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[24-Feb-2026 23:34:47 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 22:34:47 Africa/Accra] ✓ Database connected
+[24-Feb-2026 22:34:47 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 22:34:47 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 22:34:47 Africa/Accra] ✓ Admin access granted
+[24-Feb-2026 23:35:39 Europe/Berlin] === New Request at 2026-02-24 23:35:39 ===
+[24-Feb-2026 23:35:39 Europe/Berlin] Method: POST
+[24-Feb-2026 23:35:39 Europe/Berlin] POST data: Array
+(
+    [user_id] => VAR240013
+    [election_id] => 1
+    [position_id] => 1
+    [manifesto] => 
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+)
+
+[24-Feb-2026 23:35:39 Europe/Berlin] FILES data: Array
+(
+)
+
+[24-Feb-2026 23:35:39 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[24-Feb-2026 23:35:39 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[24-Feb-2026 23:35:39 Europe/Berlin] ✓ Found: /../../config/constants.php
+[24-Feb-2026 23:35:39 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[24-Feb-2026 23:35:39 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[24-Feb-2026 23:35:39 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 22:35:39 Africa/Accra] ✓ Database connected
+[24-Feb-2026 22:35:39 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 22:35:39 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 22:35:39 Africa/Accra] ✓ Admin access granted
+[24-Feb-2026 23:44:02 Europe/Berlin] === New Request at 2026-02-24 23:44:02 ===
+[24-Feb-2026 23:44:02 Europe/Berlin] Method: POST
+[24-Feb-2026 23:44:02 Europe/Berlin] POST data: Array
+(
+    [user_id] => VAR240013
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => Environment 
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+)
+
+[24-Feb-2026 23:44:02 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => ADU GYAMFI KWADWO (Ga-5).jpg
+            [full_path] => ADU GYAMFI KWADWO (Ga-5).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php3957.tmp
+            [error] => 0
+            [size] => 22507
+        )
+
+)
+
+[24-Feb-2026 23:44:02 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[24-Feb-2026 23:44:02 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[24-Feb-2026 23:44:02 Europe/Berlin] ✓ Found: /../../config/constants.php
+[24-Feb-2026 23:44:02 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[24-Feb-2026 23:44:02 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[24-Feb-2026 23:44:02 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 22:44:02 Africa/Accra] ✓ Database connected
+[24-Feb-2026 22:44:02 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 22:44:02 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 22:44:02 Africa/Accra] ✓ Admin access granted
+[24-Feb-2026 22:44:02 Africa/Accra] ✓ File validation passed
+[24-Feb-2026 23:45:05 Europe/Berlin] === New Request at 2026-02-24 23:45:05 ===
+[24-Feb-2026 23:45:05 Europe/Berlin] Method: POST
+[24-Feb-2026 23:45:05 Europe/Berlin] POST data: Array
+(
+    [user_id] => GSC240072
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => My focus will be on beautifying the school compound with gardens and proper waste management systems
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [id] => 6
+)
+
+[24-Feb-2026 23:45:05 Europe/Berlin] FILES data: Array
+(
+)
+
+[24-Feb-2026 23:45:05 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[24-Feb-2026 23:45:05 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[24-Feb-2026 23:45:05 Europe/Berlin] ✓ Found: /../../config/constants.php
+[24-Feb-2026 23:45:05 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[24-Feb-2026 23:45:05 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[24-Feb-2026 23:45:05 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 22:45:05 Africa/Accra] ✓ Database connected
+[24-Feb-2026 22:45:05 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 22:45:05 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 22:45:05 Africa/Accra] ✓ Admin access granted
+[24-Feb-2026 23:58:35 Europe/Berlin] === New Request at 2026-02-24 23:58:35 ===
+[24-Feb-2026 23:58:35 Europe/Berlin] Method: POST
+[24-Feb-2026 23:58:35 Europe/Berlin] POST data: Array
+(
+    [user_id] => GSC240072
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => My focus will be on beautifying the school compound with gardens and proper waste management systems
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [id] => 6
+)
+
+[24-Feb-2026 23:58:35 Europe/Berlin] FILES data: Array
+(
+)
+
+[24-Feb-2026 23:58:35 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[24-Feb-2026 23:58:35 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[24-Feb-2026 23:58:35 Europe/Berlin] ✓ Found: /../../config/constants.php
+[24-Feb-2026 23:58:35 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[24-Feb-2026 23:58:35 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[24-Feb-2026 23:58:35 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 22:58:35 Africa/Accra] ✓ Database connected
+[24-Feb-2026 22:58:35 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 22:58:35 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 22:58:35 Africa/Accra] ✓ Admin access granted
+[24-Feb-2026 23:58:53 Europe/Berlin] === New Request at 2026-02-24 23:58:53 ===
+[24-Feb-2026 23:58:53 Europe/Berlin] Method: POST
+[24-Feb-2026 23:58:53 Europe/Berlin] POST data: Array
+(
+    [user_id] => GSC240072
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [id] => 6
+)
+
+[24-Feb-2026 23:58:53 Europe/Berlin] FILES data: Array
+(
+)
+
+[24-Feb-2026 23:58:53 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[24-Feb-2026 23:58:53 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[24-Feb-2026 23:58:53 Europe/Berlin] ✓ Found: /../../config/constants.php
+[24-Feb-2026 23:58:53 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[24-Feb-2026 23:58:53 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[24-Feb-2026 23:58:53 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 22:58:53 Africa/Accra] ✓ Database connected
+[24-Feb-2026 22:58:53 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 22:58:53 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 22:58:53 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 00:04:12 Europe/Berlin] === New Request at 2026-02-25 00:04:12 ===
+[25-Feb-2026 00:04:12 Europe/Berlin] Method: POST
+[25-Feb-2026 00:04:12 Europe/Berlin] POST data: Array
+(
+    [user_id] => GSC240072
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [id] => 6
+)
+
+[25-Feb-2026 00:04:12 Europe/Berlin] FILES data: Array
+(
+)
+
+[25-Feb-2026 00:04:12 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[25-Feb-2026 00:04:12 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 00:04:12 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 00:04:12 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 00:04:12 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 00:04:12 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 23:04:12 Africa/Accra] ✓ Database connected
+[24-Feb-2026 23:04:12 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 23:04:12 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 23:04:12 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 00:05:05 Europe/Berlin] === New Request at 2026-02-25 00:05:05 ===
+[25-Feb-2026 00:05:05 Europe/Berlin] Method: POST
+[25-Feb-2026 00:05:05 Europe/Berlin] POST data: Array
+(
+    [user_id] => TEC240121
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => My focus will be on beautifying the school compound with gardens and proper waste management systems.
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [id] => 6
+)
+
+[25-Feb-2026 00:05:05 Europe/Berlin] FILES data: Array
+(
+)
+
+[25-Feb-2026 00:05:05 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[25-Feb-2026 00:05:05 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 00:05:05 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 00:05:05 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 00:05:05 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 00:05:05 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 23:05:05 Africa/Accra] ✓ Database connected
+[24-Feb-2026 23:05:05 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 23:05:05 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 23:05:05 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 00:26:36 Europe/Berlin] === New Request at 2026-02-25 00:26:36 ===
+[25-Feb-2026 00:26:36 Europe/Berlin] Method: POST
+[25-Feb-2026 00:26:36 Europe/Berlin] POST data: Array
+(
+    [user_id] => GSC240072
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [id] => 6
+)
+
+[25-Feb-2026 00:26:36 Europe/Berlin] FILES data: Array
+(
+)
+
+[25-Feb-2026 00:26:36 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[25-Feb-2026 00:26:36 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 00:26:36 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 00:26:36 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 00:26:36 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 00:26:36 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 23:26:36 Africa/Accra] ✓ Database connected
+[24-Feb-2026 23:26:36 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 23:26:36 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 23:26:36 Africa/Accra] ✓ Admin access granted
+[24-Feb-2026 23:26:36 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GSC240072
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [id] => 6
+)
+
+[25-Feb-2026 00:27:35 Europe/Berlin] === New Request at 2026-02-25 00:27:35 ===
+[25-Feb-2026 00:27:35 Europe/Berlin] Method: POST
+[25-Feb-2026 00:27:35 Europe/Berlin] POST data: Array
+(
+    [user_id] => GSC240072
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => Environment
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [id] => 6
+)
+
+[25-Feb-2026 00:27:35 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => ABOAGYE ERIC (Ga-16).jpg
+            [full_path] => ABOAGYE ERIC (Ga-16).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php1A06.tmp
+            [error] => 0
+            [size] => 22621
+        )
+
+)
+
+[25-Feb-2026 00:27:35 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[25-Feb-2026 00:27:35 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 00:27:35 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 00:27:35 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 00:27:35 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 00:27:35 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 23:27:35 Africa/Accra] ✓ Database connected
+[24-Feb-2026 23:27:35 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 23:27:35 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 23:27:35 Africa/Accra] ✓ Admin access granted
+[24-Feb-2026 23:27:35 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GSC240072
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => Environment
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [id] => 6
+)
+
+[25-Feb-2026 00:28:22 Europe/Berlin] === New Request at 2026-02-25 00:28:22 ===
+[25-Feb-2026 00:28:22 Europe/Berlin] Method: POST
+[25-Feb-2026 00:28:22 Europe/Berlin] POST data: Array
+(
+    [user_id] => GSC240072
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => Environment
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [id] => 6
+)
+
+[25-Feb-2026 00:28:22 Europe/Berlin] FILES data: Array
+(
+)
+
+[25-Feb-2026 00:28:22 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[25-Feb-2026 00:28:22 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 00:28:22 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 00:28:22 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 00:28:22 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 00:28:22 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 23:28:22 Africa/Accra] ✓ Database connected
+[24-Feb-2026 23:28:22 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 23:28:22 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 23:28:22 Africa/Accra] ✓ Admin access granted
+[24-Feb-2026 23:28:22 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GSC240072
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => Environment
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [id] => 6
+)
+
+[25-Feb-2026 00:29:04 Europe/Berlin] === New Request at 2026-02-25 00:29:04 ===
+[25-Feb-2026 00:29:04 Europe/Berlin] Method: POST
+[25-Feb-2026 00:29:04 Europe/Berlin] POST data: Array
+(
+    [user_id] => VAR240013
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => ggffhhgfhhgjghjgj
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+)
+
+[25-Feb-2026 00:29:04 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => OWUSU ERIC (Ag-12).jpg
+            [full_path] => OWUSU ERIC (Ag-12).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php732E.tmp
+            [error] => 0
+            [size] => 20227
+        )
+
+)
+
+[25-Feb-2026 00:29:04 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[25-Feb-2026 00:29:04 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 00:29:04 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 00:29:04 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 00:29:04 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 00:29:04 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 23:29:04 Africa/Accra] ✓ Database connected
+[24-Feb-2026 23:29:04 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 23:29:04 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 23:29:04 Africa/Accra] ✓ Admin access granted
+[24-Feb-2026 23:29:04 Africa/Accra] Processed input data: Array
+(
+    [user_id] => VAR240013
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => ggffhhgfhhgjghjgj
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+)
+
+[25-Feb-2026 00:29:15 Europe/Berlin] === New Request at 2026-02-25 00:29:15 ===
+[25-Feb-2026 00:29:15 Europe/Berlin] Method: DELETE
+[25-Feb-2026 00:29:15 Europe/Berlin] POST data: Array
+(
+)
+
+[25-Feb-2026 00:29:15 Europe/Berlin] FILES data: Array
+(
+)
+
+[25-Feb-2026 00:29:15 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[25-Feb-2026 00:29:15 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 00:29:15 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 00:29:15 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 00:29:15 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 00:29:15 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 23:29:15 Africa/Accra] ✓ Database connected
+[24-Feb-2026 23:29:15 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 23:29:15 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 23:29:15 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 00:29:30 Europe/Berlin] === New Request at 2026-02-25 00:29:30 ===
+[25-Feb-2026 00:29:30 Europe/Berlin] Method: DELETE
+[25-Feb-2026 00:29:30 Europe/Berlin] POST data: Array
+(
+)
+
+[25-Feb-2026 00:29:30 Europe/Berlin] FILES data: Array
+(
+)
+
+[25-Feb-2026 00:29:30 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[25-Feb-2026 00:29:30 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 00:29:30 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 00:29:30 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 00:29:30 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 00:29:30 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 23:29:30 Africa/Accra] ✓ Database connected
+[24-Feb-2026 23:29:30 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 23:29:30 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 23:29:30 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 00:31:43 Europe/Berlin] === New Request at 2026-02-25 00:31:43 ===
+[25-Feb-2026 00:31:43 Europe/Berlin] Method: POST
+[25-Feb-2026 00:31:43 Europe/Berlin] POST data: Array
+(
+    [user_id] => GSC240072
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => My focus will be on beautifying the school compound with gardens and proper waste management systems.
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [id] => 6
+)
+
+[25-Feb-2026 00:31:43 Europe/Berlin] FILES data: Array
+(
+)
+
+[25-Feb-2026 00:31:43 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[25-Feb-2026 00:31:43 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 00:31:43 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 00:31:43 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 00:31:43 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 00:31:43 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 23:31:43 Africa/Accra] ✓ Database connected
+[24-Feb-2026 23:31:43 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 23:31:43 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 23:31:43 Africa/Accra] ✓ Admin access granted
+[24-Feb-2026 23:31:43 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GSC240072
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => My focus will be on beautifying the school compound with gardens and proper waste management systems.
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [id] => 6
+)
+
+[25-Feb-2026 00:32:32 Europe/Berlin] === New Request at 2026-02-25 00:32:32 ===
+[25-Feb-2026 00:32:32 Europe/Berlin] Method: DELETE
+[25-Feb-2026 00:32:32 Europe/Berlin] POST data: Array
+(
+)
+
+[25-Feb-2026 00:32:32 Europe/Berlin] FILES data: Array
+(
+)
+
+[25-Feb-2026 00:32:32 Europe/Berlin] GET data: Array
+(
+    [id] => 19
+)
+
+[25-Feb-2026 00:32:32 Europe/Berlin] Session ID: 6jn8kc57ep0kcvk17agrs9n8e1
+[25-Feb-2026 00:32:32 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 00:32:32 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 00:32:32 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 00:32:32 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 00:32:32 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[24-Feb-2026 23:32:32 Africa/Accra] ✓ Database connected
+[24-Feb-2026 23:32:32 Africa/Accra] CSRF from headers: Present
+[24-Feb-2026 23:32:32 Africa/Accra] ✓ CSRF token validated
+[24-Feb-2026 23:32:32 Africa/Accra] ✓ Admin access granted
+[24-Feb-2026 23:32:32 Africa/Accra] Attempting to delete candidate ID: 19
+[24-Feb-2026 23:32:32 Africa/Accra] Deleted photo: C:\xampp\htdocs\nkoranza-voting\api\admin/../../uploads/candidates/candidate_699e34404f280_1771975744.jpg
+[25-Feb-2026 22:17:07 Europe/Berlin] === New Request at 2026-02-25 22:17:07 ===
+[25-Feb-2026 22:17:07 Europe/Berlin] Method: POST
+[25-Feb-2026 22:17:07 Europe/Berlin] POST data: Array
+(
+    [user_id] => TEC240068
+    [election_id] => 1
+    [position_id] => 1
+    [manifesto] => I will promote academic excellence and discipline among students. My focus will be on creating a conducive environment for learning and personal development.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:17:07 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => ABOAGYE ERIC (Ga-16).jpg
+            [full_path] => ABOAGYE ERIC (Ga-16).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4D20.tmp
+            [error] => 0
+            [size] => 22621
+        )
+
+)
+
+[25-Feb-2026 22:17:07 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:17:07 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:17:07 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:17:07 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:17:07 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:17:07 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:17:07 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:17:07 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:17:07 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:17:07 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:17:07 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:17:07 Africa/Accra] Processed input data: Array
+(
+    [user_id] => TEC240068
+    [election_id] => 1
+    [position_id] => 1
+    [manifesto] => I will promote academic excellence and discipline among students. My focus will be on creating a conducive environment for learning and personal development.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:18:43 Europe/Berlin] === New Request at 2026-02-25 22:18:43 ===
+[25-Feb-2026 22:18:43 Europe/Berlin] Method: POST
+[25-Feb-2026 22:18:43 Europe/Berlin] POST data: Array
+(
+    [user_id] => GSC240100
+    [election_id] => 1
+    [position_id] => 1
+    [manifesto] => I aim to bridge the gap between students and administration through transparent communication and inclusive decision-making.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:18:43 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => ABUKARI MAYIN (Ga-2).jpg
+            [full_path] => ABUKARI MAYIN (Ga-2).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpC395.tmp
+            [error] => 0
+            [size] => 21238
+        )
+
+)
+
+[25-Feb-2026 22:18:43 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:18:43 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:18:43 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:18:43 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:18:43 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:18:43 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:18:43 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:18:43 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:18:43 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:18:43 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:18:43 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:18:43 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GSC240100
+    [election_id] => 1
+    [position_id] => 1
+    [manifesto] => I aim to bridge the gap between students and administration through transparent communication and inclusive decision-making.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:19:56 Europe/Berlin] === New Request at 2026-02-25 22:19:56 ===
+[25-Feb-2026 22:19:56 Europe/Berlin] Method: POST
+[25-Feb-2026 22:19:56 Europe/Berlin] POST data: Array
+(
+    [user_id] => VAR240063
+    [election_id] => 1
+    [position_id] => 2
+    [manifesto] => I will champion the rights of students and ensure gender equality in all school activities and leadership opportunities.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:19:56 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => ABABONO SHIRLEY AMANPUSE (Gs-8).jpg
+            [full_path] => ABABONO SHIRLEY AMANPUSE (Gs-8).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpE1A8.tmp
+            [error] => 0
+            [size] => 21694
+        )
+
+)
+
+[25-Feb-2026 22:19:56 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:19:56 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:19:56 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:19:56 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:19:56 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:19:56 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:19:56 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:19:56 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:19:56 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:19:56 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:19:56 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:19:56 Africa/Accra] Processed input data: Array
+(
+    [user_id] => VAR240063
+    [election_id] => 1
+    [position_id] => 2
+    [manifesto] => I will champion the rights of students and ensure gender equality in all school activities and leadership opportunities.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:20:54 Europe/Berlin] === New Request at 2026-02-25 22:20:54 ===
+[25-Feb-2026 22:20:54 Europe/Berlin] Method: POST
+[25-Feb-2026 22:20:54 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240008
+    [election_id] => 1
+    [position_id] => 2
+    [manifesto] => My vision is to create mentorship programs pairing senior students with juniors for academic and personal growth.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:20:54 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => ABIGAIL PETTERS (Home-57).jpg
+            [full_path] => ABIGAIL PETTERS (Home-57).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpC581.tmp
+            [error] => 0
+            [size] => 22983
+        )
+
+)
+
+[25-Feb-2026 22:20:54 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:20:54 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:20:54 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:20:54 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:20:54 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:20:54 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:20:54 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:20:54 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:20:54 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:20:54 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:20:54 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:20:54 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GAR240008
+    [election_id] => 1
+    [position_id] => 2
+    [manifesto] => My vision is to create mentorship programs pairing senior students with juniors for academic and personal growth.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:22:26 Europe/Berlin] === New Request at 2026-02-25 22:22:26 ===
+[25-Feb-2026 22:22:26 Europe/Berlin] Method: POST
+[25-Feb-2026 22:22:26 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240244
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => I will champion the rights of students and ensure gender equality in all school activities and leadership opportunities.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:22:26 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => ADJEI CHRISTOPHER SARPONG (Tech-10).jpg
+            [full_path] => ADJEI CHRISTOPHER SARPONG (Tech-10).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php2C08.tmp
+            [error] => 0
+            [size] => 22634
+        )
+
+)
+
+[25-Feb-2026 22:22:26 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:22:26 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:22:26 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:22:26 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:22:26 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:22:26 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:22:26 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:22:26 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:22:26 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:22:26 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:22:26 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:22:26 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GAR240244
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => I will champion the rights of students and ensure gender equality in all school activities and leadership opportunities.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:23:41 Europe/Berlin] === New Request at 2026-02-25 22:23:41 ===
+[25-Feb-2026 22:23:41 Europe/Berlin] Method: POST
+[25-Feb-2026 22:23:41 Europe/Berlin] POST data: Array
+(
+    [user_id] => VAR240029
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => My vision is to create mentorship programs pairing senior students with juniors for academic and personal growth.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:23:41 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => KALALA CHRISTOPHER (Gs-22).jpg
+            [full_path] => KALALA CHRISTOPHER (Gs-22).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php51FB.tmp
+            [error] => 0
+            [size] => 22247
+        )
+
+)
+
+[25-Feb-2026 22:23:41 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:23:41 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:23:41 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:23:41 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:23:41 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:23:41 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:23:41 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:23:41 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:23:41 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:23:41 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:23:41 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:23:41 Africa/Accra] Processed input data: Array
+(
+    [user_id] => VAR240029
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => My vision is to create mentorship programs pairing senior students with juniors for academic and personal growth.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:25:26 Europe/Berlin] === New Request at 2026-02-25 22:25:26 ===
+[25-Feb-2026 22:25:26 Europe/Berlin] Method: POST
+[25-Feb-2026 22:25:26 Europe/Berlin] POST data: Array
+(
+    [user_id] => HEC240058
+    [election_id] => 1
+    [position_id] => 4
+    [manifesto] => I will organize weekly cleanup exercises and reward classes with the cleanest environments.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:25:26 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => ABDUL-RAHMAN ZELIA (Home-67).jpg
+            [full_path] => ABDUL-RAHMAN ZELIA (Home-67).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpEC14.tmp
+            [error] => 0
+            [size] => 18630
+        )
+
+)
+
+[25-Feb-2026 22:25:26 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:25:26 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:25:26 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:25:26 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:25:26 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:25:26 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:25:26 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:25:26 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:25:26 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:25:26 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:25:26 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:25:26 Africa/Accra] Processed input data: Array
+(
+    [user_id] => HEC240058
+    [election_id] => 1
+    [position_id] => 4
+    [manifesto] => I will organize weekly cleanup exercises and reward classes with the cleanest environments.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:26:43 Europe/Berlin] === New Request at 2026-02-25 22:26:43 ===
+[25-Feb-2026 22:26:43 Europe/Berlin] Method: POST
+[25-Feb-2026 22:26:43 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240288
+    [election_id] => 1
+    [position_id] => 4
+    [manifesto] => My goal is to ensure all common areas are spotless and well-maintained for students comfort.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:26:43 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => ODURO ELIZABETH SERWAA (Home-5).jpg
+            [full_path] => ODURO ELIZABETH SERWAA (Home-5).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php195A.tmp
+            [error] => 0
+            [size] => 20586
+        )
+
+)
+
+[25-Feb-2026 22:26:43 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:26:43 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:26:43 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:26:43 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:26:43 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:26:43 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:26:43 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:26:43 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:26:43 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:26:43 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:26:43 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:26:43 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GAR240288
+    [election_id] => 1
+    [position_id] => 4
+    [manifesto] => My goal is to ensure all common areas are spotless and well-maintained for students comfort.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:28:26 Europe/Berlin] === New Request at 2026-02-25 22:28:25 ===
+[25-Feb-2026 22:28:26 Europe/Berlin] Method: POST
+[25-Feb-2026 22:28:26 Europe/Berlin] POST data: Array
+(
+    [user_id] => TEC240153
+    [election_id] => 1
+    [position_id] => 5
+    [manifesto] => I will organize inter-house competitions, talent shows, and movie nights to showcase students talents.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:28:26 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => TWUM DAMIAN KODOM (Gs-35).jpg
+            [full_path] => TWUM DAMIAN KODOM (Gs-35).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpA896.tmp
+            [error] => 0
+            [size] => 21960
+        )
+
+)
+
+[25-Feb-2026 22:28:26 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:28:26 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:28:26 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:28:26 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:28:26 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:28:26 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:28:26 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:28:26 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:28:26 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:28:26 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:28:26 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:28:26 Africa/Accra] Processed input data: Array
+(
+    [user_id] => TEC240153
+    [election_id] => 1
+    [position_id] => 5
+    [manifesto] => I will organize inter-house competitions, talent shows, and movie nights to showcase students talents.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:30:00 Europe/Berlin] === New Request at 2026-02-25 22:30:00 ===
+[25-Feb-2026 22:30:00 Europe/Berlin] Method: POST
+[25-Feb-2026 22:30:00 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240348
+    [election_id] => 1
+    [position_id] => 5
+    [manifesto] => My vision is to create a school band and drama club to nurture creative talents among students.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:30:00 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => TAKYI EMMANUEL ANKOMAH (Tech-4).jpg
+            [full_path] => TAKYI EMMANUEL ANKOMAH (Tech-4).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php196D.tmp
+            [error] => 0
+            [size] => 24498
+        )
+
+)
+
+[25-Feb-2026 22:30:00 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:30:00 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:30:00 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:30:00 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:30:00 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:30:00 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:30:00 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:30:00 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:30:00 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:30:00 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:30:00 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:30:00 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GAR240348
+    [election_id] => 1
+    [position_id] => 5
+    [manifesto] => My vision is to create a school band and drama club to nurture creative talents among students.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:31:23 Europe/Berlin] === New Request at 2026-02-25 22:31:23 ===
+[25-Feb-2026 22:31:23 Europe/Berlin] Method: POST
+[25-Feb-2026 22:31:23 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240263
+    [election_id] => 1
+    [position_id] => 6
+    [manifesto] => I plan to introduce cultural days, music festivals, and art exhibitions to celebrate our diversity.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:31:23 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => ANOKYEWAA DEBORAH (Home-42).jpg
+            [full_path] => ANOKYEWAA DEBORAH (Home-42).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php5DE4.tmp
+            [error] => 0
+            [size] => 23476
+        )
+
+)
+
+[25-Feb-2026 22:31:23 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:31:23 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:31:23 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:31:23 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:31:23 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:31:23 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:31:23 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:31:23 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:31:23 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:31:23 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:31:23 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:31:23 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GAR240263
+    [election_id] => 1
+    [position_id] => 6
+    [manifesto] => I plan to introduce cultural days, music festivals, and art exhibitions to celebrate our diversity.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:33:16 Europe/Berlin] === New Request at 2026-02-25 22:33:16 ===
+[25-Feb-2026 22:33:16 Europe/Berlin] Method: POST
+[25-Feb-2026 22:33:16 Europe/Berlin] POST data: Array
+(
+    [user_id] => VAR240053
+    [election_id] => 1
+    [position_id] => 6
+    [manifesto] => I will organize recreational activities that promote fun, relaxation, and social interaction among students.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:33:16 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => KISSIWAA LOVIA (Ga-82).jpg
+            [full_path] => KISSIWAA LOVIA (Ga-82).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php15C7.tmp
+            [error] => 0
+            [size] => 20916
+        )
+
+)
+
+[25-Feb-2026 22:33:16 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:33:16 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:33:16 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:33:16 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:33:16 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:33:16 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:33:16 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:33:16 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:33:16 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:33:16 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:33:16 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:33:16 Africa/Accra] Processed input data: Array
+(
+    [user_id] => VAR240053
+    [election_id] => 1
+    [position_id] => 6
+    [manifesto] => I will organize recreational activities that promote fun, relaxation, and social interaction among students.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:35:19 Europe/Berlin] === New Request at 2026-02-25 22:35:19 ===
+[25-Feb-2026 22:35:19 Europe/Berlin] Method: POST
+[25-Feb-2026 22:35:19 Europe/Berlin] POST data: Array
+(
+    [user_id] => TEC240089
+    [election_id] => 1
+    [position_id] => 7
+    [manifesto] => I will ensure orderly queuing, fair food distribution, and maintain high hygiene standards in the dining hall.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:35:19 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => TARR ABRAHAM PAYE (Ga-112).jpg
+            [full_path] => TARR ABRAHAM PAYE (Ga-112).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpF5F2.tmp
+            [error] => 0
+            [size] => 20152
+        )
+
+)
+
+[25-Feb-2026 22:35:19 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:35:19 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:35:19 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:35:19 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:35:19 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:35:19 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:35:19 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:35:19 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:35:19 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:35:19 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:35:19 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:35:19 Africa/Accra] Processed input data: Array
+(
+    [user_id] => TEC240089
+    [election_id] => 1
+    [position_id] => 7
+    [manifesto] => I will ensure orderly queuing, fair food distribution, and maintain high hygiene standards in the dining hall.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:36:46 Europe/Berlin] === New Request at 2026-02-25 22:36:46 ===
+[25-Feb-2026 22:36:46 Europe/Berlin] Method: POST
+[25-Feb-2026 22:36:46 Europe/Berlin] POST data: Array
+(
+    [user_id] => TEC240183
+    [election_id] => 1
+    [position_id] => 7
+    [manifesto] => My focus will be on gathering student feedback to improve meal quality and dining experience.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:36:46 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => LANPORM SAMPSON IWULIN (Ag-20).jpg
+            [full_path] => LANPORM SAMPSON IWULIN (Ag-20).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php4B03.tmp
+            [error] => 0
+            [size] => 22822
+        )
+
+)
+
+[25-Feb-2026 22:36:46 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:36:46 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:36:46 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:36:46 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:36:46 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:36:46 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:36:46 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:36:46 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:36:46 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:36:46 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:36:46 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:36:46 Africa/Accra] Processed input data: Array
+(
+    [user_id] => TEC240183
+    [election_id] => 1
+    [position_id] => 7
+    [manifesto] => My focus will be on gathering student feedback to improve meal quality and dining experience.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:37:47 Europe/Berlin] === New Request at 2026-02-25 22:37:47 ===
+[25-Feb-2026 22:37:47 Europe/Berlin] Method: POST
+[25-Feb-2026 22:37:47 Europe/Berlin] POST data: Array
+(
+    [user_id] => GSC240010
+    [election_id] => 1
+    [position_id] => 8
+    [manifesto] => I will implement a table prefect system to maintain order and cleanliness during meals.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:37:47 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => KONADU STELLA (Ga-22).jpg
+            [full_path] => KONADU STELLA (Ga-22).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php38CF.tmp
+            [error] => 0
+            [size] => 21958
+        )
+
+)
+
+[25-Feb-2026 22:37:47 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:37:47 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:37:47 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:37:47 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:37:47 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:37:47 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:37:47 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:37:47 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:37:47 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:37:47 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:37:47 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:37:47 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GSC240010
+    [election_id] => 1
+    [position_id] => 8
+    [manifesto] => I will implement a table prefect system to maintain order and cleanliness during meals.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:38:48 Europe/Berlin] === New Request at 2026-02-25 22:38:48 ===
+[25-Feb-2026 22:38:48 Europe/Berlin] Method: POST
+[25-Feb-2026 22:38:48 Europe/Berlin] POST data: Array
+(
+    [user_id] => HEC240162
+    [election_id] => 1
+    [position_id] => 8
+    [manifesto] => My goal is to reduce food wastage and create a peaceful dining atmosphere for all students.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:38:48 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => POKUAA RECHEAL (Ga-50).jpg
+            [full_path] => POKUAA RECHEAL (Ga-50).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php264D.tmp
+            [error] => 0
+            [size] => 21530
+        )
+
+)
+
+[25-Feb-2026 22:38:48 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:38:48 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:38:48 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:38:48 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:38:48 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:38:48 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:38:48 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:38:48 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:38:48 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:38:48 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:38:48 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:38:48 Africa/Accra] Processed input data: Array
+(
+    [user_id] => HEC240162
+    [election_id] => 1
+    [position_id] => 8
+    [manifesto] => My goal is to reduce food wastage and create a peaceful dining atmosphere for all students.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:40:00 Europe/Berlin] === New Request at 2026-02-25 22:40:00 ===
+[25-Feb-2026 22:40:00 Europe/Berlin] Method: POST
+[25-Feb-2026 22:40:00 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240185
+    [election_id] => 1
+    [position_id] => 9
+    [manifesto] => I will extend library hours during exams and introduce a digital book borrowing system.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:40:00 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => KONADU NICHOLAS (Ga-35).jpg
+            [full_path] => KONADU NICHOLAS (Ga-35).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php40F5.tmp
+            [error] => 0
+            [size] => 21838
+        )
+
+)
+
+[25-Feb-2026 22:40:00 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:40:00 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:40:00 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:40:00 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:40:00 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:40:00 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:40:00 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:40:00 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:40:00 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:40:00 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:40:00 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:40:00 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GAR240185
+    [election_id] => 1
+    [position_id] => 9
+    [manifesto] => I will extend library hours during exams and introduce a digital book borrowing system.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:42:06 Europe/Berlin] === New Request at 2026-02-25 22:42:06 ===
+[25-Feb-2026 22:42:06 Europe/Berlin] Method: POST
+[25-Feb-2026 22:42:06 Europe/Berlin] POST data: Array
+(
+    [user_id] => HEC240031
+    [election_id] => 1
+    [position_id] => 10
+    [manifesto] => I will ensure all library resources are well-organized and students maintain silence for effective studying.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:42:06 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => RAHMA ISS-HAQ (Home-15).jpg
+            [full_path] => RAHMA ISS-HAQ (Home-15).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php2CC9.tmp
+            [error] => 0
+            [size] => 22010
+        )
+
+)
+
+[25-Feb-2026 22:42:06 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:42:06 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:42:06 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:42:06 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:42:06 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:42:06 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:42:06 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:42:06 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:42:06 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:42:06 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:42:06 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:42:06 Africa/Accra] Processed input data: Array
+(
+    [user_id] => HEC240031
+    [election_id] => 1
+    [position_id] => 10
+    [manifesto] => I will ensure all library resources are well-organized and students maintain silence for effective studying.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:43:29 Europe/Berlin] === New Request at 2026-02-25 22:43:29 ===
+[25-Feb-2026 22:43:29 Europe/Berlin] Method: POST
+[25-Feb-2026 22:43:29 Europe/Berlin] POST data: Array
+(
+    [user_id] => HEC240169
+    [election_id] => 1
+    [position_id] => 10
+    [manifesto] => I aim to introduce a peer tutoring program within the library to help struggling students.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[25-Feb-2026 22:43:29 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => POMAA EDNA (Ga-8).jpg
+            [full_path] => POMAA EDNA (Ga-8).jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php722B.tmp
+            [error] => 0
+            [size] => 21735
+        )
+
+)
+
+[25-Feb-2026 22:43:29 Europe/Berlin] GET data: Array
+(
+)
+
+[25-Feb-2026 22:43:29 Europe/Berlin] Session ID: sb635bfq2ah3aeu0hoohosdrts
+[25-Feb-2026 22:43:29 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[25-Feb-2026 22:43:29 Europe/Berlin] ✓ Found: /../../config/constants.php
+[25-Feb-2026 22:43:29 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[25-Feb-2026 22:43:29 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[25-Feb-2026 22:43:29 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[25-Feb-2026 21:43:29 Africa/Accra] ✓ Database connected
+[25-Feb-2026 21:43:29 Africa/Accra] CSRF from headers: Present
+[25-Feb-2026 21:43:29 Africa/Accra] ✓ CSRF token validated
+[25-Feb-2026 21:43:29 Africa/Accra] ✓ Admin access granted
+[25-Feb-2026 21:43:29 Africa/Accra] Processed input data: Array
+(
+    [user_id] => HEC240169
+    [election_id] => 1
+    [position_id] => 10
+    [manifesto] => I aim to introduce a peer tutoring program within the library to help struggling students.
+    [csrf_token] => 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+)
+
+[27-Feb-2026 12:35:47 Europe/Berlin] === New Request at 2026-02-27 12:35:47 ===
+[27-Feb-2026 12:35:47 Europe/Berlin] Method: POST
+[27-Feb-2026 12:35:47 Europe/Berlin] POST data: Array
+(
+    [user_id] => TEC240132
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+)
+
+[27-Feb-2026 12:35:47 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 12:35:47 Europe/Berlin] GET data: Array
+(
+)
+
+[27-Feb-2026 12:35:47 Europe/Berlin] Session ID: 04rq4a4tehceeavm6o4kkp3hcl
+[27-Feb-2026 12:35:47 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[27-Feb-2026 12:35:47 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 12:35:47 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 12:35:47 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 12:35:47 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 11:35:47 Africa/Accra] ✓ Database connected
+[27-Feb-2026 11:35:47 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 11:35:47 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 11:35:47 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 11:35:47 Africa/Accra] Processed input data: Array
+(
+    [user_id] => TEC240132
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+)
+
+[27-Feb-2026 12:36:00 Europe/Berlin] === New Request at 2026-02-27 12:36:00 ===
+[27-Feb-2026 12:36:00 Europe/Berlin] Method: DELETE
+[27-Feb-2026 12:36:00 Europe/Berlin] POST data: Array
+(
+)
+
+[27-Feb-2026 12:36:00 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 12:36:00 Europe/Berlin] GET data: Array
+(
+    [id] => 20
+)
+
+[27-Feb-2026 12:36:00 Europe/Berlin] Session ID: 04rq4a4tehceeavm6o4kkp3hcl
+[27-Feb-2026 12:36:00 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[27-Feb-2026 12:36:00 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 12:36:00 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 12:36:00 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 12:36:00 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 11:36:00 Africa/Accra] ✓ Database connected
+[27-Feb-2026 11:36:00 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 11:36:00 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 11:36:00 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 11:36:00 Africa/Accra] Attempting to delete candidate ID: 20
+[27-Feb-2026 12:36:05 Europe/Berlin] === New Request at 2026-02-27 12:36:05 ===
+[27-Feb-2026 12:36:05 Europe/Berlin] Method: DELETE
+[27-Feb-2026 12:36:05 Europe/Berlin] POST data: Array
+(
+)
+
+[27-Feb-2026 12:36:05 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 12:36:05 Europe/Berlin] GET data: Array
+(
+    [id] => 20
+)
+
+[27-Feb-2026 12:36:05 Europe/Berlin] Session ID: 04rq4a4tehceeavm6o4kkp3hcl
+[27-Feb-2026 12:36:05 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[27-Feb-2026 12:36:05 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 12:36:05 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 12:36:05 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 12:36:05 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 11:36:05 Africa/Accra] ✓ Database connected
+[27-Feb-2026 11:36:05 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 11:36:05 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 11:36:05 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 11:36:05 Africa/Accra] Attempting to delete candidate ID: 20
+[27-Feb-2026 11:36:05 Africa/Accra] Delete error: Candidate not found
+[27-Feb-2026 12:36:18 Europe/Berlin] === New Request at 2026-02-27 12:36:18 ===
+[27-Feb-2026 12:36:18 Europe/Berlin] Method: DELETE
+[27-Feb-2026 12:36:18 Europe/Berlin] POST data: Array
+(
+)
+
+[27-Feb-2026 12:36:18 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 12:36:18 Europe/Berlin] GET data: Array
+(
+    [id] => 6
+)
+
+[27-Feb-2026 12:36:18 Europe/Berlin] Session ID: 04rq4a4tehceeavm6o4kkp3hcl
+[27-Feb-2026 12:36:18 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[27-Feb-2026 12:36:18 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 12:36:18 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 12:36:18 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 12:36:18 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 11:36:18 Africa/Accra] ✓ Database connected
+[27-Feb-2026 11:36:18 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 11:36:18 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 11:36:18 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 11:36:18 Africa/Accra] Attempting to delete candidate ID: 6
+[27-Feb-2026 11:36:18 Africa/Accra] Deleted photo: C:\xampp\htdocs\nkoranza-voting\api\admin/../../uploads/candidates/candidate_699f685dadf82_1772054621.jpg
+[27-Feb-2026 12:36:20 Europe/Berlin] === New Request at 2026-02-27 12:36:20 ===
+[27-Feb-2026 12:36:20 Europe/Berlin] Method: DELETE
+[27-Feb-2026 12:36:20 Europe/Berlin] POST data: Array
+(
+)
+
+[27-Feb-2026 12:36:20 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 12:36:20 Europe/Berlin] GET data: Array
+(
+    [id] => 6
+)
+
+[27-Feb-2026 12:36:20 Europe/Berlin] Session ID: 04rq4a4tehceeavm6o4kkp3hcl
+[27-Feb-2026 12:36:20 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[27-Feb-2026 12:36:20 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 12:36:20 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 12:36:20 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 12:36:20 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 11:36:20 Africa/Accra] ✓ Database connected
+[27-Feb-2026 11:36:20 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 11:36:20 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 11:36:20 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 11:36:20 Africa/Accra] Attempting to delete candidate ID: 6
+[27-Feb-2026 11:36:20 Africa/Accra] Delete error: Candidate not found
+[27-Feb-2026 12:46:13 Europe/Berlin] === New Request at 2026-02-27 12:46:13 ===
+[27-Feb-2026 12:46:13 Europe/Berlin] Method: POST
+[27-Feb-2026 12:46:13 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240244
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => I will champion the rights of students and ensure gender equality in all school activities and leadership opportunit.
+    [csrf_token] => 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+    [id] => 5
+)
+
+[27-Feb-2026 12:46:13 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 12:46:13 Europe/Berlin] GET data: Array
+(
+    [id] => 5
+)
+
+[27-Feb-2026 12:46:13 Europe/Berlin] Session ID: 04rq4a4tehceeavm6o4kkp3hcl
+[27-Feb-2026 12:46:13 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[27-Feb-2026 12:46:13 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 12:46:13 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 12:46:13 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 12:46:13 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 11:46:13 Africa/Accra] ✓ Database connected
+[27-Feb-2026 11:46:13 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 11:46:13 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 11:46:13 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 11:46:13 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GAR240244
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => I will champion the rights of students and ensure gender equality in all school activities and leadership opportunit.
+    [csrf_token] => 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+    [id] => 5
+)
+
+[27-Feb-2026 12:46:33 Europe/Berlin] === New Request at 2026-02-27 12:46:33 ===
+[27-Feb-2026 12:46:33 Europe/Berlin] Method: POST
+[27-Feb-2026 12:46:33 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240244
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => I will champion the rights of students and ensure gender equality in all school activities and leadership opportunities.
+    [csrf_token] => 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+    [id] => 5
+)
+
+[27-Feb-2026 12:46:33 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 12:46:33 Europe/Berlin] GET data: Array
+(
+    [id] => 5
+)
+
+[27-Feb-2026 12:46:33 Europe/Berlin] Session ID: 04rq4a4tehceeavm6o4kkp3hcl
+[27-Feb-2026 12:46:33 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[27-Feb-2026 12:46:33 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 12:46:33 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 12:46:33 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 12:46:33 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 11:46:33 Africa/Accra] ✓ Database connected
+[27-Feb-2026 11:46:33 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 11:46:33 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 11:46:33 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 11:46:33 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GAR240244
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => I will champion the rights of students and ensure gender equality in all school activities and leadership opportunities.
+    [csrf_token] => 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+    [id] => 5
+)
+
+[27-Feb-2026 21:29:01 Europe/Berlin] === New Request at 2026-02-27 21:29:01 ===
+[27-Feb-2026 21:29:01 Europe/Berlin] Method: POST
+[27-Feb-2026 21:29:01 Europe/Berlin] POST data: Array
+(
+    [user_id] => TEC240131
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+)
+
+[27-Feb-2026 21:29:01 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 21:29:01 Europe/Berlin] GET data: Array
+(
+)
+
+[27-Feb-2026 21:29:01 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 21:29:01 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 21:29:01 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 21:29:01 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 21:29:01 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 21:29:01 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 20:29:01 Africa/Accra] ✓ Database connected
+[27-Feb-2026 20:29:01 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 20:29:01 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 20:29:01 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 20:29:01 Africa/Accra] Processed input data: Array
+(
+    [user_id] => TEC240131
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+)
+
+[27-Feb-2026 21:29:25 Europe/Berlin] === New Request at 2026-02-27 21:29:25 ===
+[27-Feb-2026 21:29:25 Europe/Berlin] Method: DELETE
+[27-Feb-2026 21:29:25 Europe/Berlin] POST data: Array
+(
+)
+
+[27-Feb-2026 21:29:25 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 21:29:25 Europe/Berlin] GET data: Array
+(
+    [id] => 21
+)
+
+[27-Feb-2026 21:29:25 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 21:29:25 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 21:29:25 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 21:29:25 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 21:29:25 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 21:29:25 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 20:29:25 Africa/Accra] ✓ Database connected
+[27-Feb-2026 20:29:25 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 20:29:25 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 20:29:25 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 20:29:25 Africa/Accra] Attempting to delete candidate ID: 21
+[27-Feb-2026 21:29:28 Europe/Berlin] === New Request at 2026-02-27 21:29:28 ===
+[27-Feb-2026 21:29:29 Europe/Berlin] Method: DELETE
+[27-Feb-2026 21:29:29 Europe/Berlin] POST data: Array
+(
+)
+
+[27-Feb-2026 21:29:29 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 21:29:29 Europe/Berlin] GET data: Array
+(
+    [id] => 21
+)
+
+[27-Feb-2026 21:29:29 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 21:29:29 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 21:29:29 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 21:29:29 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 21:29:29 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 21:29:29 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 20:29:29 Africa/Accra] ✓ Database connected
+[27-Feb-2026 20:29:29 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 20:29:29 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 20:29:29 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 20:29:29 Africa/Accra] Attempting to delete candidate ID: 21
+[27-Feb-2026 20:29:29 Africa/Accra] Delete error: Candidate not found
+[27-Feb-2026 21:51:14 Europe/Berlin] === New Request at 2026-02-27 21:51:14 ===
+[27-Feb-2026 21:51:14 Europe/Berlin] Method: POST
+[27-Feb-2026 21:51:14 Europe/Berlin] POST data: Array
+(
+    [user_id] => TEC240131
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+)
+
+[27-Feb-2026 21:51:14 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 21:51:14 Europe/Berlin] GET data: Array
+(
+)
+
+[27-Feb-2026 21:51:14 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 21:51:14 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 21:51:14 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 21:51:14 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 21:51:14 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 21:51:14 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 20:51:14 Africa/Accra] ✓ Database connected
+[27-Feb-2026 20:51:14 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 20:51:14 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 20:51:14 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 20:51:14 Africa/Accra] Processed input data: Array
+(
+    [user_id] => TEC240131
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+)
+
+[27-Feb-2026 21:51:21 Europe/Berlin] === New Request at 2026-02-27 21:51:21 ===
+[27-Feb-2026 21:51:21 Europe/Berlin] Method: DELETE
+[27-Feb-2026 21:51:21 Europe/Berlin] POST data: Array
+(
+)
+
+[27-Feb-2026 21:51:21 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 21:51:21 Europe/Berlin] GET data: Array
+(
+    [id] => 22
+)
+
+[27-Feb-2026 21:51:21 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 21:51:21 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 21:51:21 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 21:51:21 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 21:51:21 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 21:51:21 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 20:51:21 Africa/Accra] ✓ Database connected
+[27-Feb-2026 20:51:21 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 20:51:21 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 20:51:21 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 20:51:21 Africa/Accra] Attempting to delete candidate ID: 22
+[27-Feb-2026 21:51:22 Europe/Berlin] === New Request at 2026-02-27 21:51:22 ===
+[27-Feb-2026 21:51:22 Europe/Berlin] Method: DELETE
+[27-Feb-2026 21:51:22 Europe/Berlin] POST data: Array
+(
+)
+
+[27-Feb-2026 21:51:22 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 21:51:22 Europe/Berlin] GET data: Array
+(
+    [id] => 22
+)
+
+[27-Feb-2026 21:51:22 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 21:51:22 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 21:51:22 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 21:51:22 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 21:51:22 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 21:51:22 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 20:51:22 Africa/Accra] ✓ Database connected
+[27-Feb-2026 20:51:22 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 20:51:22 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 20:51:22 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 20:51:22 Africa/Accra] Attempting to delete candidate ID: 22
+[27-Feb-2026 21:51:47 Europe/Berlin] === New Request at 2026-02-27 21:51:47 ===
+[27-Feb-2026 21:51:47 Europe/Berlin] Method: POST
+[27-Feb-2026 21:51:47 Europe/Berlin] POST data: Array
+(
+    [user_id] => TEC240131
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+)
+
+[27-Feb-2026 21:51:47 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 21:51:47 Europe/Berlin] GET data: Array
+(
+)
+
+[27-Feb-2026 21:51:47 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 21:51:47 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 21:51:47 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 21:51:47 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 21:51:47 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 21:51:47 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 20:51:47 Africa/Accra] ✓ Database connected
+[27-Feb-2026 20:51:47 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 20:51:47 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 20:51:47 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 20:51:47 Africa/Accra] Processed input data: Array
+(
+    [user_id] => TEC240131
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+)
+
+[27-Feb-2026 21:51:53 Europe/Berlin] === New Request at 2026-02-27 21:51:53 ===
+[27-Feb-2026 21:51:53 Europe/Berlin] Method: DELETE
+[27-Feb-2026 21:51:53 Europe/Berlin] POST data: Array
+(
+)
+
+[27-Feb-2026 21:51:53 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 21:51:53 Europe/Berlin] GET data: Array
+(
+    [id] => 23
+)
+
+[27-Feb-2026 21:51:53 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 21:51:53 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 21:51:53 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 21:51:53 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 21:51:53 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 21:51:53 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 20:51:53 Africa/Accra] ✓ Database connected
+[27-Feb-2026 20:51:53 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 20:51:53 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 20:51:53 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 20:51:53 Africa/Accra] Attempting to delete candidate ID: 23
+[27-Feb-2026 21:51:55 Europe/Berlin] === New Request at 2026-02-27 21:51:55 ===
+[27-Feb-2026 21:51:55 Europe/Berlin] Method: DELETE
+[27-Feb-2026 21:51:55 Europe/Berlin] POST data: Array
+(
+)
+
+[27-Feb-2026 21:51:55 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 21:51:55 Europe/Berlin] GET data: Array
+(
+    [id] => 23
+)
+
+[27-Feb-2026 21:51:55 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 21:51:55 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 21:51:55 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 21:51:55 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 21:51:55 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 21:51:55 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 20:51:55 Africa/Accra] ✓ Database connected
+[27-Feb-2026 20:51:55 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 20:51:55 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 20:51:55 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 20:51:55 Africa/Accra] Attempting to delete candidate ID: 23
+[27-Feb-2026 21:58:55 Europe/Berlin] === New Request at 2026-02-27 21:58:55 ===
+[27-Feb-2026 21:58:55 Europe/Berlin] Method: POST
+[27-Feb-2026 21:58:55 Europe/Berlin] POST data: Array
+(
+    [user_id] => TEC240131
+    [election_id] => 1
+    [position_id] => 4
+    [manifesto] => 
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+)
+
+[27-Feb-2026 21:58:55 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 21:58:55 Europe/Berlin] GET data: Array
+(
+)
+
+[27-Feb-2026 21:58:55 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 21:58:55 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 21:58:55 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 21:58:55 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 21:58:55 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 21:58:55 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 20:58:55 Africa/Accra] ✓ Database connected
+[27-Feb-2026 20:58:55 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 20:58:55 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 20:58:55 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 20:58:55 Africa/Accra] Processed input data: Array
+(
+    [user_id] => TEC240131
+    [election_id] => 1
+    [position_id] => 4
+    [manifesto] => 
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+)
+
+[27-Feb-2026 21:59:08 Europe/Berlin] === New Request at 2026-02-27 21:59:08 ===
+[27-Feb-2026 21:59:08 Europe/Berlin] Method: DELETE
+[27-Feb-2026 21:59:08 Europe/Berlin] POST data: Array
+(
+)
+
+[27-Feb-2026 21:59:08 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 21:59:08 Europe/Berlin] GET data: Array
+(
+    [id] => 24
+)
+
+[27-Feb-2026 21:59:08 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 21:59:08 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 21:59:08 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 21:59:08 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 21:59:08 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 21:59:08 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 20:59:08 Africa/Accra] ✓ Database connected
+[27-Feb-2026 20:59:08 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 20:59:08 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 20:59:08 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 20:59:08 Africa/Accra] Attempting to delete candidate ID: 24
+[27-Feb-2026 21:59:09 Europe/Berlin] === New Request at 2026-02-27 21:59:09 ===
+[27-Feb-2026 21:59:09 Europe/Berlin] Method: DELETE
+[27-Feb-2026 21:59:09 Europe/Berlin] POST data: Array
+(
+)
+
+[27-Feb-2026 21:59:09 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 21:59:09 Europe/Berlin] GET data: Array
+(
+    [id] => 24
+)
+
+[27-Feb-2026 21:59:09 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 21:59:09 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 21:59:09 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 21:59:09 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 21:59:09 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 21:59:09 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 20:59:09 Africa/Accra] ✓ Database connected
+[27-Feb-2026 20:59:09 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 20:59:09 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 20:59:09 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 20:59:09 Africa/Accra] Attempting to delete candidate ID: 24
+[27-Feb-2026 22:03:32 Europe/Berlin] === New Request at 2026-02-27 22:03:32 ===
+[27-Feb-2026 22:03:32 Europe/Berlin] Method: POST
+[27-Feb-2026 22:03:32 Europe/Berlin] POST data: Array
+(
+    [user_id] => TEC240131
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+)
+
+[27-Feb-2026 22:03:32 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 22:03:32 Europe/Berlin] GET data: Array
+(
+)
+
+[27-Feb-2026 22:03:32 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 22:03:32 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 22:03:32 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 22:03:32 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 22:03:32 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 22:03:32 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 21:03:32 Africa/Accra] ✓ Database connected
+[27-Feb-2026 21:03:32 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 21:03:32 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 21:03:32 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 21:03:32 Africa/Accra] Processed input data: Array
+(
+    [user_id] => TEC240131
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+)
+
+[27-Feb-2026 22:03:39 Europe/Berlin] === New Request at 2026-02-27 22:03:39 ===
+[27-Feb-2026 22:03:39 Europe/Berlin] Method: DELETE
+[27-Feb-2026 22:03:39 Europe/Berlin] POST data: Array
+(
+)
+
+[27-Feb-2026 22:03:39 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 22:03:39 Europe/Berlin] GET data: Array
+(
+    [id] => 25
+)
+
+[27-Feb-2026 22:03:39 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 22:03:39 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 22:03:39 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 22:03:39 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 22:03:39 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 22:03:39 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 21:03:39 Africa/Accra] ✓ Database connected
+[27-Feb-2026 21:03:39 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 21:03:39 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 21:03:39 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 21:03:39 Africa/Accra] Attempting to delete candidate ID: 25
+[27-Feb-2026 22:17:25 Europe/Berlin] === New Request at 2026-02-27 22:17:25 ===
+[27-Feb-2026 22:17:25 Europe/Berlin] Method: POST
+[27-Feb-2026 22:17:25 Europe/Berlin] POST data: Array
+(
+    [user_id] => TEC240131
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+)
+
+[27-Feb-2026 22:17:25 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 22:17:25 Europe/Berlin] GET data: Array
+(
+)
+
+[27-Feb-2026 22:17:25 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 22:17:25 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 22:17:25 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 22:17:25 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 22:17:25 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 22:17:25 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 21:17:25 Africa/Accra] ✓ Database connected
+[27-Feb-2026 21:17:25 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 21:17:25 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 21:17:25 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 21:17:25 Africa/Accra] Processed input data: Array
+(
+    [user_id] => TEC240131
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+)
+
+[27-Feb-2026 22:17:42 Europe/Berlin] === New Request at 2026-02-27 22:17:42 ===
+[27-Feb-2026 22:17:42 Europe/Berlin] Method: DELETE
+[27-Feb-2026 22:17:42 Europe/Berlin] POST data: Array
+(
+)
+
+[27-Feb-2026 22:17:42 Europe/Berlin] FILES data: Array
+(
+)
+
+[27-Feb-2026 22:17:42 Europe/Berlin] GET data: Array
+(
+    [id] => 26
+)
+
+[27-Feb-2026 22:17:42 Europe/Berlin] Session ID: bnr16el8k2hnmfhs7icultetpl
+[27-Feb-2026 22:17:42 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => 3d38aadd023a663b7430243fd9c5945d2120fbd3c3cc68ac815364d37274edcd
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[27-Feb-2026 22:17:42 Europe/Berlin] ✓ Found: /../../config/constants.php
+[27-Feb-2026 22:17:42 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[27-Feb-2026 22:17:42 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[27-Feb-2026 22:17:42 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[27-Feb-2026 21:17:42 Africa/Accra] ✓ Database connected
+[27-Feb-2026 21:17:42 Africa/Accra] CSRF from headers: Present
+[27-Feb-2026 21:17:42 Africa/Accra] ✓ CSRF token validated
+[27-Feb-2026 21:17:42 Africa/Accra] ✓ Admin access granted
+[27-Feb-2026 21:17:42 Africa/Accra] Attempting to delete candidate ID: 26
+[02-Mar-2026 19:19:55 Europe/Berlin] === New Request at 2026-03-02 19:19:55 ===
+[02-Mar-2026 19:19:55 Europe/Berlin] Method: POST
+[02-Mar-2026 19:19:55 Europe/Berlin] POST data: Array
+(
+    [user_id] => TEC240058
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+)
+
+[02-Mar-2026 19:19:55 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 19:19:55 Europe/Berlin] GET data: Array
+(
+)
+
+[02-Mar-2026 19:19:55 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 19:19:55 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[02-Mar-2026 19:19:55 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 19:19:55 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 19:19:55 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 19:19:55 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 18:19:55 Africa/Accra] ✓ Database connected
+[02-Mar-2026 18:19:55 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 18:19:55 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 18:19:55 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 18:19:55 Africa/Accra] Processed input data: Array
+(
+    [user_id] => TEC240058
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+)
+
+[02-Mar-2026 19:42:30 Europe/Berlin] === New Request at 2026-03-02 19:42:30 ===
+[02-Mar-2026 19:42:30 Europe/Berlin] Method: DELETE
+[02-Mar-2026 19:42:30 Europe/Berlin] POST data: Array
+(
+)
+
+[02-Mar-2026 19:42:30 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 19:42:30 Europe/Berlin] GET data: Array
+(
+    [id] => 27
+)
+
+[02-Mar-2026 19:42:30 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 19:42:30 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[02-Mar-2026 19:42:30 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 19:42:30 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 19:42:30 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 19:42:30 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 18:42:30 Africa/Accra] ✓ Database connected
+[02-Mar-2026 18:42:30 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 18:42:30 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 18:42:30 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 18:42:30 Africa/Accra] Attempting to delete candidate ID: 27
+[02-Mar-2026 19:42:52 Europe/Berlin] === New Request at 2026-03-02 19:42:52 ===
+[02-Mar-2026 19:42:52 Europe/Berlin] Method: POST
+[02-Mar-2026 19:42:52 Europe/Berlin] POST data: Array
+(
+    [user_id] => TEC240075
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+)
+
+[02-Mar-2026 19:42:52 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 19:42:52 Europe/Berlin] GET data: Array
+(
+)
+
+[02-Mar-2026 19:42:52 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 19:42:52 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[02-Mar-2026 19:42:52 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 19:42:52 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 19:42:52 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 19:42:52 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 18:42:52 Africa/Accra] ✓ Database connected
+[02-Mar-2026 18:42:52 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 18:42:52 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 18:42:52 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 18:42:52 Africa/Accra] Processed input data: Array
+(
+    [user_id] => TEC240075
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+)
+
+[02-Mar-2026 19:42:52 Europe/Berlin] === New Request at 2026-03-02 19:42:52 ===
+[02-Mar-2026 19:42:52 Europe/Berlin] Method: POST
+[02-Mar-2026 19:42:52 Europe/Berlin] POST data: Array
+(
+    [id] => 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => TEC240075
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+)
+
+[02-Mar-2026 19:42:52 Europe/Berlin] FILES data: Array
+(
+    [photo] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[02-Mar-2026 19:42:52 Europe/Berlin] GET data: Array
+(
+)
+
+[02-Mar-2026 19:42:52 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 19:42:52 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[02-Mar-2026 19:42:52 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 19:42:52 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 19:42:52 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 19:42:52 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 18:42:52 Africa/Accra] ✓ Database connected
+[02-Mar-2026 18:42:52 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 18:42:52 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 18:42:52 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 18:42:52 Africa/Accra] Processed input data: Array
+(
+    [id] => 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => TEC240075
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+)
+
+[02-Mar-2026 19:52:10 Europe/Berlin] === New Request at 2026-03-02 19:52:10 ===
+[02-Mar-2026 19:52:10 Europe/Berlin] Method: DELETE
+[02-Mar-2026 19:52:10 Europe/Berlin] POST data: Array
+(
+)
+
+[02-Mar-2026 19:52:10 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 19:52:10 Europe/Berlin] GET data: Array
+(
+    [id] => 28
+)
+
+[02-Mar-2026 19:52:10 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 19:52:10 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[02-Mar-2026 19:52:10 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 19:52:10 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 19:52:10 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 19:52:10 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 18:52:10 Africa/Accra] ✓ Database connected
+[02-Mar-2026 18:52:10 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 18:52:10 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 18:52:10 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 18:52:10 Africa/Accra] Attempting to delete candidate ID: 28
+[02-Mar-2026 19:52:38 Europe/Berlin] === New Request at 2026-03-02 19:52:38 ===
+[02-Mar-2026 19:52:38 Europe/Berlin] Method: POST
+[02-Mar-2026 19:52:38 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240230
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => hdshdkasdlksjsajsaflfjsk kofi
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+)
+
+[02-Mar-2026 19:52:38 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 19:52:38 Europe/Berlin] GET data: Array
+(
+)
+
+[02-Mar-2026 19:52:38 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 19:52:38 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[02-Mar-2026 19:52:38 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 19:52:38 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 19:52:38 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 19:52:38 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 18:52:38 Africa/Accra] ✓ Database connected
+[02-Mar-2026 18:52:38 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 18:52:38 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 18:52:38 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 18:52:38 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GAR240230
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => hdshdkasdlksjsajsaflfjsk kofi
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+)
+
+[02-Mar-2026 19:52:48 Europe/Berlin] === New Request at 2026-03-02 19:52:48 ===
+[02-Mar-2026 19:52:48 Europe/Berlin] Method: POST
+[02-Mar-2026 19:52:48 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240230
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => hdshdkasdlksjsajsaflfjsk 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [id] => 29
+)
+
+[02-Mar-2026 19:52:48 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 19:52:48 Europe/Berlin] GET data: Array
+(
+    [id] => 29
+)
+
+[02-Mar-2026 19:52:48 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 19:52:48 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[02-Mar-2026 19:52:48 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 19:52:48 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 19:52:48 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 19:52:48 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 18:52:48 Africa/Accra] ✓ Database connected
+[02-Mar-2026 18:52:48 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 18:52:48 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 18:52:48 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 18:52:48 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GAR240230
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => hdshdkasdlksjsajsaflfjsk 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [id] => 29
+)
+
+[02-Mar-2026 19:53:00 Europe/Berlin] === New Request at 2026-03-02 19:53:00 ===
+[02-Mar-2026 19:53:00 Europe/Berlin] Method: POST
+[02-Mar-2026 19:53:00 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240230
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => hdshdkasdlksjsajsaflfjsk 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [id] => 29
+)
+
+[02-Mar-2026 19:53:00 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 19:53:00 Europe/Berlin] GET data: Array
+(
+    [id] => 29
+)
+
+[02-Mar-2026 19:53:00 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 19:53:00 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[02-Mar-2026 19:53:00 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 19:53:00 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 19:53:00 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 19:53:00 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 18:53:00 Africa/Accra] ✓ Database connected
+[02-Mar-2026 18:53:00 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 18:53:00 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 18:53:00 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 18:53:00 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GAR240230
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => hdshdkasdlksjsajsaflfjsk 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [id] => 29
+)
+
+[02-Mar-2026 20:05:40 Europe/Berlin] === New Request at 2026-03-02 20:05:40 ===
+[02-Mar-2026 20:05:40 Europe/Berlin] Method: POST
+[02-Mar-2026 20:05:40 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240230
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => hdshdkasdlksjsajsaflfjsk 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [id] => 29
+)
+
+[02-Mar-2026 20:05:40 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 20:05:40 Europe/Berlin] GET data: Array
+(
+    [id] => 29
+)
+
+[02-Mar-2026 20:05:40 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 20:05:40 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[02-Mar-2026 20:05:40 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 20:05:40 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 20:05:40 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 20:05:40 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 19:05:40 Africa/Accra] ✓ Database connected
+[02-Mar-2026 19:05:40 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 19:05:40 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 19:05:40 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 19:05:40 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GAR240230
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => hdshdkasdlksjsajsaflfjsk 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [id] => 29
+)
+
+[02-Mar-2026 20:06:55 Europe/Berlin] === New Request at 2026-03-02 20:06:55 ===
+[02-Mar-2026 20:06:55 Europe/Berlin] Method: POST
+[02-Mar-2026 20:06:55 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240230
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => hdshdkasdlksjsajsaflfjsk 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [id] => 29
+)
+
+[02-Mar-2026 20:06:55 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 20:06:55 Europe/Berlin] GET data: Array
+(
+    [id] => 29
+)
+
+[02-Mar-2026 20:06:55 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 20:06:55 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[02-Mar-2026 20:06:55 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 20:06:55 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 20:06:55 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 20:06:55 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 19:06:55 Africa/Accra] ✓ Database connected
+[02-Mar-2026 19:06:55 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 19:06:55 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 19:06:55 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 19:06:55 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GAR240230
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => hdshdkasdlksjsajsaflfjsk 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [id] => 29
+)
+
+[02-Mar-2026 20:25:32 Europe/Berlin] === New Request at 2026-03-02 20:25:32 ===
+[02-Mar-2026 20:25:32 Europe/Berlin] Method: POST
+[02-Mar-2026 20:25:32 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240230
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => hdshdkasdlksjsajsaflfjsk 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [id] => 29
+)
+
+[02-Mar-2026 20:25:32 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 20:25:32 Europe/Berlin] GET data: Array
+(
+    [id] => 29
+)
+
+[02-Mar-2026 20:25:32 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 20:25:32 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[02-Mar-2026 20:25:32 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 20:25:32 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 20:25:32 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 20:25:32 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 19:25:32 Africa/Accra] ✓ Database connected
+[02-Mar-2026 19:25:32 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 19:25:32 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 19:25:32 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 19:25:32 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GAR240230
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => hdshdkasdlksjsajsaflfjsk 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [id] => 29
+)
+
+[02-Mar-2026 20:39:55 Europe/Berlin] === New Request at 2026-03-02 20:39:55 ===
+[02-Mar-2026 20:39:55 Europe/Berlin] Method: POST
+[02-Mar-2026 20:39:55 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240064
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+)
+
+[02-Mar-2026 20:39:55 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 20:39:55 Europe/Berlin] GET data: Array
+(
+)
+
+[02-Mar-2026 20:39:55 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 20:39:55 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[02-Mar-2026 20:39:55 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 20:39:55 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 20:39:55 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 20:39:55 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 19:39:55 Africa/Accra] ✓ Database connected
+[02-Mar-2026 19:39:55 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 19:39:55 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 19:39:55 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 19:39:55 Africa/Accra] Processed input data: Array
+(
+    [user_id] => GAR240064
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => 
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+)
+
+[02-Mar-2026 20:40:15 Europe/Berlin] === New Request at 2026-03-02 20:40:15 ===
+[02-Mar-2026 20:40:15 Europe/Berlin] Method: DELETE
+[02-Mar-2026 20:40:15 Europe/Berlin] POST data: Array
+(
+)
+
+[02-Mar-2026 20:40:15 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 20:40:15 Europe/Berlin] GET data: Array
+(
+    [id] => 30
+)
+
+[02-Mar-2026 20:40:15 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 20:40:15 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[02-Mar-2026 20:40:15 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 20:40:15 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 20:40:15 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 20:40:15 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 19:40:15 Africa/Accra] ✓ Database connected
+[02-Mar-2026 19:40:15 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 19:40:15 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 19:40:15 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 19:40:15 Africa/Accra] Attempting to delete candidate ID: 30
+[02-Mar-2026 20:40:27 Europe/Berlin] === New Request at 2026-03-02 20:40:27 ===
+[02-Mar-2026 20:40:27 Europe/Berlin] Method: POST
+[02-Mar-2026 20:40:27 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240230
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => hdshdkasdlksjsajsaflfjsk
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [id] => 29
+    [_method] => PUT
+)
+
+[02-Mar-2026 20:40:27 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 20:40:27 Europe/Berlin] GET data: Array
+(
+    [id] => 29
+)
+
+[02-Mar-2026 20:40:27 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 20:40:27 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[02-Mar-2026 20:40:27 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 20:40:27 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 20:40:27 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 20:40:27 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 19:40:27 Africa/Accra] ✓ Database connected
+[02-Mar-2026 19:40:27 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 19:40:27 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 19:40:27 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 19:40:27 Africa/Accra] Method overridden to: PUT
+[02-Mar-2026 19:40:27 Africa/Accra] PUT input data: Array
+(
+    [user_id] => GAR240230
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => hdshdkasdlksjsajsaflfjsk
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [id] => 29
+    [_method] => PUT
+)
+
+[02-Mar-2026 20:40:37 Europe/Berlin] === New Request at 2026-03-02 20:40:37 ===
+[02-Mar-2026 20:40:37 Europe/Berlin] Method: DELETE
+[02-Mar-2026 20:40:37 Europe/Berlin] POST data: Array
+(
+)
+
+[02-Mar-2026 20:40:37 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 20:40:37 Europe/Berlin] GET data: Array
+(
+    [id] => 29
+)
+
+[02-Mar-2026 20:40:37 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 20:40:37 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c16d66b00b5373433bc28a871f8c3fc16f7b0a1e2263d53775a7fd847191695d
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+    [level] => Senior
+    [department] => Administration
+)
+
+[02-Mar-2026 20:40:37 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 20:40:37 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 20:40:37 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 20:40:37 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 19:40:37 Africa/Accra] ✓ Database connected
+[02-Mar-2026 19:40:37 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 19:40:37 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 19:40:37 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 19:40:37 Africa/Accra] Attempting to delete candidate ID: 29
+[02-Mar-2026 21:38:42 Europe/Berlin] === New Request at 2026-03-02 21:38:42 ===
+[02-Mar-2026 21:38:42 Europe/Berlin] Method: POST
+[02-Mar-2026 21:38:42 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240244
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => I will champion the rights of students and ensure gender equality in all school activities and leadership 
+    [csrf_token] => c11e6141fff9344320cd86fd72ad7bc0efe240d80ef2726be735010f50744c0f
+    [id] => 5
+    [_method] => PUT
+)
+
+[02-Mar-2026 21:38:42 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 21:38:42 Europe/Berlin] GET data: Array
+(
+    [id] => 5
+)
+
+[02-Mar-2026 21:38:42 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 21:38:42 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c11e6141fff9344320cd86fd72ad7bc0efe240d80ef2726be735010f50744c0f
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[02-Mar-2026 21:38:42 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 21:38:42 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 21:38:42 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 21:38:42 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 20:38:42 Africa/Accra] ✓ Database connected
+[02-Mar-2026 20:38:42 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 20:38:42 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 20:38:42 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 20:38:42 Africa/Accra] Method overridden to: PUT
+[02-Mar-2026 20:38:42 Africa/Accra] PUT input data: Array
+(
+    [user_id] => GAR240244
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => I will champion the rights of students and ensure gender equality in all school activities and leadership 
+    [csrf_token] => c11e6141fff9344320cd86fd72ad7bc0efe240d80ef2726be735010f50744c0f
+    [id] => 5
+    [_method] => PUT
+)
+
+[02-Mar-2026 21:39:04 Europe/Berlin] === New Request at 2026-03-02 21:39:04 ===
+[02-Mar-2026 21:39:04 Europe/Berlin] Method: POST
+[02-Mar-2026 21:39:04 Europe/Berlin] POST data: Array
+(
+    [user_id] => GAR240244
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => I will champion the rights of students and ensure gender equality in all school activities and leadership opportunities.
+    [csrf_token] => c11e6141fff9344320cd86fd72ad7bc0efe240d80ef2726be735010f50744c0f
+    [id] => 5
+    [_method] => PUT
+)
+
+[02-Mar-2026 21:39:04 Europe/Berlin] FILES data: Array
+(
+)
+
+[02-Mar-2026 21:39:04 Europe/Berlin] GET data: Array
+(
+    [id] => 5
+)
+
+[02-Mar-2026 21:39:04 Europe/Berlin] Session ID: asi22ag77946mgctn6kg5ojo83
+[02-Mar-2026 21:39:04 Europe/Berlin] Session data: Array
+(
+    [csrf_token] => c11e6141fff9344320cd86fd72ad7bc0efe240d80ef2726be735010f50744c0f
+    [user_id] => Admin
+    [is_admin] => 1
+    [first_name] => System
+    [last_name] => Administrator
+    [full_name] => System Administrator
+    [logged_in] => 1
+    [election_ended] => 
+    [client_timezone] => Atlantic/Reykjavik
+)
+
+[02-Mar-2026 21:39:04 Europe/Berlin] ✓ Found: /../../config/constants.php
+[02-Mar-2026 21:39:04 Europe/Berlin] ✓ Found: /../../config/db_connect.php
+[02-Mar-2026 21:39:04 Europe/Berlin] ✓ Found: /../../includes/ActivityLogger.php
+[02-Mar-2026 21:39:04 Europe/Berlin] ✓ Found: /../../helpers/functions.php
+[02-Mar-2026 20:39:04 Africa/Accra] ✓ Database connected
+[02-Mar-2026 20:39:04 Africa/Accra] CSRF from headers: Present
+[02-Mar-2026 20:39:04 Africa/Accra] ✓ CSRF token validated
+[02-Mar-2026 20:39:04 Africa/Accra] ✓ Admin access granted
+[02-Mar-2026 20:39:04 Africa/Accra] Method overridden to: PUT
+[02-Mar-2026 20:39:04 Africa/Accra] PUT input data: Array
+(
+    [user_id] => GAR240244
+    [election_id] => 1
+    [position_id] => 3
+    [manifesto] => I will champion the rights of students and ensure gender equality in all school activities and leadership opportunities.
+    [csrf_token] => c11e6141fff9344320cd86fd72ad7bc0efe240d80ef2726be735010f50744c0f
+    [id] => 5
+    [_method] => PUT
+)
+

@@ -1,0 +1,2006 @@
+2026-02-24 20:34:49 - Request started
+2026-02-24 19:34:49 - Loading required files
+2026-02-24 19:34:49 - constants.php loaded
+2026-02-24 19:34:49 - db_connect.php loaded
+2026-02-24 19:34:49 - ActivityLogger.php loaded
+2026-02-24 19:34:49 - functions.php loaded
+2026-02-24 19:34:49 - Getting database connection
+2026-02-24 19:34:49 - Database connection successful
+2026-02-24 19:34:49 - Creating ActivityLogger
+2026-02-24 19:34:49 - ActivityLogger created
+2026-02-24 19:34:49 - Session data: Array
+(
+    [is_admin] => 1
+    [user_id] => Admin
+    [csrf_token_exists] => 1
+)
+
+2026-02-24 19:34:49 - Admin check passed
+2026-02-24 19:34:49 - Request method: PUT
+2026-02-24 19:34:50 - Validating CSRF token
+2026-02-24 19:34:50 - CSRF from headers: a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+2026-02-24 19:34:50 - Session CSRF token: a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+2026-02-24 19:34:50 - Received CSRF token: a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+2026-02-24 19:34:50 - CSRF validation passed
+2026-02-24 19:34:50 - Updating election statuses
+2026-02-24 19:34:50 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-24 19:34:50 - Election ID from request: 1
+2026-02-24 19:34:50 - Method not allowed: PUT
+2026-02-24 19:34:50 - Sending response: Array
+(
+    [code] => 405
+    [data] => Array
+        (
+            [success] => 
+            [message] => Method not allowed
+        )
+
+)
+
+2026-02-24 22:31:23 =========== REQUEST STARTED ===========
+2026-02-24 22:31:23 Method: PUT
+2026-02-24 22:31:23 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-24 21:31:23 - Loading required files
+2026-02-24 21:31:23 - constants.php loaded
+2026-02-24 21:31:23 - db_connect.php loaded
+2026-02-24 21:31:23 - ActivityLogger.php loaded
+2026-02-24 21:31:23 - functions.php loaded
+2026-02-24 21:31:23 - Getting database connection
+2026-02-24 21:31:23 - Database connection successful
+2026-02-24 21:31:23 - Creating ActivityLogger
+2026-02-24 21:31:23 - ActivityLogger created
+2026-02-24 21:31:23 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-24 21:31:23 - Admin check passed
+2026-02-24 21:31:23 - Original method: PUT
+2026-02-24 21:31:23 - Final method: PUT
+2026-02-24 21:31:23 - Validating CSRF token
+2026-02-24 21:31:23 - CSRF from headers: a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+2026-02-24 21:31:23 - Session CSRF token: a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+2026-02-24 21:31:23 - Received CSRF token: a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+2026-02-24 21:31:23 - CSRF validation passed
+2026-02-24 21:31:23 - Updating election statuses
+2026-02-24 21:31:23 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-24 21:31:23 - Election ID from request: 1
+2026-02-24 21:31:23 - Processing PUT request
+2026-02-24 21:31:23 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year","start_date":"2026-02-23T15:25","end_date":"2026-10-01T17:00","csrf_token":"a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca","id":"1"}
+2026-02-24 21:31:23 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year","start_date":"2026-02-23T15:25","end_date":"2026-10-01T17:00","csrf_token":"a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca","id":"1"}
+2026-02-24 21:31:23 - Title: Prefectorial Election 2026
+2026-02-24 21:31:23 - Start raw: 2026-02-23T15:25
+2026-02-24 21:31:23 - End raw: 2026-10-01T17:00
+2026-02-24 21:31:23 - Normalizing datetime: 2026-02-23T15:25
+2026-02-24 21:31:23 - Normalized start: 2026-02-23 15:25:00
+2026-02-24 21:31:23 - Normalizing datetime: 2026-10-01T17:00
+2026-02-24 21:31:23 - Normalized end: 2026-10-01 17:00:00
+2026-02-24 21:31:23 - Transaction started
+2026-02-24 21:31:23 - Fetching current election data: 1
+2026-02-24 21:31:23 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-23 15:25:00","end_date":"2026-10-01 17:00:00","status":"active","created_at":"2026-02-23 15:22:34","updated_at":"2026-02-24 16:09:58"}
+2026-02-24 21:31:23 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-24 21:31:23 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year",":start":"2026-02-23 15:25:00",":end":"2026-10-01 17:00:00"}
+2026-02-24 21:31:23 - Update executed
+2026-02-24 21:31:23 - New status: active
+2026-02-24 21:31:23 - Other active elections ended
+2026-02-24 21:31:23 - Status updated
+2026-02-24 21:31:23 - Transaction committed
+2026-02-24 21:31:23 Response code: 200
+2026-02-24 21:31:23 Response data: {"success":true,"message":"Election updated"}
+2026-02-24 21:31:23 =========== REQUEST ENDED ===========
+
+2026-02-24 22:32:21 =========== REQUEST STARTED ===========
+2026-02-24 22:32:21 Method: POST
+2026-02-24 22:32:21 URI: /nkoranza-voting/api/admin/elections.php
+2026-02-24 21:32:21 - Loading required files
+2026-02-24 21:32:21 - constants.php loaded
+2026-02-24 21:32:21 - db_connect.php loaded
+2026-02-24 21:32:21 - ActivityLogger.php loaded
+2026-02-24 21:32:21 - functions.php loaded
+2026-02-24 21:32:21 - Getting database connection
+2026-02-24 21:32:21 - Database connection successful
+2026-02-24 21:32:21 - Creating ActivityLogger
+2026-02-24 21:32:21 - ActivityLogger created
+2026-02-24 21:32:21 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-24 21:32:21 - Admin check passed
+2026-02-24 21:32:21 - Original method: POST
+2026-02-24 21:32:21 - Final method: POST
+2026-02-24 21:32:21 - Validating CSRF token
+2026-02-24 21:32:21 - CSRF from headers: a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+2026-02-24 21:32:21 - Session CSRF token: a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+2026-02-24 21:32:21 - Received CSRF token: a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+2026-02-24 21:32:21 - CSRF validation passed
+2026-02-24 21:32:21 - Updating election statuses
+2026-02-24 21:32:21 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-24 21:32:21 - Election ID from request
+2026-02-24 21:32:21 - Processing POST request
+2026-02-24 21:32:21 - Raw input: {"title":"Election 2027","description":"Election","start_date":"2026-02-24T21:33","end_date":"2026-02-24T21:35","csrf_token":"a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca"}
+2026-02-24 21:32:21 - Input data: {"title":"Election 2027","description":"Election","start_date":"2026-02-24T21:33","end_date":"2026-02-24T21:35","csrf_token":"a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca"}
+2026-02-24 21:32:21 - Title: Election 2027
+2026-02-24 21:32:21 - Start raw: 2026-02-24T21:33
+2026-02-24 21:32:21 - End raw: 2026-02-24T21:35
+2026-02-24 21:32:21 - Normalizing datetime: 2026-02-24T21:33
+2026-02-24 21:32:21 - Normalizing datetime: 2026-02-24T21:35
+2026-02-24 21:32:21 - Normalized start: 2026-02-24 21:33:00
+2026-02-24 21:32:21 - Normalized end: 2026-02-24 21:35:00
+2026-02-24 21:32:21 - Checking for duplicates
+2026-02-24 21:32:21 - Computed status: upcoming
+2026-02-24 21:32:21 - Transaction started
+2026-02-24 21:32:21 - Inserting new election
+2026-02-24 21:32:21 - New election ID: 2
+2026-02-24 21:32:21 - Transaction committed
+2026-02-24 21:32:21 Response code: 200
+2026-02-24 21:32:21 Response data: {"success":true,"message":"Election created","election_id":"2"}
+2026-02-24 21:32:21 =========== REQUEST ENDED ===========
+
+2026-02-24 22:32:34 =========== REQUEST STARTED ===========
+2026-02-24 22:32:34 Method: DELETE
+2026-02-24 22:32:34 URI: /nkoranza-voting/api/admin/elections.php?id=2
+2026-02-24 21:32:34 - Loading required files
+2026-02-24 21:32:34 - constants.php loaded
+2026-02-24 21:32:34 - db_connect.php loaded
+2026-02-24 21:32:34 - ActivityLogger.php loaded
+2026-02-24 21:32:34 - functions.php loaded
+2026-02-24 21:32:34 - Getting database connection
+2026-02-24 21:32:34 - Database connection successful
+2026-02-24 21:32:34 - Creating ActivityLogger
+2026-02-24 21:32:34 - ActivityLogger created
+2026-02-24 21:32:34 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-24 21:32:34 - Admin check passed
+2026-02-24 21:32:34 - Original method: DELETE
+2026-02-24 21:32:34 - Final method: DELETE
+2026-02-24 21:32:34 - Validating CSRF token
+2026-02-24 21:32:34 - CSRF from headers: a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+2026-02-24 21:32:34 - Session CSRF token: a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+2026-02-24 21:32:34 - Received CSRF token: a9c945dfafdcc240ee26c58e0aa18590c08e61e6d1e73423a8e45396e22be7ca
+2026-02-24 21:32:34 - CSRF validation passed
+2026-02-24 21:32:34 - Updating election statuses
+2026-02-24 21:32:34 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-24 21:32:34 - Election ID from request: 2
+2026-02-24 21:32:34 - Processing DELETE request
+2026-02-24 21:32:34 - Fetching election details: 2
+2026-02-24 21:32:34 - Election found: Election 2027
+2026-02-24 21:32:34 - Candidate count: 0
+2026-02-24 21:32:35 - Vote count: 0
+2026-02-24 21:32:35 - Deleting election
+2026-02-24 21:32:35 - Delete successful
+2026-02-24 21:32:35 Response code: 200
+2026-02-24 21:32:35 Response data: {"success":true,"message":"Election deleted"}
+2026-02-24 21:32:35 =========== REQUEST ENDED ===========
+
+2026-02-25 16:16:33 =========== REQUEST STARTED ===========
+2026-02-25 16:16:33 Method: PUT
+2026-02-25 16:16:33 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-25 15:16:33 - Loading required files
+2026-02-25 15:16:33 - constants.php loaded
+2026-02-25 15:16:33 - db_connect.php loaded
+2026-02-25 15:16:33 - ActivityLogger.php loaded
+2026-02-25 15:16:33 - functions.php loaded
+2026-02-25 15:16:33 - Getting database connection
+2026-02-25 15:16:33 - Database connection successful
+2026-02-25 15:16:33 - Creating ActivityLogger
+2026-02-25 15:16:33 - ActivityLogger created
+2026-02-25 15:16:33 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-25 15:16:33 - Admin check passed
+2026-02-25 15:16:33 - Original method: PUT
+2026-02-25 15:16:33 - Final method: PUT
+2026-02-25 15:16:33 - Validating CSRF token
+2026-02-25 15:16:33 - CSRF from headers: b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e
+2026-02-25 15:16:33 - Session CSRF token: b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e
+2026-02-25 15:16:33 - Received CSRF token: b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e
+2026-02-25 15:16:33 - CSRF validation passed
+2026-02-25 15:16:33 - Updating election statuses
+2026-02-25 15:16:33 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-25 15:16:33 - Election ID from request: 1
+2026-02-25 15:16:33 - Processing PUT request
+2026-02-25 15:16:33 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year","start_date":"2026-02-23T15:25","end_date":"2026-02-25T17:17","csrf_token":"b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e","id":"1"}
+2026-02-25 15:16:33 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year","start_date":"2026-02-23T15:25","end_date":"2026-02-25T17:17","csrf_token":"b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e","id":"1"}
+2026-02-25 15:16:33 - Title: Prefectorial Election 2026
+2026-02-25 15:16:33 - Start raw: 2026-02-23T15:25
+2026-02-25 15:16:33 - End raw: 2026-02-25T17:17
+2026-02-25 15:16:33 - Normalizing datetime: 2026-02-23T15:25
+2026-02-25 15:16:33 - Normalized start: 2026-02-23 15:25:00
+2026-02-25 15:16:33 - Normalizing datetime: 2026-02-25T17:17
+2026-02-25 15:16:33 - Normalized end: 2026-02-25 17:17:00
+2026-02-25 15:16:33 - Transaction started
+2026-02-25 15:16:33 - Fetching current election data: 1
+2026-02-25 15:16:33 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year","start_date":"2026-02-23 15:25:00","end_date":"2026-10-01 17:00:00","status":"active","created_at":"2026-02-23 15:22:34","updated_at":"2026-02-24 21:31:23"}
+2026-02-25 15:16:33 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-25 15:16:33 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year",":start":"2026-02-23 15:25:00",":end":"2026-02-25 17:17:00"}
+2026-02-25 15:16:33 - Update executed
+2026-02-25 15:16:33 - New status: active
+2026-02-25 15:16:33 - Other active elections ended
+2026-02-25 15:16:33 - Status updated
+2026-02-25 15:16:33 - Transaction committed
+2026-02-25 15:16:33 Response code: 200
+2026-02-25 15:16:33 Response data: {"success":true,"message":"Election updated"}
+2026-02-25 15:16:33 =========== REQUEST ENDED ===========
+
+2026-02-25 16:16:58 =========== REQUEST STARTED ===========
+2026-02-25 16:16:58 Method: PUT
+2026-02-25 16:16:58 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-25 15:16:58 - Loading required files
+2026-02-25 15:16:58 - constants.php loaded
+2026-02-25 15:16:58 - db_connect.php loaded
+2026-02-25 15:16:58 - ActivityLogger.php loaded
+2026-02-25 15:16:58 - functions.php loaded
+2026-02-25 15:16:58 - Getting database connection
+2026-02-25 15:16:58 - Database connection successful
+2026-02-25 15:16:58 - Creating ActivityLogger
+2026-02-25 15:16:58 - ActivityLogger created
+2026-02-25 15:16:58 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-25 15:16:58 - Admin check passed
+2026-02-25 15:16:58 - Original method: PUT
+2026-02-25 15:16:58 - Final method: PUT
+2026-02-25 15:16:58 - Validating CSRF token
+2026-02-25 15:16:58 - CSRF from headers: b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e
+2026-02-25 15:16:58 - Session CSRF token: b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e
+2026-02-25 15:16:58 - Received CSRF token: b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e
+2026-02-25 15:16:58 - CSRF validation passed
+2026-02-25 15:16:58 - Updating election statuses
+2026-02-25 15:16:58 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-25 15:16:58 - Election ID from request: 1
+2026-02-25 15:16:58 - Processing PUT request
+2026-02-25 15:16:58 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year","start_date":"2026-02-23T15:25","end_date":"2026-02-25T15:17","csrf_token":"b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e","id":"1"}
+2026-02-25 15:16:58 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year","start_date":"2026-02-23T15:25","end_date":"2026-02-25T15:17","csrf_token":"b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e","id":"1"}
+2026-02-25 15:16:58 - Title: Prefectorial Election 2026
+2026-02-25 15:16:58 - Start raw: 2026-02-23T15:25
+2026-02-25 15:16:58 - End raw: 2026-02-25T15:17
+2026-02-25 15:16:58 - Normalizing datetime: 2026-02-23T15:25
+2026-02-25 15:16:58 - Normalized start: 2026-02-23 15:25:00
+2026-02-25 15:16:58 - Normalizing datetime: 2026-02-25T15:17
+2026-02-25 15:16:58 - Normalized end: 2026-02-25 15:17:00
+2026-02-25 15:16:58 - Transaction started
+2026-02-25 15:16:58 - Fetching current election data: 1
+2026-02-25 15:16:58 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year","start_date":"2026-02-23 15:25:00","end_date":"2026-02-25 17:17:00","status":"active","created_at":"2026-02-23 15:22:34","updated_at":"2026-02-25 15:16:33"}
+2026-02-25 15:16:58 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-25 15:16:58 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year",":start":"2026-02-23 15:25:00",":end":"2026-02-25 15:17:00"}
+2026-02-25 15:16:58 - Update executed
+2026-02-25 15:16:58 - New status: active
+2026-02-25 15:16:58 - Other active elections ended
+2026-02-25 15:16:58 - Status updated
+2026-02-25 15:16:58 - Transaction committed
+2026-02-25 15:16:58 Response code: 200
+2026-02-25 15:16:58 Response data: {"success":true,"message":"Election updated"}
+2026-02-25 15:16:58 =========== REQUEST ENDED ===========
+
+2026-02-25 16:18:40 =========== REQUEST STARTED ===========
+2026-02-25 16:18:40 Method: PUT
+2026-02-25 16:18:40 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-25 15:18:40 - Loading required files
+2026-02-25 15:18:40 - constants.php loaded
+2026-02-25 15:18:40 - db_connect.php loaded
+2026-02-25 15:18:40 - ActivityLogger.php loaded
+2026-02-25 15:18:40 - functions.php loaded
+2026-02-25 15:18:40 - Getting database connection
+2026-02-25 15:18:40 - Database connection successful
+2026-02-25 15:18:40 - Creating ActivityLogger
+2026-02-25 15:18:40 - ActivityLogger created
+2026-02-25 15:18:40 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-25 15:18:40 - Admin check passed
+2026-02-25 15:18:40 - Original method: PUT
+2026-02-25 15:18:40 - Final method: PUT
+2026-02-25 15:18:40 - Validating CSRF token
+2026-02-25 15:18:40 - CSRF from headers: b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e
+2026-02-25 15:18:40 - Session CSRF token: b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e
+2026-02-25 15:18:40 - Received CSRF token: b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e
+2026-02-25 15:18:40 - CSRF validation passed
+2026-02-25 15:18:40 - Updating election statuses
+2026-02-25 15:18:40 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-25 15:18:40 - Election ID from request: 1
+2026-02-25 15:18:40 - Processing PUT request
+2026-02-25 15:18:40 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-23T15:25","end_date":"2026-10-01T17:00","csrf_token":"b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e","id":"1"}
+2026-02-25 15:18:40 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-23T15:25","end_date":"2026-10-01T17:00","csrf_token":"b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e","id":"1"}
+2026-02-25 15:18:40 - Title: Prefectorial Election 2026
+2026-02-25 15:18:40 - Start raw: 2026-02-23T15:25
+2026-02-25 15:18:40 - End raw: 2026-10-01T17:00
+2026-02-25 15:18:40 - Normalizing datetime: 2026-02-23T15:25
+2026-02-25 15:18:40 - Normalized start: 2026-02-23 15:25:00
+2026-02-25 15:18:40 - Normalizing datetime: 2026-10-01T17:00
+2026-02-25 15:18:40 - Normalized end: 2026-10-01 17:00:00
+2026-02-25 15:18:40 - Transaction started
+2026-02-25 15:18:40 - Fetching current election data: 1
+2026-02-25 15:18:40 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year","start_date":"2026-02-23 15:25:00","end_date":"2026-02-25 15:17:00","status":"ended","created_at":"2026-02-23 15:22:34","updated_at":"2026-02-25 15:17:14"}
+2026-02-25 15:18:40 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-25 15:18:40 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-23 15:25:00",":end":"2026-10-01 17:00:00"}
+2026-02-25 15:18:40 - Update executed
+2026-02-25 15:18:40 - New status: active
+2026-02-25 15:18:40 - Other active elections ended
+2026-02-25 15:18:40 - Status updated
+2026-02-25 15:18:40 - Transaction committed
+2026-02-25 15:18:40 Response code: 200
+2026-02-25 15:18:40 Response data: {"success":true,"message":"Election updated"}
+2026-02-25 15:18:40 =========== REQUEST ENDED ===========
+
+2026-02-25 16:19:31 =========== REQUEST STARTED ===========
+2026-02-25 16:19:31 Method: PUT
+2026-02-25 16:19:31 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-25 15:19:31 - Loading required files
+2026-02-25 15:19:31 - constants.php loaded
+2026-02-25 15:19:31 - db_connect.php loaded
+2026-02-25 15:19:31 - ActivityLogger.php loaded
+2026-02-25 15:19:31 - functions.php loaded
+2026-02-25 15:19:31 - Getting database connection
+2026-02-25 15:19:31 - Database connection successful
+2026-02-25 15:19:31 - Creating ActivityLogger
+2026-02-25 15:19:31 - ActivityLogger created
+2026-02-25 15:19:31 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-25 15:19:31 - Admin check passed
+2026-02-25 15:19:31 - Original method: PUT
+2026-02-25 15:19:31 - Final method: PUT
+2026-02-25 15:19:31 - Validating CSRF token
+2026-02-25 15:19:31 - CSRF from headers: b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e
+2026-02-25 15:19:31 - Session CSRF token: b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e
+2026-02-25 15:19:31 - Received CSRF token: b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e
+2026-02-25 15:19:31 - CSRF validation passed
+2026-02-25 15:19:31 - Updating election statuses
+2026-02-25 15:19:31 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-25 15:19:31 - Election ID from request: 1
+2026-02-25 15:19:31 - Processing PUT request
+2026-02-25 15:19:31 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-23T15:25","end_date":"2026-10-01T17:00","csrf_token":"b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e","id":"1"}
+2026-02-25 15:19:31 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-23T15:25","end_date":"2026-10-01T17:00","csrf_token":"b7f231fd4bc3a48dd19179cb53f6e51808d59de5c9444d01dc5ed635ad86619e","id":"1"}
+2026-02-25 15:19:31 - Title: Prefectorial Election 2026
+2026-02-25 15:19:31 - Start raw: 2026-02-23T15:25
+2026-02-25 15:19:31 - End raw: 2026-10-01T17:00
+2026-02-25 15:19:31 - Normalizing datetime: 2026-02-23T15:25
+2026-02-25 15:19:31 - Normalized start: 2026-02-23 15:25:00
+2026-02-25 15:19:31 - Normalizing datetime: 2026-10-01T17:00
+2026-02-25 15:19:31 - Normalized end: 2026-10-01 17:00:00
+2026-02-25 15:19:31 - Transaction started
+2026-02-25 15:19:31 - Fetching current election data: 1
+2026-02-25 15:19:31 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-23 15:25:00","end_date":"2026-10-01 17:00:00","status":"active","created_at":"2026-02-23 15:22:34","updated_at":"2026-02-25 15:18:40"}
+2026-02-25 15:19:31 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-25 15:19:31 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-23 15:25:00",":end":"2026-10-01 17:00:00"}
+2026-02-25 15:19:31 - Update executed
+2026-02-25 15:19:31 - New status: active
+2026-02-25 15:19:31 - Other active elections ended
+2026-02-25 15:19:31 - Status updated
+2026-02-25 15:19:31 - Transaction committed
+2026-02-25 15:19:31 Response code: 200
+2026-02-25 15:19:31 Response data: {"success":true,"message":"Election updated"}
+2026-02-25 15:19:31 =========== REQUEST ENDED ===========
+
+2026-02-25 20:40:52 =========== REQUEST STARTED ===========
+2026-02-25 20:40:52 Method: POST
+2026-02-25 20:40:52 URI: /nkoranza-voting/api/admin/elections.php
+2026-02-25 19:40:52 - Loading required files
+2026-02-25 19:40:52 - constants.php loaded
+2026-02-25 19:40:52 - db_connect.php loaded
+2026-02-25 19:40:52 - ActivityLogger.php loaded
+2026-02-25 19:40:52 - functions.php loaded
+2026-02-25 19:40:52 - Getting database connection
+2026-02-25 19:40:52 - Database connection successful
+2026-02-25 19:40:52 - Creating ActivityLogger
+2026-02-25 19:40:52 - ActivityLogger created
+2026-02-25 19:40:52 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-25 19:40:52 - Admin check passed
+2026-02-25 19:40:52 - Original method: POST
+2026-02-25 19:40:52 - Final method: POST
+2026-02-25 19:40:52 - Validating CSRF token
+2026-02-25 19:40:52 - CSRF from headers: 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+2026-02-25 19:40:52 - Session CSRF token: 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+2026-02-25 19:40:52 - Received CSRF token: 945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a
+2026-02-25 19:40:52 - CSRF validation passed
+2026-02-25 19:40:52 - Updating election statuses
+2026-02-25 19:40:52 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-25 19:40:52 - Election ID from request
+2026-02-25 19:40:52 - Processing POST request
+2026-02-25 19:40:52 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-10-01T19:00","csrf_token":"945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a"}
+2026-02-25 19:40:52 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-10-01T19:00","csrf_token":"945ccf8f4f211a0b505569f613169f8397c2daa033601ffea6686904cf393c3a"}
+2026-02-25 19:40:52 - Title: Prefectorial Election 2026
+2026-02-25 19:40:52 - Start raw: 2026-02-25T19:45
+2026-02-25 19:40:52 - End raw: 2026-10-01T19:00
+2026-02-25 19:40:52 - Normalizing datetime: 2026-02-25T19:45
+2026-02-25 19:40:52 - Normalizing datetime: 2026-10-01T19:00
+2026-02-25 19:40:52 - Normalized start: 2026-02-25 19:45:00
+2026-02-25 19:40:52 - Normalized end: 2026-10-01 19:00:00
+2026-02-25 19:40:52 - Checking for duplicates
+2026-02-25 19:40:52 - Computed status: upcoming
+2026-02-25 19:40:52 - Transaction started
+2026-02-25 19:40:52 - Inserting new election
+2026-02-25 19:40:52 - New election ID: 1
+2026-02-25 19:40:52 - Transaction committed
+2026-02-25 19:40:52 Response code: 200
+2026-02-25 19:40:52 Response data: {"success":true,"message":"Election created","election_id":"1"}
+2026-02-25 19:40:52 =========== REQUEST ENDED ===========
+
+2026-02-26 03:31:19 =========== REQUEST STARTED ===========
+2026-02-26 03:31:19 Method: PUT
+2026-02-26 03:31:19 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-26 02:31:19 - Loading required files
+2026-02-26 02:31:19 - constants.php loaded
+2026-02-26 02:31:19 - db_connect.php loaded
+2026-02-26 02:31:19 - ActivityLogger.php loaded
+2026-02-26 02:31:19 - functions.php loaded
+2026-02-26 02:31:19 - Getting database connection
+2026-02-26 02:31:19 - Database connection successful
+2026-02-26 02:31:19 - Creating ActivityLogger
+2026-02-26 02:31:19 - ActivityLogger created
+2026-02-26 02:31:19 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-26 02:31:19 - Admin check passed
+2026-02-26 02:31:19 - Original method: PUT
+2026-02-26 02:31:19 - Final method: PUT
+2026-02-26 02:31:19 - Validating CSRF token
+2026-02-26 02:31:19 - CSRF from headers: f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15
+2026-02-26 02:31:19 - Session CSRF token: f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15
+2026-02-26 02:31:19 - Received CSRF token: f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15
+2026-02-26 02:31:19 - CSRF validation passed
+2026-02-26 02:31:19 - Updating election statuses
+2026-02-26 02:31:19 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-26 02:31:19 - Election ID from request: 1
+2026-02-26 02:31:19 - Processing PUT request
+2026-02-26 02:31:19 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-02-26T14:33","csrf_token":"f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15","id":"1"}
+2026-02-26 02:31:19 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-02-26T14:33","csrf_token":"f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15","id":"1"}
+2026-02-26 02:31:19 - Title: Prefectorial Election 2026
+2026-02-26 02:31:19 - Start raw: 2026-02-25T19:45
+2026-02-26 02:31:19 - End raw: 2026-02-26T14:33
+2026-02-26 02:31:19 - Normalizing datetime: 2026-02-25T19:45
+2026-02-26 02:31:19 - Normalized start: 2026-02-25 19:45:00
+2026-02-26 02:31:19 - Normalizing datetime: 2026-02-26T14:33
+2026-02-26 02:31:19 - Normalized end: 2026-02-26 14:33:00
+2026-02-26 02:31:19 - Transaction started
+2026-02-26 02:31:19 - Fetching current election data: 1
+2026-02-26 02:31:19 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 19:45:00","end_date":"2026-10-01 19:00:00","status":"active","created_at":"2026-02-25 19:40:52","updated_at":"2026-02-25 19:56:53"}
+2026-02-26 02:31:19 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-26 02:31:19 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 19:45:00",":end":"2026-02-26 14:33:00"}
+2026-02-26 02:31:19 - Update executed
+2026-02-26 02:31:19 - New status: active
+2026-02-26 02:31:19 - Other active elections ended
+2026-02-26 02:31:19 - Status updated
+2026-02-26 02:31:19 - Transaction committed
+2026-02-26 02:31:19 Response code: 200
+2026-02-26 02:31:19 Response data: {"success":true,"message":"Election updated"}
+2026-02-26 02:31:19 =========== REQUEST ENDED ===========
+
+2026-02-26 03:31:58 =========== REQUEST STARTED ===========
+2026-02-26 03:31:58 Method: PUT
+2026-02-26 03:31:58 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-26 02:31:58 - Loading required files
+2026-02-26 02:31:58 - constants.php loaded
+2026-02-26 02:31:58 - db_connect.php loaded
+2026-02-26 02:31:58 - ActivityLogger.php loaded
+2026-02-26 02:31:58 - functions.php loaded
+2026-02-26 02:31:58 - Getting database connection
+2026-02-26 02:31:58 - Database connection successful
+2026-02-26 02:31:58 - Creating ActivityLogger
+2026-02-26 02:31:58 - ActivityLogger created
+2026-02-26 02:31:58 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-26 02:31:58 - Admin check passed
+2026-02-26 02:31:58 - Original method: PUT
+2026-02-26 02:31:58 - Final method: PUT
+2026-02-26 02:31:58 - Validating CSRF token
+2026-02-26 02:31:58 - CSRF from headers: f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15
+2026-02-26 02:31:58 - Session CSRF token: f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15
+2026-02-26 02:31:58 - Received CSRF token: f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15
+2026-02-26 02:31:58 - CSRF validation passed
+2026-02-26 02:31:58 - Updating election statuses
+2026-02-26 02:31:58 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-26 02:31:58 - Election ID from request: 1
+2026-02-26 02:31:58 - Processing PUT request
+2026-02-26 02:31:58 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-02-26T02:33","csrf_token":"f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15","id":"1"}
+2026-02-26 02:31:58 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-02-26T02:33","csrf_token":"f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15","id":"1"}
+2026-02-26 02:31:58 - Title: Prefectorial Election 2026
+2026-02-26 02:31:58 - Start raw: 2026-02-25T19:45
+2026-02-26 02:31:58 - End raw: 2026-02-26T02:33
+2026-02-26 02:31:58 - Normalizing datetime: 2026-02-25T19:45
+2026-02-26 02:31:58 - Normalized start: 2026-02-25 19:45:00
+2026-02-26 02:31:58 - Normalizing datetime: 2026-02-26T02:33
+2026-02-26 02:31:58 - Normalized end: 2026-02-26 02:33:00
+2026-02-26 02:31:58 - Transaction started
+2026-02-26 02:31:58 - Fetching current election data: 1
+2026-02-26 02:31:58 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 19:45:00","end_date":"2026-02-26 14:33:00","status":"active","created_at":"2026-02-25 19:40:52","updated_at":"2026-02-26 02:31:19"}
+2026-02-26 02:31:58 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-26 02:31:58 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 19:45:00",":end":"2026-02-26 02:33:00"}
+2026-02-26 02:31:58 - Update executed
+2026-02-26 02:31:58 - New status: active
+2026-02-26 02:31:58 - Other active elections ended
+2026-02-26 02:31:58 - Status updated
+2026-02-26 02:31:58 - Transaction committed
+2026-02-26 02:31:58 Response code: 200
+2026-02-26 02:31:58 Response data: {"success":true,"message":"Election updated"}
+2026-02-26 02:31:58 =========== REQUEST ENDED ===========
+
+2026-02-26 03:36:19 =========== REQUEST STARTED ===========
+2026-02-26 03:36:19 Method: PUT
+2026-02-26 03:36:19 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-26 02:36:19 - Loading required files
+2026-02-26 02:36:19 - constants.php loaded
+2026-02-26 02:36:19 - db_connect.php loaded
+2026-02-26 02:36:19 - ActivityLogger.php loaded
+2026-02-26 02:36:19 - functions.php loaded
+2026-02-26 02:36:19 - Getting database connection
+2026-02-26 02:36:19 - Database connection successful
+2026-02-26 02:36:19 - Creating ActivityLogger
+2026-02-26 02:36:19 - ActivityLogger created
+2026-02-26 02:36:19 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-26 02:36:19 - Admin check passed
+2026-02-26 02:36:19 - Original method: PUT
+2026-02-26 02:36:19 - Final method: PUT
+2026-02-26 02:36:19 - Validating CSRF token
+2026-02-26 02:36:19 - CSRF from headers: f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15
+2026-02-26 02:36:19 - Session CSRF token: f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15
+2026-02-26 02:36:19 - Received CSRF token: f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15
+2026-02-26 02:36:19 - CSRF validation passed
+2026-02-26 02:36:19 - Updating election statuses
+2026-02-26 02:36:19 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-26 02:36:19 - Election ID from request: 1
+2026-02-26 02:36:19 - Processing PUT request
+2026-02-26 02:36:19 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-10-01T19:00","csrf_token":"f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15","id":"1"}
+2026-02-26 02:36:19 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-10-01T19:00","csrf_token":"f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15","id":"1"}
+2026-02-26 02:36:19 - Title: Prefectorial Election 2026
+2026-02-26 02:36:19 - Start raw: 2026-02-25T19:45
+2026-02-26 02:36:19 - End raw: 2026-10-01T19:00
+2026-02-26 02:36:19 - Normalizing datetime: 2026-02-25T19:45
+2026-02-26 02:36:19 - Normalized start: 2026-02-25 19:45:00
+2026-02-26 02:36:19 - Normalizing datetime: 2026-10-01T19:00
+2026-02-26 02:36:19 - Normalized end: 2026-10-01 19:00:00
+2026-02-26 02:36:19 - Transaction started
+2026-02-26 02:36:19 - Fetching current election data: 1
+2026-02-26 02:36:19 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 19:45:00","end_date":"2026-02-26 02:33:00","status":"ended","created_at":"2026-02-25 19:40:52","updated_at":"2026-02-26 02:33:39"}
+2026-02-26 02:36:19 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-26 02:36:19 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 19:45:00",":end":"2026-10-01 19:00:00"}
+2026-02-26 02:36:19 - Update executed
+2026-02-26 02:36:19 - New status: active
+2026-02-26 02:36:19 - Other active elections ended
+2026-02-26 02:36:19 - Status updated
+2026-02-26 02:36:19 - Transaction committed
+2026-02-26 02:36:19 Response code: 200
+2026-02-26 02:36:20 Response data: {"success":true,"message":"Election updated"}
+2026-02-26 02:36:20 =========== REQUEST ENDED ===========
+
+2026-02-26 03:42:50 =========== REQUEST STARTED ===========
+2026-02-26 03:42:50 Method: PUT
+2026-02-26 03:42:50 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-26 02:42:50 - Loading required files
+2026-02-26 02:42:50 - constants.php loaded
+2026-02-26 02:42:50 - db_connect.php loaded
+2026-02-26 02:42:50 - ActivityLogger.php loaded
+2026-02-26 02:42:50 - functions.php loaded
+2026-02-26 02:42:50 - Getting database connection
+2026-02-26 02:42:50 - Database connection successful
+2026-02-26 02:42:50 - Creating ActivityLogger
+2026-02-26 02:42:50 - ActivityLogger created
+2026-02-26 02:42:50 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-26 02:42:50 - Admin check passed
+2026-02-26 02:42:50 - Original method: PUT
+2026-02-26 02:42:50 - Final method: PUT
+2026-02-26 02:42:50 - Validating CSRF token
+2026-02-26 02:42:50 - CSRF from headers: f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15
+2026-02-26 02:42:50 - Session CSRF token: f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15
+2026-02-26 02:42:50 - Received CSRF token: f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15
+2026-02-26 02:42:50 - CSRF validation passed
+2026-02-26 02:42:50 - Updating election statuses
+2026-02-26 02:42:50 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-26 02:42:50 - Election ID from request: 1
+2026-02-26 02:42:50 - Processing PUT request
+2026-02-26 02:42:50 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic ","start_date":"2026-02-25T19:45","end_date":"2026-10-01T19:00","csrf_token":"f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15","id":"1"}
+2026-02-26 02:42:50 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic ","start_date":"2026-02-25T19:45","end_date":"2026-10-01T19:00","csrf_token":"f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15","id":"1"}
+2026-02-26 02:42:50 - Title: Prefectorial Election 2026
+2026-02-26 02:42:50 - Start raw: 2026-02-25T19:45
+2026-02-26 02:42:50 - End raw: 2026-10-01T19:00
+2026-02-26 02:42:50 - Normalizing datetime: 2026-02-25T19:45
+2026-02-26 02:42:50 - Normalized start: 2026-02-25 19:45:00
+2026-02-26 02:42:50 - Normalizing datetime: 2026-10-01T19:00
+2026-02-26 02:42:50 - Normalized end: 2026-10-01 19:00:00
+2026-02-26 02:42:50 - Transaction started
+2026-02-26 02:42:50 - Fetching current election data: 1
+2026-02-26 02:42:50 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 19:45:00","end_date":"2026-10-01 19:00:00","status":"active","created_at":"2026-02-25 19:40:52","updated_at":"2026-02-26 02:36:19"}
+2026-02-26 02:42:50 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-26 02:42:50 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic",":start":"2026-02-25 19:45:00",":end":"2026-10-01 19:00:00"}
+2026-02-26 02:42:50 - Update executed
+2026-02-26 02:42:50 - New status: active
+2026-02-26 02:42:50 - Other active elections ended
+2026-02-26 02:42:50 - Status updated
+2026-02-26 02:42:50 - Transaction committed
+2026-02-26 02:42:50 Response code: 200
+2026-02-26 02:42:50 Response data: {"success":true,"message":"Election updated"}
+2026-02-26 02:42:50 =========== REQUEST ENDED ===========
+
+2026-02-26 03:43:03 =========== REQUEST STARTED ===========
+2026-02-26 03:43:03 Method: PUT
+2026-02-26 03:43:03 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-26 02:43:03 - Loading required files
+2026-02-26 02:43:03 - constants.php loaded
+2026-02-26 02:43:03 - db_connect.php loaded
+2026-02-26 02:43:03 - ActivityLogger.php loaded
+2026-02-26 02:43:03 - functions.php loaded
+2026-02-26 02:43:03 - Getting database connection
+2026-02-26 02:43:03 - Database connection successful
+2026-02-26 02:43:03 - Creating ActivityLogger
+2026-02-26 02:43:03 - ActivityLogger created
+2026-02-26 02:43:03 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-26 02:43:03 - Admin check passed
+2026-02-26 02:43:03 - Original method: PUT
+2026-02-26 02:43:03 - Final method: PUT
+2026-02-26 02:43:03 - Validating CSRF token
+2026-02-26 02:43:03 - CSRF from headers: f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15
+2026-02-26 02:43:03 - Session CSRF token: f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15
+2026-02-26 02:43:03 - Received CSRF token: f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15
+2026-02-26 02:43:03 - CSRF validation passed
+2026-02-26 02:43:03 - Updating election statuses
+2026-02-26 02:43:03 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-26 02:43:03 - Election ID from request: 1
+2026-02-26 02:43:03 - Processing PUT request
+2026-02-26 02:43:03 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-10-01T19:00","csrf_token":"f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15","id":"1"}
+2026-02-26 02:43:03 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-10-01T19:00","csrf_token":"f4fe17f538f69921f55e461a951a5bef246f692996f76ce87414eaf1b5315f15","id":"1"}
+2026-02-26 02:43:03 - Title: Prefectorial Election 2026
+2026-02-26 02:43:03 - Start raw: 2026-02-25T19:45
+2026-02-26 02:43:03 - End raw: 2026-10-01T19:00
+2026-02-26 02:43:03 - Normalizing datetime: 2026-02-25T19:45
+2026-02-26 02:43:03 - Normalized start: 2026-02-25 19:45:00
+2026-02-26 02:43:03 - Normalizing datetime: 2026-10-01T19:00
+2026-02-26 02:43:03 - Normalized end: 2026-10-01 19:00:00
+2026-02-26 02:43:03 - Transaction started
+2026-02-26 02:43:03 - Fetching current election data: 1
+2026-02-26 02:43:03 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic","start_date":"2026-02-25 19:45:00","end_date":"2026-10-01 19:00:00","status":"active","created_at":"2026-02-25 19:40:52","updated_at":"2026-02-26 02:42:50"}
+2026-02-26 02:43:03 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-26 02:43:03 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 19:45:00",":end":"2026-10-01 19:00:00"}
+2026-02-26 02:43:03 - Update executed
+2026-02-26 02:43:03 - New status: active
+2026-02-26 02:43:03 - Other active elections ended
+2026-02-26 02:43:03 - Status updated
+2026-02-26 02:43:03 - Transaction committed
+2026-02-26 02:43:03 Response code: 200
+2026-02-26 02:43:03 Response data: {"success":true,"message":"Election updated"}
+2026-02-26 02:43:03 =========== REQUEST ENDED ===========
+
+2026-02-27 04:26:13 =========== REQUEST STARTED ===========
+2026-02-27 04:26:13 Method: PUT
+2026-02-27 04:26:13 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-27 03:26:13 - Loading required files
+2026-02-27 03:26:13 - constants.php loaded
+2026-02-27 03:26:13 - db_connect.php loaded
+2026-02-27 03:26:13 - ActivityLogger.php loaded
+2026-02-27 03:26:13 - functions.php loaded
+2026-02-27 03:26:13 - Getting database connection
+2026-02-27 03:26:13 - Database connection successful
+2026-02-27 03:26:13 - Creating ActivityLogger
+2026-02-27 03:26:13 - ActivityLogger created
+2026-02-27 03:26:13 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 03:26:13 - Admin check passed
+2026-02-27 03:26:13 - Original method: PUT
+2026-02-27 03:26:13 - Final method: PUT
+2026-02-27 03:26:13 - Validating CSRF token
+2026-02-27 03:26:13 - CSRF from headers: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 03:26:13 - Session CSRF token: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 03:26:13 - Received CSRF token: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 03:26:13 - CSRF validation passed
+2026-02-27 03:26:13 - Updating election statuses
+2026-02-27 03:26:13 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 03:26:13 - Election ID from request: 1
+2026-02-27 03:26:13 - Processing PUT request
+2026-02-27 03:26:13 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-02-27T03:27","csrf_token":"4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20","id":"1"}
+2026-02-27 03:26:13 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-02-27T03:27","csrf_token":"4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20","id":"1"}
+2026-02-27 03:26:13 - Title: Prefectorial Election 2026
+2026-02-27 03:26:13 - Start raw: 2026-02-25T19:45
+2026-02-27 03:26:13 - End raw: 2026-02-27T03:27
+2026-02-27 03:26:13 - Normalizing datetime: 2026-02-25T19:45
+2026-02-27 03:26:13 - Normalized start: 2026-02-25 19:45:00
+2026-02-27 03:26:13 - Normalizing datetime: 2026-02-27T03:27
+2026-02-27 03:26:13 - Normalized end: 2026-02-27 03:27:00
+2026-02-27 03:26:13 - Transaction started
+2026-02-27 03:26:13 - Fetching current election data: 1
+2026-02-27 03:26:13 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 19:45:00","end_date":"2026-10-01 19:00:00","status":"active","created_at":"2026-02-25 19:40:52","updated_at":"2026-02-26 02:43:03"}
+2026-02-27 03:26:13 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-27 03:26:13 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 19:45:00",":end":"2026-02-27 03:27:00"}
+2026-02-27 03:26:13 - Update executed
+2026-02-27 03:26:13 - New status: active
+2026-02-27 03:26:13 - Other active elections ended
+2026-02-27 03:26:13 - Status updated
+2026-02-27 03:26:13 - Transaction committed
+2026-02-27 03:26:13 Response code: 200
+2026-02-27 03:26:13 Response data: {"success":true,"message":"Election updated"}
+2026-02-27 03:26:13 =========== REQUEST ENDED ===========
+
+2026-02-27 04:40:16 =========== REQUEST STARTED ===========
+2026-02-27 04:40:16 Method: PUT
+2026-02-27 04:40:16 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-27 03:40:16 - Loading required files
+2026-02-27 03:40:16 - constants.php loaded
+2026-02-27 03:40:16 - db_connect.php loaded
+2026-02-27 03:40:16 - ActivityLogger.php loaded
+2026-02-27 03:40:16 - functions.php loaded
+2026-02-27 03:40:16 - Getting database connection
+2026-02-27 03:40:16 - Database connection successful
+2026-02-27 03:40:16 - Creating ActivityLogger
+2026-02-27 03:40:16 - ActivityLogger created
+2026-02-27 03:40:16 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 03:40:16 - Admin check passed
+2026-02-27 03:40:16 - Original method: PUT
+2026-02-27 03:40:16 - Final method: PUT
+2026-02-27 03:40:16 - Validating CSRF token
+2026-02-27 03:40:16 - CSRF from headers: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 03:40:16 - Session CSRF token: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 03:40:16 - Received CSRF token: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 03:40:16 - CSRF validation passed
+2026-02-27 03:40:16 - Updating election statuses
+2026-02-27 03:40:16 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 03:40:16 - Election ID from request: 1
+2026-02-27 03:40:16 - Processing PUT request
+2026-02-27 03:40:16 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-10-01T19:00","csrf_token":"4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20","id":"1"}
+2026-02-27 03:40:16 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-10-01T19:00","csrf_token":"4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20","id":"1"}
+2026-02-27 03:40:16 - Title: Prefectorial Election 2026
+2026-02-27 03:40:16 - Start raw: 2026-02-25T19:45
+2026-02-27 03:40:16 - End raw: 2026-10-01T19:00
+2026-02-27 03:40:16 - Normalizing datetime: 2026-02-25T19:45
+2026-02-27 03:40:16 - Normalized start: 2026-02-25 19:45:00
+2026-02-27 03:40:16 - Normalizing datetime: 2026-10-01T19:00
+2026-02-27 03:40:16 - Normalized end: 2026-10-01 19:00:00
+2026-02-27 03:40:16 - Transaction started
+2026-02-27 03:40:16 - Fetching current election data: 1
+2026-02-27 03:40:16 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 19:45:00","end_date":"2026-02-27 03:27:00","status":"ended","created_at":"2026-02-25 19:40:52","updated_at":"2026-02-27 03:27:28"}
+2026-02-27 03:40:16 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-27 03:40:16 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 19:45:00",":end":"2026-10-01 19:00:00"}
+2026-02-27 03:40:16 - Update executed
+2026-02-27 03:40:16 - New status: active
+2026-02-27 03:40:16 - Other active elections ended
+2026-02-27 03:40:16 - Status updated
+2026-02-27 03:40:16 - Transaction committed
+2026-02-27 03:40:16 Response code: 200
+2026-02-27 03:40:16 Response data: {"success":true,"message":"Election updated"}
+2026-02-27 03:40:16 =========== REQUEST ENDED ===========
+
+2026-02-27 04:41:30 =========== REQUEST STARTED ===========
+2026-02-27 04:41:30 Method: PUT
+2026-02-27 04:41:30 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-27 03:41:30 - Loading required files
+2026-02-27 03:41:30 - constants.php loaded
+2026-02-27 03:41:30 - db_connect.php loaded
+2026-02-27 03:41:30 - ActivityLogger.php loaded
+2026-02-27 03:41:30 - functions.php loaded
+2026-02-27 03:41:30 - Getting database connection
+2026-02-27 03:41:30 - Database connection successful
+2026-02-27 03:41:30 - Creating ActivityLogger
+2026-02-27 03:41:30 - ActivityLogger created
+2026-02-27 03:41:30 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 03:41:30 - Admin check passed
+2026-02-27 03:41:30 - Original method: PUT
+2026-02-27 03:41:30 - Final method: PUT
+2026-02-27 03:41:30 - Validating CSRF token
+2026-02-27 03:41:30 - CSRF from headers: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 03:41:30 - Session CSRF token: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 03:41:30 - Received CSRF token: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 03:41:30 - CSRF validation passed
+2026-02-27 03:41:30 - Updating election statuses
+2026-02-27 03:41:30 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 03:41:30 - Election ID from request: 1
+2026-02-27 03:41:30 - Processing PUT request
+2026-02-27 03:41:30 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-02-27T03:43","csrf_token":"4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20","id":"1"}
+2026-02-27 03:41:30 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-02-27T03:43","csrf_token":"4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20","id":"1"}
+2026-02-27 03:41:30 - Title: Prefectorial Election 2026
+2026-02-27 03:41:30 - Start raw: 2026-02-25T19:45
+2026-02-27 03:41:30 - End raw: 2026-02-27T03:43
+2026-02-27 03:41:30 - Normalizing datetime: 2026-02-25T19:45
+2026-02-27 03:41:30 - Normalized start: 2026-02-25 19:45:00
+2026-02-27 03:41:30 - Normalizing datetime: 2026-02-27T03:43
+2026-02-27 03:41:30 - Normalized end: 2026-02-27 03:43:00
+2026-02-27 03:41:30 - Transaction started
+2026-02-27 03:41:30 - Fetching current election data: 1
+2026-02-27 03:41:30 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 19:45:00","end_date":"2026-10-01 19:00:00","status":"active","created_at":"2026-02-25 19:40:52","updated_at":"2026-02-27 03:40:16"}
+2026-02-27 03:41:30 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-27 03:41:30 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 19:45:00",":end":"2026-02-27 03:43:00"}
+2026-02-27 03:41:30 - Update executed
+2026-02-27 03:41:30 - New status: active
+2026-02-27 03:41:30 - Other active elections ended
+2026-02-27 03:41:30 - Status updated
+2026-02-27 03:41:30 - Transaction committed
+2026-02-27 03:41:30 Response code: 200
+2026-02-27 03:41:30 Response data: {"success":true,"message":"Election updated"}
+2026-02-27 03:41:30 =========== REQUEST ENDED ===========
+
+2026-02-27 04:57:07 =========== REQUEST STARTED ===========
+2026-02-27 04:57:07 Method: PUT
+2026-02-27 04:57:07 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-27 03:57:07 - Loading required files
+2026-02-27 03:57:07 - constants.php loaded
+2026-02-27 03:57:07 - db_connect.php loaded
+2026-02-27 03:57:07 - ActivityLogger.php loaded
+2026-02-27 03:57:07 - functions.php loaded
+2026-02-27 03:57:07 - Getting database connection
+2026-02-27 03:57:07 - Database connection successful
+2026-02-27 03:57:07 - Creating ActivityLogger
+2026-02-27 03:57:07 - ActivityLogger created
+2026-02-27 03:57:07 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 03:57:07 - Admin check passed
+2026-02-27 03:57:07 - Original method: PUT
+2026-02-27 03:57:07 - Final method: PUT
+2026-02-27 03:57:07 - Validating CSRF token
+2026-02-27 03:57:07 - CSRF from headers: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 03:57:07 - Session CSRF token: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 03:57:07 - Received CSRF token: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 03:57:07 - CSRF validation passed
+2026-02-27 03:57:07 - Updating election statuses
+2026-02-27 03:57:07 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 03:57:07 - Election ID from request: 1
+2026-02-27 03:57:07 - Processing PUT request
+2026-02-27 03:57:07 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-02-27T04:00","csrf_token":"4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20","id":"1"}
+2026-02-27 03:57:07 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-02-27T04:00","csrf_token":"4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20","id":"1"}
+2026-02-27 03:57:07 - Title: Prefectorial Election 2026
+2026-02-27 03:57:07 - Start raw: 2026-02-25T19:45
+2026-02-27 03:57:07 - End raw: 2026-02-27T04:00
+2026-02-27 03:57:07 - Normalizing datetime: 2026-02-25T19:45
+2026-02-27 03:57:07 - Normalized start: 2026-02-25 19:45:00
+2026-02-27 03:57:07 - Normalizing datetime: 2026-02-27T04:00
+2026-02-27 03:57:07 - Normalized end: 2026-02-27 04:00:00
+2026-02-27 03:57:07 - Transaction started
+2026-02-27 03:57:07 - Fetching current election data: 1
+2026-02-27 03:57:07 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 19:45:00","end_date":"2026-02-27 03:43:00","status":"ended","created_at":"2026-02-25 19:40:52","updated_at":"2026-02-27 03:44:19"}
+2026-02-27 03:57:07 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-27 03:57:07 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 19:45:00",":end":"2026-02-27 04:00:00"}
+2026-02-27 03:57:07 - Update executed
+2026-02-27 03:57:07 - New status: active
+2026-02-27 03:57:07 - Other active elections ended
+2026-02-27 03:57:07 - Status updated
+2026-02-27 03:57:07 - Transaction committed
+2026-02-27 03:57:07 Response code: 200
+2026-02-27 03:57:07 Response data: {"success":true,"message":"Election updated"}
+2026-02-27 03:57:07 =========== REQUEST ENDED ===========
+
+2026-02-27 05:02:45 =========== REQUEST STARTED ===========
+2026-02-27 05:02:45 Method: PUT
+2026-02-27 05:02:45 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-27 04:02:45 - Loading required files
+2026-02-27 04:02:45 - constants.php loaded
+2026-02-27 04:02:45 - db_connect.php loaded
+2026-02-27 04:02:45 - ActivityLogger.php loaded
+2026-02-27 04:02:45 - functions.php loaded
+2026-02-27 04:02:45 - Getting database connection
+2026-02-27 04:02:45 - Database connection successful
+2026-02-27 04:02:45 - Creating ActivityLogger
+2026-02-27 04:02:45 - ActivityLogger created
+2026-02-27 04:02:45 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 04:02:45 - Admin check passed
+2026-02-27 04:02:45 - Original method: PUT
+2026-02-27 04:02:45 - Final method: PUT
+2026-02-27 04:02:45 - Validating CSRF token
+2026-02-27 04:02:45 - CSRF from headers: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 04:02:45 - Session CSRF token: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 04:02:45 - Received CSRF token: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 04:02:45 - CSRF validation passed
+2026-02-27 04:02:45 - Updating election statuses
+2026-02-27 04:02:45 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 04:02:45 - Election ID from request: 1
+2026-02-27 04:02:45 - Processing PUT request
+2026-02-27 04:02:45 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-02-27T04:04","csrf_token":"4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20","id":"1"}
+2026-02-27 04:02:45 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-02-27T04:04","csrf_token":"4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20","id":"1"}
+2026-02-27 04:02:45 - Title: Prefectorial Election 2026
+2026-02-27 04:02:45 - Start raw: 2026-02-25T19:45
+2026-02-27 04:02:45 - End raw: 2026-02-27T04:04
+2026-02-27 04:02:45 - Normalizing datetime: 2026-02-25T19:45
+2026-02-27 04:02:45 - Normalized start: 2026-02-25 19:45:00
+2026-02-27 04:02:45 - Normalizing datetime: 2026-02-27T04:04
+2026-02-27 04:02:45 - Normalized end: 2026-02-27 04:04:00
+2026-02-27 04:02:45 - Transaction started
+2026-02-27 04:02:45 - Fetching current election data: 1
+2026-02-27 04:02:45 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 19:45:00","end_date":"2026-02-27 04:00:00","status":"ended","created_at":"2026-02-25 19:40:52","updated_at":"2026-02-27 04:01:58"}
+2026-02-27 04:02:45 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-27 04:02:45 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 19:45:00",":end":"2026-02-27 04:04:00"}
+2026-02-27 04:02:45 - Update executed
+2026-02-27 04:02:45 - New status: active
+2026-02-27 04:02:45 - Other active elections ended
+2026-02-27 04:02:45 - Status updated
+2026-02-27 04:02:45 - Transaction committed
+2026-02-27 04:02:45 Response code: 200
+2026-02-27 04:02:45 Response data: {"success":true,"message":"Election updated"}
+2026-02-27 04:02:45 =========== REQUEST ENDED ===========
+
+2026-02-27 05:06:03 =========== REQUEST STARTED ===========
+2026-02-27 05:06:03 Method: PUT
+2026-02-27 05:06:03 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-27 04:06:03 - Loading required files
+2026-02-27 04:06:03 - constants.php loaded
+2026-02-27 04:06:03 - db_connect.php loaded
+2026-02-27 04:06:03 - ActivityLogger.php loaded
+2026-02-27 04:06:03 - functions.php loaded
+2026-02-27 04:06:03 - Getting database connection
+2026-02-27 04:06:03 - Database connection successful
+2026-02-27 04:06:03 - Creating ActivityLogger
+2026-02-27 04:06:03 - ActivityLogger created
+2026-02-27 04:06:03 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 04:06:03 - Admin check passed
+2026-02-27 04:06:03 - Original method: PUT
+2026-02-27 04:06:03 - Final method: PUT
+2026-02-27 04:06:03 - Validating CSRF token
+2026-02-27 04:06:03 - CSRF from headers: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 04:06:03 - Session CSRF token: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 04:06:03 - Received CSRF token: 4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20
+2026-02-27 04:06:03 - CSRF validation passed
+2026-02-27 04:06:03 - Updating election statuses
+2026-02-27 04:06:03 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 04:06:03 - Election ID from request: 1
+2026-02-27 04:06:03 - Processing PUT request
+2026-02-27 04:06:03 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-10-01T19:00","csrf_token":"4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20","id":"1"}
+2026-02-27 04:06:03 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-10-01T19:00","csrf_token":"4a735e9a1a5c51f55e79de7902e2972d1c15514570b8e1c0a6b51eb0a4a91a20","id":"1"}
+2026-02-27 04:06:03 - Title: Prefectorial Election 2026
+2026-02-27 04:06:03 - Start raw: 2026-02-25T19:45
+2026-02-27 04:06:03 - End raw: 2026-10-01T19:00
+2026-02-27 04:06:03 - Normalizing datetime: 2026-02-25T19:45
+2026-02-27 04:06:03 - Normalized start: 2026-02-25 19:45:00
+2026-02-27 04:06:03 - Normalizing datetime: 2026-10-01T19:00
+2026-02-27 04:06:03 - Normalized end: 2026-10-01 19:00:00
+2026-02-27 04:06:03 - Transaction started
+2026-02-27 04:06:03 - Fetching current election data: 1
+2026-02-27 04:06:03 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 19:45:00","end_date":"2026-02-27 04:04:00","status":"ended","created_at":"2026-02-25 19:40:52","updated_at":"2026-02-27 04:05:00"}
+2026-02-27 04:06:03 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-27 04:06:03 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 19:45:00",":end":"2026-10-01 19:00:00"}
+2026-02-27 04:06:03 - Update executed
+2026-02-27 04:06:03 - New status: active
+2026-02-27 04:06:03 - Other active elections ended
+2026-02-27 04:06:03 - Status updated
+2026-02-27 04:06:03 - Transaction committed
+2026-02-27 04:06:03 Response code: 200
+2026-02-27 04:06:03 Response data: {"success":true,"message":"Election updated"}
+2026-02-27 04:06:03 =========== REQUEST ENDED ===========
+
+2026-02-27 09:03:00 =========== REQUEST STARTED ===========
+2026-02-27 09:03:00 Method: POST
+2026-02-27 09:03:00 URI: /nkoranza-voting/api/admin/elections.php
+2026-02-27 08:03:00 - Loading required files
+2026-02-27 08:03:00 - constants.php loaded
+2026-02-27 08:03:00 - db_connect.php loaded
+2026-02-27 08:03:00 - ActivityLogger.php loaded
+2026-02-27 08:03:00 - functions.php loaded
+2026-02-27 08:03:00 - Getting database connection
+2026-02-27 08:03:00 - Database connection successful
+2026-02-27 08:03:00 - Creating ActivityLogger
+2026-02-27 08:03:00 - ActivityLogger created
+2026-02-27 08:03:00 - Fetching system voting times
+2026-02-27 08:03:00 - System voting times: {"start":"07:00:00","end":"17:00:00","academic_year":"2026"}
+2026-02-27 08:03:00 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 08:03:00 - Admin check passed
+2026-02-27 08:03:00 - Original method: POST
+2026-02-27 08:03:00 - Final method: POST
+2026-02-27 08:03:00 - Validating CSRF token
+2026-02-27 08:03:00 - CSRF from headers: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:03:00 - Session CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:03:00 - Received CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:03:00 - CSRF validation passed
+2026-02-27 08:03:00 - Updating election statuses
+2026-02-27 08:03:00 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 08:03:00 - Election ID from request
+2026-02-27 08:03:00 - Processing POST request
+2026-02-27 08:03:00 - Raw input: {"title":"Sport Elections","description":"","start_date":"2026-02-28T08:02","end_date":"2026-03-01T08:02","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15"}
+2026-02-27 08:03:00 - Input data: {"title":"Sport Elections","description":"","start_date":"2026-02-28T08:02","end_date":"2026-03-01T08:02","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15"}
+2026-02-27 08:03:00 - Title: Sport Elections
+2026-02-27 08:03:00 - Start date raw: 2026-02-28T08:02
+2026-02-27 08:03:00 - End date raw: 2026-03-01T08:02
+2026-02-27 08:03:00 - Combined with system times: {"start":"2026-02-28 07:00:00","end":"2026-03-01 17:00:00"}
+2026-02-27 08:03:00 - Normalizing datetime: 2026-02-28 07:00:00
+2026-02-27 08:03:00 - Normalizing datetime: 2026-03-01 17:00:00
+2026-02-27 08:03:00 - Checking for duplicates
+2026-02-27 08:03:00 - Computed status: upcoming
+2026-02-27 08:03:00 - Transaction started
+2026-02-27 08:03:00 - Inserting new election with system times
+2026-02-27 08:03:00 - New election ID: 2
+2026-02-27 08:03:00 - Transaction committed
+2026-02-27 08:03:00 Response code: 200
+2026-02-27 08:03:00 Response data: {"success":true,"message":"Election created with system voting times","election_id":"2","start_datetime":"2026-02-28 07:00:00","end_datetime":"2026-03-01 17:00:00"}
+2026-02-27 08:03:00 =========== REQUEST ENDED ===========
+
+2026-02-27 09:06:09 =========== REQUEST STARTED ===========
+2026-02-27 09:06:09 Method: PUT
+2026-02-27 09:06:09 URI: /nkoranza-voting/api/admin/elections.php?id=2
+2026-02-27 08:06:09 - Loading required files
+2026-02-27 08:06:09 - constants.php loaded
+2026-02-27 08:06:09 - db_connect.php loaded
+2026-02-27 08:06:09 - ActivityLogger.php loaded
+2026-02-27 08:06:09 - functions.php loaded
+2026-02-27 08:06:09 - Getting database connection
+2026-02-27 08:06:09 - Database connection successful
+2026-02-27 08:06:09 - Creating ActivityLogger
+2026-02-27 08:06:09 - ActivityLogger created
+2026-02-27 08:06:09 - Fetching system voting times
+2026-02-27 08:06:09 - System voting times: {"start":"07:00:00","end":"17:00:00","academic_year":"2026"}
+2026-02-27 08:06:09 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 08:06:09 - Admin check passed
+2026-02-27 08:06:09 - Original method: PUT
+2026-02-27 08:06:09 - Final method: PUT
+2026-02-27 08:06:09 - Validating CSRF token
+2026-02-27 08:06:09 - CSRF from headers: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:06:09 - Session CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:06:09 - Received CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:06:09 - CSRF validation passed
+2026-02-27 08:06:09 - Updating election statuses
+2026-02-27 08:06:09 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 08:06:09 - Election ID from request: 2
+2026-02-27 08:06:09 - Processing PUT request
+2026-02-27 08:06:09 - Raw input: {"title":"Sport Elections","description":"","start_date":"2026-02-27T07:00","end_date":"2026-03-01T17:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15","id":"2"}
+2026-02-27 08:06:09 - Input data: {"title":"Sport Elections","description":"","start_date":"2026-02-27T07:00","end_date":"2026-03-01T17:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15","id":"2"}
+2026-02-27 08:06:09 - Title: Sport Elections
+2026-02-27 08:06:09 - Start date raw: 2026-02-27T07:00
+2026-02-27 08:06:09 - End date raw: 2026-03-01T17:00
+2026-02-27 08:06:09 - Normalizing datetime: 2026-02-27 07:00:00
+2026-02-27 08:06:09 - Normalized start with system time: 2026-02-27 07:00:00
+2026-02-27 08:06:09 - Normalizing datetime: 2026-03-01 17:00:00
+2026-02-27 08:06:09 - Normalized end with system time: 2026-03-01 17:00:00
+2026-02-27 08:06:09 - Transaction started
+2026-02-27 08:06:09 - Fetching current election data: 2
+2026-02-27 08:06:09 - Current data: {"id":2,"title":"Sport Elections","description":"","start_date":"2026-02-28 07:00:00","end_date":"2026-03-01 17:00:00","status":"upcoming","created_at":"2026-02-27 08:03:00","updated_at":"2026-02-27 08:03:00"}
+2026-02-27 08:06:09 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-27 08:06:09 - Update params: {":id":"2",":title":"Sport Elections",":desc":"",":start":"2026-02-27 07:00:00",":end":"2026-03-01 17:00:00"}
+2026-02-27 08:06:09 - Update executed
+2026-02-27 08:06:09 - New status: active
+2026-02-27 08:06:09 - Other active elections ended
+2026-02-27 08:06:09 - Status updated
+2026-02-27 08:06:09 - Transaction committed
+2026-02-27 08:06:09 Response code: 200
+2026-02-27 08:06:09 Response data: {"success":true,"message":"Election updated"}
+2026-02-27 08:06:09 =========== REQUEST ENDED ===========
+
+2026-02-27 09:15:29 =========== REQUEST STARTED ===========
+2026-02-27 09:15:29 Method: DELETE
+2026-02-27 09:15:29 URI: /nkoranza-voting/api/admin/elections.php?id=2
+2026-02-27 08:15:29 - Loading required files
+2026-02-27 08:15:29 - constants.php loaded
+2026-02-27 08:15:29 - db_connect.php loaded
+2026-02-27 08:15:29 - ActivityLogger.php loaded
+2026-02-27 08:15:29 - functions.php loaded
+2026-02-27 08:15:29 - Getting database connection
+2026-02-27 08:15:29 - Database connection successful
+2026-02-27 08:15:29 - Creating ActivityLogger
+2026-02-27 08:15:29 - ActivityLogger created
+2026-02-27 08:15:29 - Fetching system voting times
+2026-02-27 08:15:29 - System voting times: {"start":"07:00:00","end":"17:00:00","academic_year":"2026"}
+2026-02-27 08:15:29 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 08:15:29 - Admin check passed
+2026-02-27 08:15:29 - Original method: DELETE
+2026-02-27 08:15:29 - Final method: DELETE
+2026-02-27 08:15:29 - Validating CSRF token
+2026-02-27 08:15:29 - CSRF from headers: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:15:29 - Session CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:15:29 - Received CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:15:29 - CSRF validation passed
+2026-02-27 08:15:29 - Updating election statuses
+2026-02-27 08:15:29 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 08:15:29 - Election ID from request: 2
+2026-02-27 08:15:29 - Processing DELETE request
+2026-02-27 08:15:29 - Fetching election details: 2
+2026-02-27 08:15:29 - Election found: Sport Elections
+2026-02-27 08:15:29 - Candidate count: 0
+2026-02-27 08:15:29 - Vote count: 0
+2026-02-27 08:15:29 - Deleting election
+2026-02-27 08:15:29 - Delete successful
+2026-02-27 08:15:29 Response code: 200
+2026-02-27 08:15:29 Response data: {"success":true,"message":"Election deleted"}
+2026-02-27 08:15:29 =========== REQUEST ENDED ===========
+
+2026-02-27 09:27:12 =========== REQUEST STARTED ===========
+2026-02-27 09:27:12 Method: POST
+2026-02-27 09:27:12 URI: /nkoranza-voting/api/admin/elections.php
+2026-02-27 08:27:12 - Loading required files
+2026-02-27 08:27:12 - constants.php loaded
+2026-02-27 08:27:12 - db_connect.php loaded
+2026-02-27 08:27:12 - ActivityLogger.php loaded
+2026-02-27 08:27:12 - functions.php loaded
+2026-02-27 08:27:12 - Getting database connection
+2026-02-27 08:27:12 - Database connection successful
+2026-02-27 08:27:12 - Creating ActivityLogger
+2026-02-27 08:27:12 - ActivityLogger created
+2026-02-27 08:27:12 - Fetching system voting times
+2026-02-27 08:27:12 - System voting times: {"start":"07:00:00","end":"08:30:00","academic_year":"2026"}
+2026-02-27 08:27:12 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 08:27:12 - Admin check passed
+2026-02-27 08:27:12 - Original method: POST
+2026-02-27 08:27:12 - Final method: POST
+2026-02-27 08:27:12 - Validating CSRF token
+2026-02-27 08:27:12 - CSRF from headers: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:27:12 - Session CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:27:12 - Received CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:27:12 - CSRF validation passed
+2026-02-27 08:27:12 - Updating election statuses
+2026-02-27 08:27:12 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 08:27:12 - Election ID from request
+2026-02-27 08:27:12 - Processing POST request
+2026-02-27 08:27:12 - Raw input: {"title":"Election Sports","description":"","start_date":"2026-02-27T08:28","end_date":"2026-02-27T08:30","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15"}
+2026-02-27 08:27:12 - Input data: {"title":"Election Sports","description":"","start_date":"2026-02-27T08:28","end_date":"2026-02-27T08:30","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15"}
+2026-02-27 08:27:12 - Title: Election Sports
+2026-02-27 08:27:12 - Start date raw: 2026-02-27T08:28
+2026-02-27 08:27:12 - End date raw: 2026-02-27T08:30
+2026-02-27 08:27:12 - Combined with system times: {"start":"2026-02-27 07:00:00","end":"2026-02-27 08:30:00"}
+2026-02-27 08:27:12 - Normalizing datetime: 2026-02-27 07:00:00
+2026-02-27 08:27:12 - Normalizing datetime: 2026-02-27 08:30:00
+2026-02-27 08:27:12 - Checking for duplicates
+2026-02-27 08:27:12 - Computed status: active
+2026-02-27 08:27:12 - Transaction started
+2026-02-27 08:27:12 - Ending other active elections
+2026-02-27 08:27:12 - Inserting new election with system times
+2026-02-27 08:27:12 - New election ID: 3
+2026-02-27 08:27:12 - Transaction committed
+2026-02-27 08:27:12 Response code: 200
+2026-02-27 08:27:12 Response data: {"success":true,"message":"Election created with system voting times","election_id":"3","start_datetime":"2026-02-27 07:00:00","end_datetime":"2026-02-27 08:30:00"}
+2026-02-27 08:27:12 =========== REQUEST ENDED ===========
+
+2026-02-27 09:54:42 =========== REQUEST STARTED ===========
+2026-02-27 09:54:42 Method: POST
+2026-02-27 09:54:42 URI: /nkoranza-voting/api/admin/elections.php
+2026-02-27 08:54:42 - Loading required files
+2026-02-27 08:54:42 - constants.php loaded
+2026-02-27 08:54:42 - db_connect.php loaded
+2026-02-27 08:54:42 - ActivityLogger.php loaded
+2026-02-27 08:54:42 - functions.php loaded
+2026-02-27 08:54:42 - Getting database connection
+2026-02-27 08:54:42 - Database connection successful
+2026-02-27 08:54:42 - Creating ActivityLogger
+2026-02-27 08:54:42 - ActivityLogger created
+2026-02-27 08:54:42 - Fetching system voting times
+2026-02-27 08:54:42 - System voting times: {"start":"07:00:00","end":"08:30:00","academic_year":"2026"}
+2026-02-27 08:54:42 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 08:54:42 - Admin check passed
+2026-02-27 08:54:42 - Original method: POST
+2026-02-27 08:54:42 - Final method: POST
+2026-02-27 08:54:42 - Validating CSRF token
+2026-02-27 08:54:42 - CSRF from headers: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:54:42 - Session CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:54:42 - Received CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:54:42 - CSRF validation passed
+2026-02-27 08:54:42 - Updating election statuses
+2026-02-27 08:54:42 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 08:54:42 - Election ID from request
+2026-02-27 08:54:42 - Processing POST request
+2026-02-27 08:54:42 - Raw input: {"title":"Sports Election 2026","description":"Election of sport prefects","start_date":"2026-02-27T08:56","end_date":"2026-02-28T09:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15"}
+2026-02-27 08:54:42 - Input data: {"title":"Sports Election 2026","description":"Election of sport prefects","start_date":"2026-02-27T08:56","end_date":"2026-02-28T09:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15"}
+2026-02-27 08:54:42 - Title: Sports Election 2026
+2026-02-27 08:54:42 - Start date raw: 2026-02-27T08:56
+2026-02-27 08:54:42 - End date raw: 2026-02-28T09:00
+2026-02-27 08:54:42 - Combined with system times: {"start":"2026-02-27 07:00:00","end":"2026-02-28 08:30:00"}
+2026-02-27 08:54:42 - Normalizing datetime: 2026-02-27 07:00:00
+2026-02-27 08:54:42 - Normalizing datetime: 2026-02-28 08:30:00
+2026-02-27 08:54:42 - Checking for duplicates
+2026-02-27 08:54:42 - Computed status: active
+2026-02-27 08:54:42 - Transaction started
+2026-02-27 08:54:42 - Ending other active elections
+2026-02-27 08:54:42 - Inserting new election with system times
+2026-02-27 08:54:42 - New election ID: 4
+2026-02-27 08:54:42 - Transaction committed
+2026-02-27 08:54:42 Response code: 200
+2026-02-27 08:54:42 Response data: {"success":true,"message":"Election created with system voting times","election_id":"4","start_datetime":"2026-02-27 07:00:00","end_datetime":"2026-02-28 08:30:00"}
+2026-02-27 08:54:42 =========== REQUEST ENDED ===========
+
+2026-02-27 09:57:47 =========== REQUEST STARTED ===========
+2026-02-27 09:57:47 Method: PUT
+2026-02-27 09:57:47 URI: /nkoranza-voting/api/admin/elections.php?id=3
+2026-02-27 08:57:47 - Loading required files
+2026-02-27 08:57:47 - constants.php loaded
+2026-02-27 08:57:47 - db_connect.php loaded
+2026-02-27 08:57:47 - ActivityLogger.php loaded
+2026-02-27 08:57:47 - functions.php loaded
+2026-02-27 08:57:47 - Getting database connection
+2026-02-27 08:57:47 - Database connection successful
+2026-02-27 08:57:47 - Creating ActivityLogger
+2026-02-27 08:57:47 - ActivityLogger created
+2026-02-27 08:57:47 - Fetching system voting times
+2026-02-27 08:57:47 - System voting times: {"start":"07:00:00","end":"09:00:00","academic_year":"2026"}
+2026-02-27 08:57:47 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 08:57:47 - Admin check passed
+2026-02-27 08:57:47 - Original method: PUT
+2026-02-27 08:57:47 - Final method: PUT
+2026-02-27 08:57:47 - Validating CSRF token
+2026-02-27 08:57:47 - CSRF from headers: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:57:47 - Session CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:57:47 - Received CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:57:47 - CSRF validation passed
+2026-02-27 08:57:47 - Updating election statuses
+2026-02-27 08:57:47 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 08:57:47 - Election ID from request: 3
+2026-02-27 08:57:47 - Processing PUT request
+2026-02-27 08:57:47 - Raw input: {"title":"Election Sports","description":"","start_date":"2026-02-27T07:00","end_date":"2026-02-27T09:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15","id":"3"}
+2026-02-27 08:57:47 - Input data: {"title":"Election Sports","description":"","start_date":"2026-02-27T07:00","end_date":"2026-02-27T09:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15","id":"3"}
+2026-02-27 08:57:47 - Title: Election Sports
+2026-02-27 08:57:47 - Start date raw: 2026-02-27T07:00
+2026-02-27 08:57:47 - End date raw: 2026-02-27T09:00
+2026-02-27 08:57:47 - Normalizing datetime: 2026-02-27 07:00:00
+2026-02-27 08:57:47 - Normalized start with system time: 2026-02-27 07:00:00
+2026-02-27 08:57:47 - Normalizing datetime: 2026-02-27 09:00:00
+2026-02-27 08:57:47 - Normalized end with system time: 2026-02-27 09:00:00
+2026-02-27 08:57:47 - Transaction started
+2026-02-27 08:57:47 - Fetching current election data: 3
+2026-02-27 08:57:47 - Current data: {"id":3,"title":"Election Sports","description":"","start_date":"2026-02-27 07:00:00","end_date":"2026-02-27 08:30:00","status":"ended","created_at":"2026-02-27 08:27:12","updated_at":"2026-02-27 08:31:08"}
+2026-02-27 08:57:47 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-27 08:57:47 - Update params: {":id":"3",":title":"Election Sports",":desc":"",":start":"2026-02-27 07:00:00",":end":"2026-02-27 09:00:00"}
+2026-02-27 08:57:47 - Update executed
+2026-02-27 08:57:47 - New status: active
+2026-02-27 08:57:47 - Other active elections ended
+2026-02-27 08:57:47 - Status updated
+2026-02-27 08:57:47 - Transaction committed
+2026-02-27 08:57:47 Response code: 200
+2026-02-27 08:57:47 Response data: {"success":true,"message":"Election updated"}
+2026-02-27 08:57:47 =========== REQUEST ENDED ===========
+
+2026-02-27 09:58:42 =========== REQUEST STARTED ===========
+2026-02-27 09:58:42 Method: DELETE
+2026-02-27 09:58:42 URI: /nkoranza-voting/api/admin/elections.php?id=3
+2026-02-27 08:58:42 - Loading required files
+2026-02-27 08:58:42 - constants.php loaded
+2026-02-27 08:58:42 - db_connect.php loaded
+2026-02-27 08:58:42 - ActivityLogger.php loaded
+2026-02-27 08:58:42 - functions.php loaded
+2026-02-27 08:58:42 - Getting database connection
+2026-02-27 08:58:42 - Database connection successful
+2026-02-27 08:58:42 - Creating ActivityLogger
+2026-02-27 08:58:42 - ActivityLogger created
+2026-02-27 08:58:42 - Fetching system voting times
+2026-02-27 08:58:42 - System voting times: {"start":"07:00:00","end":"09:00:00","academic_year":"2026"}
+2026-02-27 08:58:42 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 08:58:42 - Admin check passed
+2026-02-27 08:58:42 - Original method: DELETE
+2026-02-27 08:58:42 - Final method: DELETE
+2026-02-27 08:58:42 - Validating CSRF token
+2026-02-27 08:58:42 - CSRF from headers: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:58:42 - Session CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:58:42 - Received CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:58:42 - CSRF validation passed
+2026-02-27 08:58:42 - Updating election statuses
+2026-02-27 08:58:42 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 08:58:42 - Election ID from request: 3
+2026-02-27 08:58:42 - Processing DELETE request
+2026-02-27 08:58:42 - Fetching election details: 3
+2026-02-27 08:58:42 - Election found: Election Sports
+2026-02-27 08:58:42 - Candidate count: 0
+2026-02-27 08:58:42 - Vote count: 0
+2026-02-27 08:58:42 - Deleting election
+2026-02-27 08:58:42 - Delete successful
+2026-02-27 08:58:42 Response code: 200
+2026-02-27 08:58:42 Response data: {"success":true,"message":"Election deleted"}
+2026-02-27 08:58:42 =========== REQUEST ENDED ===========
+
+2026-02-27 09:59:48 =========== REQUEST STARTED ===========
+2026-02-27 09:59:48 Method: PUT
+2026-02-27 09:59:48 URI: /nkoranza-voting/api/admin/elections.php?id=4
+2026-02-27 08:59:48 - Loading required files
+2026-02-27 08:59:48 - constants.php loaded
+2026-02-27 08:59:48 - db_connect.php loaded
+2026-02-27 08:59:48 - ActivityLogger.php loaded
+2026-02-27 08:59:48 - functions.php loaded
+2026-02-27 08:59:48 - Getting database connection
+2026-02-27 08:59:48 - Database connection successful
+2026-02-27 08:59:48 - Creating ActivityLogger
+2026-02-27 08:59:48 - ActivityLogger created
+2026-02-27 08:59:48 - Fetching system voting times
+2026-02-27 08:59:48 - System voting times: {"start":"07:00:00","end":"09:00:00","academic_year":"2026"}
+2026-02-27 08:59:48 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 08:59:48 - Admin check passed
+2026-02-27 08:59:48 - Original method: PUT
+2026-02-27 08:59:48 - Final method: PUT
+2026-02-27 08:59:48 - Validating CSRF token
+2026-02-27 08:59:48 - CSRF from headers: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:59:48 - Session CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:59:48 - Received CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 08:59:48 - CSRF validation passed
+2026-02-27 08:59:48 - Updating election statuses
+2026-02-27 08:59:48 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 08:59:48 - Election ID from request: 4
+2026-02-27 08:59:48 - Processing PUT request
+2026-02-27 08:59:48 - Raw input: {"title":"Sports Election 2026","description":"Election of sport prefects","start_date":"2026-02-27T07:00","end_date":"2026-02-27T09:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15","id":"4"}
+2026-02-27 08:59:48 - Input data: {"title":"Sports Election 2026","description":"Election of sport prefects","start_date":"2026-02-27T07:00","end_date":"2026-02-27T09:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15","id":"4"}
+2026-02-27 08:59:48 - Title: Sports Election 2026
+2026-02-27 08:59:48 - Start date raw: 2026-02-27T07:00
+2026-02-27 08:59:48 - End date raw: 2026-02-27T09:00
+2026-02-27 08:59:48 - Normalizing datetime: 2026-02-27 07:00:00
+2026-02-27 08:59:48 - Normalized start with system time: 2026-02-27 07:00:00
+2026-02-27 08:59:48 - Normalizing datetime: 2026-02-27 09:00:00
+2026-02-27 08:59:48 - Normalized end with system time: 2026-02-27 09:00:00
+2026-02-27 08:59:48 - Transaction started
+2026-02-27 08:59:48 - Fetching current election data: 4
+2026-02-27 08:59:48 - Current data: {"id":4,"title":"Sports Election 2026","description":"Election of sport prefects","start_date":"2026-02-27 07:00:00","end_date":"2026-02-28 08:30:00","status":"active","created_at":"2026-02-27 08:54:42","updated_at":"2026-02-27 08:57:48"}
+2026-02-27 08:59:48 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-27 08:59:48 - Update params: {":id":"4",":title":"Sports Election 2026",":desc":"Election of sport prefects",":start":"2026-02-27 07:00:00",":end":"2026-02-27 09:00:00"}
+2026-02-27 08:59:48 - Update executed
+2026-02-27 08:59:48 - New status: active
+2026-02-27 08:59:48 - Other active elections ended
+2026-02-27 08:59:48 - Status updated
+2026-02-27 08:59:48 - Transaction committed
+2026-02-27 08:59:48 Response code: 200
+2026-02-27 08:59:48 Response data: {"success":true,"message":"Election updated"}
+2026-02-27 08:59:48 =========== REQUEST ENDED ===========
+
+2026-02-27 10:04:15 =========== REQUEST STARTED ===========
+2026-02-27 10:04:15 Method: PUT
+2026-02-27 10:04:15 URI: /nkoranza-voting/api/admin/elections.php?id=4
+2026-02-27 09:04:15 - Loading required files
+2026-02-27 09:04:15 - constants.php loaded
+2026-02-27 09:04:15 - db_connect.php loaded
+2026-02-27 09:04:15 - ActivityLogger.php loaded
+2026-02-27 09:04:15 - functions.php loaded
+2026-02-27 09:04:15 - Getting database connection
+2026-02-27 09:04:15 - Database connection successful
+2026-02-27 09:04:15 - Creating ActivityLogger
+2026-02-27 09:04:15 - ActivityLogger created
+2026-02-27 09:04:15 - Fetching system voting times
+2026-02-27 09:04:15 - System voting times: {"start":"07:00:00","end":"17:00:00","academic_year":"2026"}
+2026-02-27 09:04:15 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 09:04:15 - Admin check passed
+2026-02-27 09:04:15 - Original method: PUT
+2026-02-27 09:04:15 - Final method: PUT
+2026-02-27 09:04:15 - Validating CSRF token
+2026-02-27 09:04:15 - CSRF from headers: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 09:04:15 - Session CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 09:04:15 - Received CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 09:04:15 - CSRF validation passed
+2026-02-27 09:04:15 - Updating election statuses
+2026-02-27 09:04:15 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 09:04:15 - Election ID from request: 4
+2026-02-27 09:04:15 - Processing PUT request
+2026-02-27 09:04:15 - Raw input: {"title":"Sports Election 2026","description":"Election of sport prefects.","start_date":"2026-02-27T07:00","end_date":"2026-02-27T09:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15","id":"4"}
+2026-02-27 09:04:15 - Input data: {"title":"Sports Election 2026","description":"Election of sport prefects.","start_date":"2026-02-27T07:00","end_date":"2026-02-27T09:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15","id":"4"}
+2026-02-27 09:04:15 - Title: Sports Election 2026
+2026-02-27 09:04:15 - Start date raw: 2026-02-27T07:00
+2026-02-27 09:04:15 - End date raw: 2026-02-27T09:00
+2026-02-27 09:04:15 - Normalizing datetime: 2026-02-27 07:00:00
+2026-02-27 09:04:15 - Normalized start with system time: 2026-02-27 07:00:00
+2026-02-27 09:04:15 - Normalizing datetime: 2026-02-27 17:00:00
+2026-02-27 09:04:15 - Normalized end with system time: 2026-02-27 17:00:00
+2026-02-27 09:04:15 - Transaction started
+2026-02-27 09:04:15 - Fetching current election data: 4
+2026-02-27 09:04:15 - Current data: {"id":4,"title":"Sports Election 2026","description":"Election of sport prefects","start_date":"2026-02-27 07:00:00","end_date":"2026-02-27 09:00:00","status":"ended","created_at":"2026-02-27 08:54:42","updated_at":"2026-02-27 09:01:37"}
+2026-02-27 09:04:15 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-27 09:04:15 - Update params: {":id":"4",":title":"Sports Election 2026",":desc":"Election of sport prefects.",":start":"2026-02-27 07:00:00",":end":"2026-02-27 17:00:00"}
+2026-02-27 09:04:15 - Update executed
+2026-02-27 09:04:15 - New status: active
+2026-02-27 09:04:15 - Other active elections ended
+2026-02-27 09:04:15 - Status updated
+2026-02-27 09:04:15 - Transaction committed
+2026-02-27 09:04:15 Response code: 200
+2026-02-27 09:04:15 Response data: {"success":true,"message":"Election updated"}
+2026-02-27 09:04:15 =========== REQUEST ENDED ===========
+
+2026-02-27 10:10:02 =========== REQUEST STARTED ===========
+2026-02-27 10:10:02 Method: DELETE
+2026-02-27 10:10:02 URI: /nkoranza-voting/api/admin/elections.php?id=4
+2026-02-27 09:10:03 - Loading required files
+2026-02-27 09:10:03 - constants.php loaded
+2026-02-27 09:10:03 - db_connect.php loaded
+2026-02-27 09:10:03 - ActivityLogger.php loaded
+2026-02-27 09:10:03 - functions.php loaded
+2026-02-27 09:10:03 - Getting database connection
+2026-02-27 09:10:03 - Database connection successful
+2026-02-27 09:10:03 - Creating ActivityLogger
+2026-02-27 09:10:03 - ActivityLogger created
+2026-02-27 09:10:03 - Fetching system voting times
+2026-02-27 09:10:03 - System voting times: {"start":"07:00:00","end":"17:00:00","academic_year":"2026"}
+2026-02-27 09:10:03 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 09:10:03 - Admin check passed
+2026-02-27 09:10:03 - Original method: DELETE
+2026-02-27 09:10:03 - Final method: DELETE
+2026-02-27 09:10:03 - Validating CSRF token
+2026-02-27 09:10:03 - CSRF from headers: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 09:10:03 - Session CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 09:10:03 - Received CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 09:10:03 - CSRF validation passed
+2026-02-27 09:10:03 - Updating election statuses
+2026-02-27 09:10:03 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 09:10:03 - Election ID from request: 4
+2026-02-27 09:10:03 - Processing DELETE request
+2026-02-27 09:10:03 - Fetching election details: 4
+2026-02-27 09:10:03 - Election found: Sports Election 2026
+2026-02-27 09:10:03 - Candidate count: 0
+2026-02-27 09:10:03 - Vote count: 0
+2026-02-27 09:10:03 - Deleting election
+2026-02-27 09:10:03 - Delete successful
+2026-02-27 09:10:03 Response code: 200
+2026-02-27 09:10:03 Response data: {"success":true,"message":"Election deleted"}
+2026-02-27 09:10:03 =========== REQUEST ENDED ===========
+
+2026-02-27 10:10:34 =========== REQUEST STARTED ===========
+2026-02-27 10:10:34 Method: PUT
+2026-02-27 10:10:34 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-27 09:10:34 - Loading required files
+2026-02-27 09:10:34 - constants.php loaded
+2026-02-27 09:10:34 - db_connect.php loaded
+2026-02-27 09:10:34 - ActivityLogger.php loaded
+2026-02-27 09:10:34 - functions.php loaded
+2026-02-27 09:10:34 - Getting database connection
+2026-02-27 09:10:34 - Database connection successful
+2026-02-27 09:10:34 - Creating ActivityLogger
+2026-02-27 09:10:34 - ActivityLogger created
+2026-02-27 09:10:34 - Fetching system voting times
+2026-02-27 09:10:34 - System voting times: {"start":"07:00:00","end":"17:00:00","academic_year":"2026"}
+2026-02-27 09:10:34 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 09:10:34 - Admin check passed
+2026-02-27 09:10:34 - Original method: PUT
+2026-02-27 09:10:34 - Final method: PUT
+2026-02-27 09:10:34 - Validating CSRF token
+2026-02-27 09:10:34 - CSRF from headers: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 09:10:34 - Session CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 09:10:34 - Received CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 09:10:34 - CSRF validation passed
+2026-02-27 09:10:34 - Updating election statuses
+2026-02-27 09:10:34 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 09:10:34 - Election ID from request: 1
+2026-02-27 09:10:34 - Processing PUT request
+2026-02-27 09:10:34 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-10-01T19:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15","id":"1"}
+2026-02-27 09:10:34 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T19:45","end_date":"2026-10-01T19:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15","id":"1"}
+2026-02-27 09:10:34 - Title: Prefectorial Election 2026
+2026-02-27 09:10:34 - Start date raw: 2026-02-25T19:45
+2026-02-27 09:10:34 - End date raw: 2026-10-01T19:00
+2026-02-27 09:10:34 - Normalizing datetime: 2026-02-25 07:00:00
+2026-02-27 09:10:34 - Normalized start with system time: 2026-02-25 07:00:00
+2026-02-27 09:10:34 - Normalizing datetime: 2026-10-01 17:00:00
+2026-02-27 09:10:34 - Normalized end with system time: 2026-10-01 17:00:00
+2026-02-27 09:10:34 - Transaction started
+2026-02-27 09:10:34 - Fetching current election data: 1
+2026-02-27 09:10:34 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 19:45:00","end_date":"2026-10-01 19:00:00","status":"active","created_at":"2026-02-25 19:40:52","updated_at":"2026-02-27 09:04:16"}
+2026-02-27 09:10:34 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-27 09:10:34 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 07:00:00",":end":"2026-10-01 17:00:00"}
+2026-02-27 09:10:34 - Update executed
+2026-02-27 09:10:34 - New status: active
+2026-02-27 09:10:34 - Other active elections ended
+2026-02-27 09:10:34 - Status updated
+2026-02-27 09:10:34 - Transaction committed
+2026-02-27 09:10:34 Response code: 200
+2026-02-27 09:10:34 Response data: {"success":true,"message":"Election updated"}
+2026-02-27 09:10:34 =========== REQUEST ENDED ===========
+
+2026-02-27 10:27:26 =========== REQUEST STARTED ===========
+2026-02-27 10:27:26 Method: POST
+2026-02-27 10:27:26 URI: /nkoranza-voting/api/admin/elections.php
+2026-02-27 09:27:26 - Loading required files
+2026-02-27 09:27:26 - constants.php loaded
+2026-02-27 09:27:26 - db_connect.php loaded
+2026-02-27 09:27:26 - ActivityLogger.php loaded
+2026-02-27 09:27:26 - functions.php loaded
+2026-02-27 09:27:26 - Getting database connection
+2026-02-27 09:27:26 - Database connection successful
+2026-02-27 09:27:26 - Creating ActivityLogger
+2026-02-27 09:27:26 - ActivityLogger created
+2026-02-27 09:27:26 - Fetching system voting times
+2026-02-27 09:27:26 - System voting times: {"start":"07:00:00","end":"17:00:00","academic_year":"2026"}
+2026-02-27 09:27:26 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 09:27:26 - Admin check passed
+2026-02-27 09:27:26 - Original method: POST
+2026-02-27 09:27:26 - Final method: POST
+2026-02-27 09:27:26 - Validating CSRF token
+2026-02-27 09:27:26 - CSRF from headers: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 09:27:26 - Session CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 09:27:26 - Received CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 09:27:26 - CSRF validation passed
+2026-02-27 09:27:26 - Updating election statuses
+2026-02-27 09:27:26 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 09:27:26 - Election ID from request
+2026-02-27 09:27:26 - Processing POST request
+2026-02-27 09:27:26 - Raw input: {"title":"Sport Prefects Election 2026","description":"","start_date":"2026-02-27T09:28","end_date":"2026-02-27T09:30","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15"}
+2026-02-27 09:27:26 - Input data: {"title":"Sport Prefects Election 2026","description":"","start_date":"2026-02-27T09:28","end_date":"2026-02-27T09:30","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15"}
+2026-02-27 09:27:26 - Title: Sport Prefects Election 2026
+2026-02-27 09:27:26 - Start date raw: 2026-02-27T09:28
+2026-02-27 09:27:26 - End date raw: 2026-02-27T09:30
+2026-02-27 09:27:26 - Combined with system times: {"start":"2026-02-27 07:00:00","end":"2026-02-27 17:00:00"}
+2026-02-27 09:27:26 - Normalizing datetime: 2026-02-27 07:00:00
+2026-02-27 09:27:26 - Normalizing datetime: 2026-02-27 17:00:00
+2026-02-27 09:27:26 - Checking for duplicates
+2026-02-27 09:27:26 - Computed status: active
+2026-02-27 09:27:26 - Transaction started
+2026-02-27 09:27:26 - Ending other active elections
+2026-02-27 09:27:26 - Inserting new election with system times
+2026-02-27 09:27:26 - New election ID: 5
+2026-02-27 09:27:26 - Transaction committed
+2026-02-27 09:27:26 Response code: 200
+2026-02-27 09:27:26 Response data: {"success":true,"message":"Election created with system voting times","election_id":"5","start_datetime":"2026-02-27 07:00:00","end_datetime":"2026-02-27 17:00:00"}
+2026-02-27 09:27:26 =========== REQUEST ENDED ===========
+
+2026-02-27 10:28:14 =========== REQUEST STARTED ===========
+2026-02-27 10:28:14 Method: DELETE
+2026-02-27 10:28:14 URI: /nkoranza-voting/api/admin/elections.php?id=5
+2026-02-27 09:28:14 - Loading required files
+2026-02-27 09:28:14 - constants.php loaded
+2026-02-27 09:28:14 - db_connect.php loaded
+2026-02-27 09:28:14 - ActivityLogger.php loaded
+2026-02-27 09:28:14 - functions.php loaded
+2026-02-27 09:28:14 - Getting database connection
+2026-02-27 09:28:14 - Database connection successful
+2026-02-27 09:28:14 - Creating ActivityLogger
+2026-02-27 09:28:14 - ActivityLogger created
+2026-02-27 09:28:14 - Fetching system voting times
+2026-02-27 09:28:14 - System voting times: {"start":"07:00:00","end":"17:00:00","academic_year":"2026"}
+2026-02-27 09:28:14 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 09:28:14 - Admin check passed
+2026-02-27 09:28:14 - Original method: DELETE
+2026-02-27 09:28:14 - Final method: DELETE
+2026-02-27 09:28:14 - Validating CSRF token
+2026-02-27 09:28:14 - CSRF from headers: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 09:28:14 - Session CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 09:28:14 - Received CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 09:28:14 - CSRF validation passed
+2026-02-27 09:28:14 - Updating election statuses
+2026-02-27 09:28:14 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 09:28:14 - Election ID from request: 5
+2026-02-27 09:28:14 - Processing DELETE request
+2026-02-27 09:28:14 - Fetching election details: 5
+2026-02-27 09:28:14 - Election found: Sport Prefects Election 2026
+2026-02-27 09:28:14 - Candidate count: 0
+2026-02-27 09:28:14 - Vote count: 0
+2026-02-27 09:28:14 - Deleting election
+2026-02-27 09:28:14 - Delete successful
+2026-02-27 09:28:14 Response code: 200
+2026-02-27 09:28:14 Response data: {"success":true,"message":"Election deleted"}
+2026-02-27 09:28:14 =========== REQUEST ENDED ===========
+
+2026-02-27 11:06:50 =========== REQUEST STARTED ===========
+2026-02-27 11:06:50 Method: PUT
+2026-02-27 11:06:50 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-27 10:06:50 - Loading required files
+2026-02-27 10:06:50 - constants.php loaded
+2026-02-27 10:06:50 - db_connect.php loaded
+2026-02-27 10:06:50 - ActivityLogger.php loaded
+2026-02-27 10:06:50 - functions.php loaded
+2026-02-27 10:06:50 - Getting database connection
+2026-02-27 10:06:50 - Database connection successful
+2026-02-27 10:06:50 - Creating ActivityLogger
+2026-02-27 10:06:50 - ActivityLogger created
+2026-02-27 10:06:50 - Fetching system voting times
+2026-02-27 10:06:50 - System voting times: {"start":"07:00:00","end":"17:00:00","academic_year":"2026"}
+2026-02-27 10:06:50 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 10:06:50 - Admin check passed
+2026-02-27 10:06:50 - Original method: PUT
+2026-02-27 10:06:50 - Final method: PUT
+2026-02-27 10:06:50 - Validating CSRF token
+2026-02-27 10:06:50 - CSRF from headers: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 10:06:50 - Session CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 10:06:50 - Received CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 10:06:50 - CSRF validation passed
+2026-02-27 10:06:50 - Updating election statuses
+2026-02-27 10:06:50 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 10:06:50 - Election ID from request: 1
+2026-02-27 10:06:50 - Processing PUT request
+2026-02-27 10:06:50 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year","start_date":"2026-02-25T07:00","end_date":"2026-10-01T17:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15","id":"1"}
+2026-02-27 10:06:50 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year","start_date":"2026-02-25T07:00","end_date":"2026-10-01T17:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15","id":"1"}
+2026-02-27 10:06:50 - Title: Prefectorial Election 2026
+2026-02-27 10:06:50 - Start date raw: 2026-02-25T07:00
+2026-02-27 10:06:50 - End date raw: 2026-10-01T17:00
+2026-02-27 10:06:50 - Normalizing datetime: 2026-02-25 07:00:00
+2026-02-27 10:06:50 - Normalized start with system time: 2026-02-25 07:00:00
+2026-02-27 10:06:50 - Normalizing datetime: 2026-10-01 17:00:00
+2026-02-27 10:06:50 - Normalized end with system time: 2026-10-01 17:00:00
+2026-02-27 10:06:50 - Transaction started
+2026-02-27 10:06:50 - Fetching current election data: 1
+2026-02-27 10:06:50 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 07:00:00","end_date":"2026-10-01 17:00:00","status":"active","created_at":"2026-02-25 19:40:52","updated_at":"2026-02-27 09:27:28"}
+2026-02-27 10:06:50 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-27 10:06:50 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year",":start":"2026-02-25 07:00:00",":end":"2026-10-01 17:00:00"}
+2026-02-27 10:06:50 - Update executed
+2026-02-27 10:06:50 - New status: active
+2026-02-27 10:06:50 - Other active elections ended
+2026-02-27 10:06:50 - Status updated
+2026-02-27 10:06:50 - Transaction committed
+2026-02-27 10:06:50 Response code: 200
+2026-02-27 10:06:50 Response data: {"success":true,"message":"Election updated"}
+2026-02-27 10:06:50 =========== REQUEST ENDED ===========
+
+2026-02-27 11:06:59 =========== REQUEST STARTED ===========
+2026-02-27 11:06:59 Method: PUT
+2026-02-27 11:06:59 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-02-27 10:06:59 - Loading required files
+2026-02-27 10:06:59 - constants.php loaded
+2026-02-27 10:06:59 - db_connect.php loaded
+2026-02-27 10:06:59 - ActivityLogger.php loaded
+2026-02-27 10:06:59 - functions.php loaded
+2026-02-27 10:06:59 - Getting database connection
+2026-02-27 10:06:59 - Database connection successful
+2026-02-27 10:06:59 - Creating ActivityLogger
+2026-02-27 10:06:59 - ActivityLogger created
+2026-02-27 10:06:59 - Fetching system voting times
+2026-02-27 10:06:59 - System voting times: {"start":"07:00:00","end":"17:00:00","academic_year":"2026"}
+2026-02-27 10:06:59 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-02-27 10:06:59 - Admin check passed
+2026-02-27 10:06:59 - Original method: PUT
+2026-02-27 10:06:59 - Final method: PUT
+2026-02-27 10:06:59 - Validating CSRF token
+2026-02-27 10:06:59 - CSRF from headers: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 10:06:59 - Session CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 10:06:59 - Received CSRF token: 1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15
+2026-02-27 10:06:59 - CSRF validation passed
+2026-02-27 10:06:59 - Updating election statuses
+2026-02-27 10:06:59 - Status update error: SQLSTATE[HY093]: Invalid parameter number
+2026-02-27 10:06:59 - Election ID from request: 1
+2026-02-27 10:06:59 - Processing PUT request
+2026-02-27 10:06:59 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T07:00","end_date":"2026-10-01T17:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15","id":"1"}
+2026-02-27 10:06:59 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T07:00","end_date":"2026-10-01T17:00","csrf_token":"1b950ec3ec3782544e6937533e9e065ece8afcaab54304ff30e672cff82a4e15","id":"1"}
+2026-02-27 10:06:59 - Title: Prefectorial Election 2026
+2026-02-27 10:06:59 - Start date raw: 2026-02-25T07:00
+2026-02-27 10:06:59 - End date raw: 2026-10-01T17:00
+2026-02-27 10:06:59 - Normalizing datetime: 2026-02-25 07:00:00
+2026-02-27 10:06:59 - Normalized start with system time: 2026-02-25 07:00:00
+2026-02-27 10:06:59 - Normalizing datetime: 2026-10-01 17:00:00
+2026-02-27 10:06:59 - Normalized end with system time: 2026-10-01 17:00:00
+2026-02-27 10:06:59 - Transaction started
+2026-02-27 10:06:59 - Fetching current election data: 1
+2026-02-27 10:06:59 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year","start_date":"2026-02-25 07:00:00","end_date":"2026-10-01 17:00:00","status":"active","created_at":"2026-02-25 19:40:52","updated_at":"2026-02-27 10:06:50"}
+2026-02-27 10:06:59 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-02-27 10:06:59 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 07:00:00",":end":"2026-10-01 17:00:00"}
+2026-02-27 10:06:59 - Update executed
+2026-02-27 10:06:59 - New status: active
+2026-02-27 10:06:59 - Other active elections ended
+2026-02-27 10:06:59 - Status updated
+2026-02-27 10:06:59 - Transaction committed
+2026-02-27 10:06:59 Response code: 200
+2026-02-27 10:06:59 Response data: {"success":true,"message":"Election updated"}
+2026-02-27 10:06:59 =========== REQUEST ENDED ===========
+
+2026-03-21 18:08:34 =========== REQUEST STARTED ===========
+2026-03-21 18:08:34 Method: PUT
+2026-03-21 18:08:34 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-03-21 17:08:34 - Loading required files
+2026-03-21 17:08:34 - constants.php loaded
+2026-03-21 17:08:34 - db_connect.php loaded
+2026-03-21 17:08:34 - ActivityLogger.php loaded
+2026-03-21 17:08:34 - functions.php loaded
+2026-03-21 17:08:34 - Getting database connection
+2026-03-21 17:08:34 - Database connection successful
+2026-03-21 17:08:34 - Creating ActivityLogger
+2026-03-21 17:08:34 - ActivityLogger created
+2026-03-21 17:08:34 - Fetching system voting times
+2026-03-21 17:08:34 - System voting times: {"start":"07:00:00","end":"17:00:00","academic_year":"2026"}
+2026-03-21 17:08:34 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-03-21 17:08:34 - Admin check passed
+2026-03-21 17:08:34 - Original method: PUT
+2026-03-21 17:08:34 - Final method: PUT
+2026-03-21 17:08:34 - Validating CSRF token
+2026-03-21 17:08:34 - CSRF from headers: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:08:34 - Session CSRF token: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:08:34 - Received CSRF token: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:08:34 - CSRF validation passed
+2026-03-21 17:08:34 - Updating election statuses
+2026-03-21 17:08:34 - Status update complete
+2026-03-21 17:08:34 - Election ID from request: 1
+2026-03-21 17:08:34 - Processing PUT request
+2026-03-21 17:08:34 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T07:00","end_date":"2026-03-21T17:00","csrf_token":"dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf","id":"1"}
+2026-03-21 17:08:34 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T07:00","end_date":"2026-03-21T17:00","csrf_token":"dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf","id":"1"}
+2026-03-21 17:08:34 - Title: Prefectorial Election 2026
+2026-03-21 17:08:34 - Start date raw: 2026-02-25T07:00
+2026-03-21 17:08:34 - End date raw: 2026-03-21T17:00
+2026-03-21 17:08:34 - Normalizing datetime: 2026-02-25 07:00:00
+2026-03-21 17:08:34 - Normalized start with system time: 2026-02-25 07:00:00
+2026-03-21 17:08:34 - Normalizing datetime: 2026-03-21 17:00:00
+2026-03-21 17:08:34 - Normalized end with system time: 2026-03-21 17:00:00
+2026-03-21 17:08:34 - Transaction started
+2026-03-21 17:08:34 - Fetching current election data: 1
+2026-03-21 17:08:34 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 07:00:00","end_date":"2026-10-01 17:00:00","status":"active","created_at":"2026-02-25 19:40:52","updated_at":"2026-02-27 10:06:59"}
+2026-03-21 17:08:34 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-03-21 17:08:34 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 07:00:00",":end":"2026-03-21 17:00:00"}
+2026-03-21 17:08:34 - Update executed
+2026-03-21 17:08:34 - New status: ended
+2026-03-21 17:08:34 - Status updated
+2026-03-21 17:08:34 - Transaction committed
+2026-03-21 17:08:34 Response code: 200
+2026-03-21 17:08:34 Response data: {"success":true,"message":"Election updated"}
+2026-03-21 17:08:34 =========== REQUEST ENDED ===========
+
+2026-03-21 18:09:14 =========== REQUEST STARTED ===========
+2026-03-21 18:09:14 Method: PUT
+2026-03-21 18:09:14 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-03-21 17:09:14 - Loading required files
+2026-03-21 17:09:14 - constants.php loaded
+2026-03-21 17:09:14 - db_connect.php loaded
+2026-03-21 17:09:14 - ActivityLogger.php loaded
+2026-03-21 17:09:14 - functions.php loaded
+2026-03-21 17:09:14 - Getting database connection
+2026-03-21 17:09:14 - Database connection successful
+2026-03-21 17:09:14 - Creating ActivityLogger
+2026-03-21 17:09:14 - ActivityLogger created
+2026-03-21 17:09:14 - Fetching system voting times
+2026-03-21 17:09:14 - System voting times: {"start":"07:00:00","end":"17:00:00","academic_year":"2026"}
+2026-03-21 17:09:14 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-03-21 17:09:14 - Admin check passed
+2026-03-21 17:09:14 - Original method: PUT
+2026-03-21 17:09:14 - Final method: PUT
+2026-03-21 17:09:14 - Validating CSRF token
+2026-03-21 17:09:14 - CSRF from headers: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:09:14 - Session CSRF token: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:09:14 - Received CSRF token: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:09:14 - CSRF validation passed
+2026-03-21 17:09:14 - Updating election statuses
+2026-03-21 17:09:14 - Status update complete
+2026-03-21 17:09:14 - Election ID from request: 1
+2026-03-21 17:09:14 - Processing PUT request
+2026-03-21 17:09:14 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T07:00","end_date":"2026-10-01T17:00","csrf_token":"dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf","id":"1"}
+2026-03-21 17:09:14 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T07:00","end_date":"2026-10-01T17:00","csrf_token":"dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf","id":"1"}
+2026-03-21 17:09:14 - Title: Prefectorial Election 2026
+2026-03-21 17:09:14 - Start date raw: 2026-02-25T07:00
+2026-03-21 17:09:14 - End date raw: 2026-10-01T17:00
+2026-03-21 17:09:14 - Normalizing datetime: 2026-02-25 07:00:00
+2026-03-21 17:09:14 - Normalized start with system time: 2026-02-25 07:00:00
+2026-03-21 17:09:14 - Normalizing datetime: 2026-10-01 17:00:00
+2026-03-21 17:09:14 - Normalized end with system time: 2026-10-01 17:00:00
+2026-03-21 17:09:14 - Transaction started
+2026-03-21 17:09:14 - Fetching current election data: 1
+2026-03-21 17:09:14 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 07:00:00","end_date":"2026-03-21 17:00:00","status":"ended","created_at":"2026-02-25 19:40:52","updated_at":"2026-03-21 17:08:34"}
+2026-03-21 17:09:14 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-03-21 17:09:14 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 07:00:00",":end":"2026-10-01 17:00:00"}
+2026-03-21 17:09:14 - Update executed
+2026-03-21 17:09:14 - New status: active
+2026-03-21 17:09:14 - Other active elections ended
+2026-03-21 17:09:14 - Status updated
+2026-03-21 17:09:14 - Transaction committed
+2026-03-21 17:09:14 Response code: 200
+2026-03-21 17:09:14 Response data: {"success":true,"message":"Election updated"}
+2026-03-21 17:09:14 =========== REQUEST ENDED ===========
+
+2026-03-21 18:11:06 =========== REQUEST STARTED ===========
+2026-03-21 18:11:06 Method: POST
+2026-03-21 18:11:06 URI: /nkoranza-voting/api/admin/elections.php
+2026-03-21 17:11:06 - Loading required files
+2026-03-21 17:11:06 - constants.php loaded
+2026-03-21 17:11:06 - db_connect.php loaded
+2026-03-21 17:11:06 - ActivityLogger.php loaded
+2026-03-21 17:11:06 - functions.php loaded
+2026-03-21 17:11:06 - Getting database connection
+2026-03-21 17:11:06 - Database connection successful
+2026-03-21 17:11:06 - Creating ActivityLogger
+2026-03-21 17:11:06 - ActivityLogger created
+2026-03-21 17:11:06 - Fetching system voting times
+2026-03-21 17:11:06 - System voting times: {"start":"07:00:00","end":"17:00:00","academic_year":"2026"}
+2026-03-21 17:11:06 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-03-21 17:11:06 - Admin check passed
+2026-03-21 17:11:06 - Original method: POST
+2026-03-21 17:11:06 - Final method: POST
+2026-03-21 17:11:06 - Validating CSRF token
+2026-03-21 17:11:06 - CSRF from headers: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:11:06 - Session CSRF token: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:11:06 - Received CSRF token: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:11:07 - CSRF validation passed
+2026-03-21 17:11:07 - Updating election statuses
+2026-03-21 17:11:07 - Status update complete
+2026-03-21 17:11:07 - Election ID from request
+2026-03-21 17:11:07 - Processing POST request
+2026-03-21 17:11:07 - Raw input: {"title":"Sports Committee Election 2026","description":"Election of Sport Committee Members.","start_date":"2026-03-21T17:12","end_date":"2026-03-21T17:15","csrf_token":"dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf"}
+2026-03-21 17:11:07 - Input data: {"title":"Sports Committee Election 2026","description":"Election of Sport Committee Members.","start_date":"2026-03-21T17:12","end_date":"2026-03-21T17:15","csrf_token":"dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf"}
+2026-03-21 17:11:07 - Title: Sports Committee Election 2026
+2026-03-21 17:11:07 - Start date raw: 2026-03-21T17:12
+2026-03-21 17:11:07 - End date raw: 2026-03-21T17:15
+2026-03-21 17:11:07 - Combined with system times: {"start":"2026-03-21 07:00:00","end":"2026-03-21 17:00:00"}
+2026-03-21 17:11:07 - Normalizing datetime: 2026-03-21 07:00:00
+2026-03-21 17:11:07 - Normalizing datetime: 2026-03-21 17:00:00
+2026-03-21 17:11:07 - Checking for duplicates
+2026-03-21 17:11:07 - Computed status: ended
+2026-03-21 17:11:07 - Transaction started
+2026-03-21 17:11:07 - Inserting new election with system times
+2026-03-21 17:11:07 - New election ID: 6
+2026-03-21 17:11:07 - Transaction committed
+2026-03-21 17:11:07 Response code: 200
+2026-03-21 17:11:07 Response data: {"success":true,"message":"Election created with system voting times","election_id":"6","start_datetime":"2026-03-21 07:00:00","end_datetime":"2026-03-21 17:00:00"}
+2026-03-21 17:11:07 =========== REQUEST ENDED ===========
+
+2026-03-21 18:12:35 =========== REQUEST STARTED ===========
+2026-03-21 18:12:35 Method: PUT
+2026-03-21 18:12:35 URI: /nkoranza-voting/api/admin/elections.php?id=6
+2026-03-21 17:12:35 - Loading required files
+2026-03-21 17:12:35 - constants.php loaded
+2026-03-21 17:12:35 - db_connect.php loaded
+2026-03-21 17:12:36 - ActivityLogger.php loaded
+2026-03-21 17:12:36 - functions.php loaded
+2026-03-21 17:12:36 - Getting database connection
+2026-03-21 17:12:36 - Database connection successful
+2026-03-21 17:12:36 - Creating ActivityLogger
+2026-03-21 17:12:36 - ActivityLogger created
+2026-03-21 17:12:36 - Fetching system voting times
+2026-03-21 17:12:36 - System voting times: {"start":"07:00:00","end":"17:15:00","academic_year":"2026"}
+2026-03-21 17:12:36 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-03-21 17:12:36 - Admin check passed
+2026-03-21 17:12:36 - Original method: PUT
+2026-03-21 17:12:36 - Final method: PUT
+2026-03-21 17:12:36 - Validating CSRF token
+2026-03-21 17:12:36 - CSRF from headers: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:12:36 - Session CSRF token: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:12:36 - Received CSRF token: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:12:36 - CSRF validation passed
+2026-03-21 17:12:36 - Updating election statuses
+2026-03-21 17:12:36 - Status update complete
+2026-03-21 17:12:36 - Election ID from request: 6
+2026-03-21 17:12:36 - Processing PUT request
+2026-03-21 17:12:36 - Raw input: {"title":"Sports Committee Election 2026","description":"Election of Sport Committee Members.","start_date":"2026-03-21T07:00","end_date":"2026-03-21T17:00","csrf_token":"dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf","id":"6"}
+2026-03-21 17:12:36 - Input data: {"title":"Sports Committee Election 2026","description":"Election of Sport Committee Members.","start_date":"2026-03-21T07:00","end_date":"2026-03-21T17:00","csrf_token":"dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf","id":"6"}
+2026-03-21 17:12:36 - Title: Sports Committee Election 2026
+2026-03-21 17:12:36 - Start date raw: 2026-03-21T07:00
+2026-03-21 17:12:36 - End date raw: 2026-03-21T17:00
+2026-03-21 17:12:36 - Normalizing datetime: 2026-03-21 07:00:00
+2026-03-21 17:12:36 - Normalized start with system time: 2026-03-21 07:00:00
+2026-03-21 17:12:36 - Normalizing datetime: 2026-03-21 17:15:00
+2026-03-21 17:12:36 - Normalized end with system time: 2026-03-21 17:15:00
+2026-03-21 17:12:36 - Transaction started
+2026-03-21 17:12:36 - Fetching current election data: 6
+2026-03-21 17:12:36 - Current data: {"id":6,"title":"Sports Committee Election 2026","description":"Election of Sport Committee Members.","start_date":"2026-03-21 07:00:00","end_date":"2026-03-21 17:00:00","status":"ended","created_at":"2026-03-21 17:11:07","updated_at":"2026-03-21 17:11:07"}
+2026-03-21 17:12:36 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-03-21 17:12:36 - Update params: {":id":"6",":title":"Sports Committee Election 2026",":desc":"Election of Sport Committee Members.",":start":"2026-03-21 07:00:00",":end":"2026-03-21 17:15:00"}
+2026-03-21 17:12:36 - Update executed
+2026-03-21 17:12:36 - New status: active
+2026-03-21 17:12:36 - Other active elections ended
+2026-03-21 17:12:36 - Status updated
+2026-03-21 17:12:36 - Transaction committed
+2026-03-21 17:12:36 Response code: 200
+2026-03-21 17:12:36 Response data: {"success":true,"message":"Election updated"}
+2026-03-21 17:12:36 =========== REQUEST ENDED ===========
+
+2026-03-21 18:12:44 =========== REQUEST STARTED ===========
+2026-03-21 18:12:44 Method: PUT
+2026-03-21 18:12:44 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-03-21 17:12:44 - Loading required files
+2026-03-21 17:12:44 - constants.php loaded
+2026-03-21 17:12:44 - db_connect.php loaded
+2026-03-21 17:12:44 - ActivityLogger.php loaded
+2026-03-21 17:12:44 - functions.php loaded
+2026-03-21 17:12:44 - Getting database connection
+2026-03-21 17:12:44 - Database connection successful
+2026-03-21 17:12:44 - Creating ActivityLogger
+2026-03-21 17:12:44 - ActivityLogger created
+2026-03-21 17:12:44 - Fetching system voting times
+2026-03-21 17:12:44 - System voting times: {"start":"07:00:00","end":"17:15:00","academic_year":"2026"}
+2026-03-21 17:12:44 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-03-21 17:12:44 - Admin check passed
+2026-03-21 17:12:44 - Original method: PUT
+2026-03-21 17:12:44 - Final method: PUT
+2026-03-21 17:12:44 - Validating CSRF token
+2026-03-21 17:12:44 - CSRF from headers: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:12:44 - Session CSRF token: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:12:44 - Received CSRF token: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:12:44 - CSRF validation passed
+2026-03-21 17:12:44 - Updating election statuses
+2026-03-21 17:12:44 - Status update complete
+2026-03-21 17:12:44 - Election ID from request: 1
+2026-03-21 17:12:44 - Processing PUT request
+2026-03-21 17:12:44 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T07:00","end_date":"2026-10-01T17:00","csrf_token":"dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf","id":"1"}
+2026-03-21 17:12:44 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T07:00","end_date":"2026-10-01T17:00","csrf_token":"dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf","id":"1"}
+2026-03-21 17:12:44 - Title: Prefectorial Election 2026
+2026-03-21 17:12:44 - Start date raw: 2026-02-25T07:00
+2026-03-21 17:12:44 - End date raw: 2026-10-01T17:00
+2026-03-21 17:12:44 - Normalizing datetime: 2026-02-25 07:00:00
+2026-03-21 17:12:44 - Normalized start with system time: 2026-02-25 07:00:00
+2026-03-21 17:12:44 - Normalizing datetime: 2026-10-01 17:15:00
+2026-03-21 17:12:44 - Normalized end with system time: 2026-10-01 17:15:00
+2026-03-21 17:12:44 - Transaction started
+2026-03-21 17:12:44 - Fetching current election data: 1
+2026-03-21 17:12:44 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 07:00:00","end_date":"2026-10-01 17:00:00","status":"active","created_at":"2026-02-25 19:40:52","updated_at":"2026-03-21 17:12:37"}
+2026-03-21 17:12:44 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-03-21 17:12:44 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 07:00:00",":end":"2026-10-01 17:15:00"}
+2026-03-21 17:12:44 - Update executed
+2026-03-21 17:12:44 - New status: active
+2026-03-21 17:12:44 - Other active elections ended
+2026-03-21 17:12:44 - Status updated
+2026-03-21 17:12:44 - Transaction committed
+2026-03-21 17:12:44 Response code: 200
+2026-03-21 17:12:44 Response data: {"success":true,"message":"Election updated"}
+2026-03-21 17:12:44 =========== REQUEST ENDED ===========
+
+2026-03-21 18:15:21 =========== REQUEST STARTED ===========
+2026-03-21 18:15:21 Method: DELETE
+2026-03-21 18:15:21 URI: /nkoranza-voting/api/admin/elections.php?id=6
+2026-03-21 17:15:21 - Loading required files
+2026-03-21 17:15:21 - constants.php loaded
+2026-03-21 17:15:21 - db_connect.php loaded
+2026-03-21 17:15:21 - ActivityLogger.php loaded
+2026-03-21 17:15:21 - functions.php loaded
+2026-03-21 17:15:21 - Getting database connection
+2026-03-21 17:15:21 - Database connection successful
+2026-03-21 17:15:21 - Creating ActivityLogger
+2026-03-21 17:15:21 - ActivityLogger created
+2026-03-21 17:15:21 - Fetching system voting times
+2026-03-21 17:15:21 - System voting times: {"start":"07:00:00","end":"17:15:00","academic_year":"2026"}
+2026-03-21 17:15:21 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-03-21 17:15:21 - Admin check passed
+2026-03-21 17:15:21 - Original method: DELETE
+2026-03-21 17:15:21 - Final method: DELETE
+2026-03-21 17:15:21 - Validating CSRF token
+2026-03-21 17:15:21 - CSRF from headers: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:15:21 - Session CSRF token: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:15:21 - Received CSRF token: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:15:21 - CSRF validation passed
+2026-03-21 17:15:21 - Updating election statuses
+2026-03-21 17:15:21 - Status update complete
+2026-03-21 17:15:21 - Election ID from request: 6
+2026-03-21 17:15:21 - Processing DELETE request
+2026-03-21 17:15:21 - Fetching election details: 6
+2026-03-21 17:15:21 - Election found: Sports Committee Election 2026
+2026-03-21 17:15:21 - Candidate count: 0
+2026-03-21 17:15:21 - Vote count: 0
+2026-03-21 17:15:21 - Deleting election
+2026-03-21 17:15:21 - Delete successful
+2026-03-21 17:15:21 Response code: 200
+2026-03-21 17:15:21 Response data: {"success":true,"message":"Election deleted"}
+2026-03-21 17:15:21 =========== REQUEST ENDED ===========
+
+2026-03-21 18:16:15 =========== REQUEST STARTED ===========
+2026-03-21 18:16:15 Method: PUT
+2026-03-21 18:16:15 URI: /nkoranza-voting/api/admin/elections.php?id=1
+2026-03-21 17:16:15 - Loading required files
+2026-03-21 17:16:15 - constants.php loaded
+2026-03-21 17:16:15 - db_connect.php loaded
+2026-03-21 17:16:15 - ActivityLogger.php loaded
+2026-03-21 17:16:15 - functions.php loaded
+2026-03-21 17:16:15 - Getting database connection
+2026-03-21 17:16:15 - Database connection successful
+2026-03-21 17:16:15 - Creating ActivityLogger
+2026-03-21 17:16:15 - ActivityLogger created
+2026-03-21 17:16:15 - Fetching system voting times
+2026-03-21 17:16:15 - System voting times: {"start":"07:00:00","end":"17:00:00","academic_year":"2026"}
+2026-03-21 17:16:15 - Session data: {"is_admin":true,"user_id":"Admin","csrf_token_exists":true}
+2026-03-21 17:16:15 - Admin check passed
+2026-03-21 17:16:15 - Original method: PUT
+2026-03-21 17:16:15 - Final method: PUT
+2026-03-21 17:16:15 - Validating CSRF token
+2026-03-21 17:16:15 - CSRF from headers: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:16:15 - Session CSRF token: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:16:15 - Received CSRF token: dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf
+2026-03-21 17:16:15 - CSRF validation passed
+2026-03-21 17:16:15 - Updating election statuses
+2026-03-21 17:16:15 - Status update complete
+2026-03-21 17:16:15 - Election ID from request: 1
+2026-03-21 17:16:15 - Processing PUT request
+2026-03-21 17:16:15 - Raw input: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026/2027 academic year.","start_date":"2026-02-25T07:00","end_date":"2026-10-01T17:15","csrf_token":"dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf","id":"1"}
+2026-03-21 17:16:15 - Input data: {"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25T07:00","end_date":"2026-10-01T17:15","csrf_token":"dcc1b6cc9b98ea2048205ff9a5f3228c94970c5284aeec784ff6a4cd4c9b4ebf","id":"1"}
+2026-03-21 17:16:15 - Title: Prefectorial Election 2026
+2026-03-21 17:16:15 - Start date raw: 2026-02-25T07:00
+2026-03-21 17:16:15 - End date raw: 2026-10-01T17:15
+2026-03-21 17:16:15 - Normalizing datetime: 2026-02-25 07:00:00
+2026-03-21 17:16:15 - Normalized start with system time: 2026-02-25 07:00:00
+2026-03-21 17:16:15 - Normalizing datetime: 2026-10-01 17:00:00
+2026-03-21 17:16:15 - Normalized end with system time: 2026-10-01 17:00:00
+2026-03-21 17:16:15 - Transaction started
+2026-03-21 17:16:15 - Fetching current election data: 1
+2026-03-21 17:16:15 - Current data: {"id":1,"title":"Prefectorial Election 2026","description":"Election of school prefects for 2026\/2027 academic year.","start_date":"2026-02-25 07:00:00","end_date":"2026-10-01 17:15:00","status":"active","created_at":"2026-02-25 19:40:52","updated_at":"2026-03-21 17:12:44"}
+2026-03-21 17:16:15 - Update SQL: UPDATE elections SET title = :title, description = :desc, start_date = :start, end_date = :end WHERE id = :id
+2026-03-21 17:16:15 - Update params: {":id":"1",":title":"Prefectorial Election 2026",":desc":"Election of school prefects for 2026\/2027 academic year.",":start":"2026-02-25 07:00:00",":end":"2026-10-01 17:00:00"}
+2026-03-21 17:16:15 - Update executed
+2026-03-21 17:16:15 - New status: active
+2026-03-21 17:16:15 - Other active elections ended
+2026-03-21 17:16:15 - Status updated
+2026-03-21 17:16:15 - Transaction committed
+2026-03-21 17:16:15 Response code: 200
+2026-03-21 17:16:15 Response data: {"success":true,"message":"Election updated"}
+2026-03-21 17:16:15 =========== REQUEST ENDED ===========
+
+2026-03-22 06:24:29 Response code: 200
+2026-03-22 06:24:29 Response data: {"success":true,"message":"Election created with system voting times","election_id":"1","start_datetime":"2026-03-22 08:00:00","end_datetime":"2026-10-01 17:00:00"}
+2026-03-22 06:24:29 =========== REQUEST ENDED ===========
+
+2026-03-22 06:39:21 Response code: 200
+2026-03-22 06:39:21 Response data: {"success":true,"message":"Election updated"}
+2026-03-22 06:39:21 =========== REQUEST ENDED ===========
+
+2026-03-22 07:29:03 Response code: 200
+2026-03-22 07:29:03 Response data: {"success":true,"message":"Election updated"}
+2026-03-22 07:29:03 =========== REQUEST ENDED ===========
+
+2026-03-22 07:43:35 Response code: 200
+2026-03-22 07:43:35 Response data: {"success":true,"message":"Election updated"}
+2026-03-22 07:43:35 =========== REQUEST ENDED ===========
+
+2026-03-22 07:46:13 Response code: 200
+2026-03-22 07:46:13 Response data: {"success":true,"message":"Election updated"}
+2026-03-22 07:46:13 =========== REQUEST ENDED ===========
+
+2026-03-22 08:36:43 Response code: 200
+2026-03-22 08:36:43 Response data: {"success":true,"message":"Election updated"}
+2026-03-22 08:36:43 =========== REQUEST ENDED ===========
+
+2026-03-22 10:13:20 Response code: 200
+2026-03-22 10:13:20 Response data: {"success":true,"message":"Election deleted"}
+2026-03-22 10:13:20 =========== REQUEST ENDED ===========
+
+2026-03-22 10:15:22 Response code: 200
+2026-03-22 10:15:22 Response data: {"success":true,"message":"Election created with system voting times","election_id":"2","start_datetime":"2026-03-22 07:00:00","end_datetime":"2026-10-01 17:00:00"}
+2026-03-22 10:15:22 =========== REQUEST ENDED ===========
+
+2026-03-22 10:16:45 Response code: 200
+2026-03-22 10:16:45 Response data: {"success":true,"message":"Election deleted"}
+2026-03-22 10:16:45 =========== REQUEST ENDED ===========
+
+2026-03-22 10:18:20 Response code: 200
+2026-03-22 10:18:20 Response data: {"success":true,"message":"Election created with system voting times","election_id":"3","start_datetime":"2026-03-22 07:00:00","end_datetime":"2026-10-01 17:00:00"}
+2026-03-22 10:18:20 =========== REQUEST ENDED ===========
+
+2026-03-22 21:03:49 Response code: 200
+2026-03-22 21:03:49 Response data: {"success":true,"message":"Election created with system voting times","election_id":"1","start_datetime":"2026-03-22 08:00:00","end_datetime":"2026-10-01 17:00:00"}
+2026-03-22 21:03:49 =========== REQUEST ENDED ===========
+
+2026-03-22 21:04:01 Response code: 200
+2026-03-22 21:04:01 Response data: {"success":true,"message":"Election updated"}
+2026-03-22 21:04:01 =========== REQUEST ENDED ===========
+
+2026-03-23 10:24:09 Response code: 200
+2026-03-23 10:24:09 Response data: {"success":true,"message":"Election created with system voting times","election_id":"1","start_datetime":"2026-03-23 08:00:00","end_datetime":"2026-10-01 17:00:00"}
+2026-03-23 10:24:09 =========== REQUEST ENDED ===========
+
+2026-03-23 10:36:14 Response code: 200
+2026-03-23 10:36:14 Response data: {"success":true,"message":"Election created with system voting times","election_id":"1","start_datetime":"2026-03-23 07:00:00","end_datetime":"2026-10-01 17:00:00"}
+2026-03-23 10:36:14 =========== REQUEST ENDED ===========
+
+2026-03-23 14:08:24 Response code: 200
+2026-03-23 14:08:24 Response data: {"success":true,"message":"Election created with system voting times","election_id":"2","start_datetime":"2026-03-23 07:00:00","end_datetime":"2026-03-25 17:00:00"}
+2026-03-23 14:08:24 =========== REQUEST ENDED ===========
+
+2026-03-23 21:59:48 Response code: 200
+2026-03-23 21:59:48 Response data: {"success":true,"message":"Election created with system voting times","election_id":"1","start_datetime":"2026-03-23 07:00:00","end_datetime":"2026-10-24 17:00:00"}
+2026-03-23 21:59:48 =========== REQUEST ENDED ===========
+
